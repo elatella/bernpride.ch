@@ -1,4 +1,6 @@
-<section class="root">Bis zur BernPride sind es nur noch...</section>
+<footer class="root">
+	<div>Verein EuroGames Bern</div>
+</footer>
 
 <style>
 	.root {

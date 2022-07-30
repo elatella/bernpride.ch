@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="368" height="194" viewBox="0 0 368 194">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #ffffa6;
+      }
+
+      .cls-1 {
+        font-size: 60px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: GTFlexaTrial-CmBd, GT Flexa Trial;
+      }
+
+      .cls-2 {
+        font-size: 160px;
+      }
+    </style>
+  </defs>
+  <g id="Gruppe_170" data-name="Gruppe 170" transform="translate(7572 124)">
+    <text id="IS" class="cls-1" transform="translate(-7245 -4)"><tspan x="0" y="0">IS</tspan></text>
+    <g id="Gruppe_169" data-name="Gruppe 169" transform="translate(-6060 -345)">
+      <text id="L" class="cls-2" transform="translate(-1512 378)"><tspan x="0" y="0">L</tspan></text>
+      <text id="V" class="cls-2" transform="translate(-1341 378)"><tspan x="0" y="0">V</tspan></text>
+      <text id="E" class="cls-2" transform="translate(-1268 378)"><tspan x="0" y="0">E</tspan></text>
+      <path id="Pfad_9" data-name="Pfad 9" class="cls-3" d="M85.782,53.635a23.144,23.144,0,0,0,23.59-22.889V28.608C109.372,11.339,95.369,0,78.094,0,48.722,0,21.593,32.322,0,55.45,21.593,78.577,48.722,110.9,78.094,110.9c17.275,0,31.271-11.339,31.271-28.615V80.147a23.127,23.127,0,0,0-23.59-22.868V53.635ZM84.366,83.252c-6.441,7.436-15.7,5.235-23,1.009C54.791,80.455,37.5,67.2,25.391,55.457c11.865-11.536,29.4-25,35.974-28.8,7.31-4.226,16.561-6.427,23,1.009,4.1,4.731,6.272,19.651-20.331,25.356V57.9C90.638,63.593,88.459,78.521,84.366,83.252Z" transform="translate(-1451.899 373.686) rotate(-90)"/>
+    </g>
+  </g>
+</svg>
