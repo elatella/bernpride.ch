@@ -1,0 +1,11 @@
+:root {
+	--white: #ffffff;
+	--red: #ff0048;
+	--yellow: #ffffa6;
+	--blue: #d6e3ff;
+	--turquoise: #99edd6;
+}
+
+body {
+	margin: 0;
+}
