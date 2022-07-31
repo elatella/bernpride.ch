@@ -32,3 +32,20 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
+
+input,
+button {
+	border-radius: 999px;
+	border-color: var(--red);
+	border-style: solid;
+	padding: 10px 25px;
+}
+
+input {
+	color: var(--red);
+}
+
+button {
+	color: var(--white);
+	background-color: var(--red);
+}
