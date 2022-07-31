@@ -4,31 +4,51 @@
 	import plus from '$lib/assets/plus.svg';
 </script>
 
-<section class="root">
-	<div class="root">
-		<img src={sprinklesLeft} alt="sprinklesLeft" height="100" />
+<section id="faq" class="root">
+	<div class="main-content">
+		<div class="title">
+			<img src={sprinklesLeft} alt="sprinklesLeft" height="100" />
+			<h2>FAQ</h2>
+			<img src={sprinklesRight} alt="sprinklesRight" height="100" />
+		</div>
 
-		<h2>FAQ</h2>
-
-		<img src={sprinklesRight} alt="sprinklesRight" height="100" />
+		<div>
+			<div>
+				Datum und Zeit
+				<img src={plus} alt="More" height="30" />
+			</div>
+			<div>
+				Route
+				<img src={plus} alt="More" height="30" />
+			</div>
+			<div>
+				Festival
+				<img src={plus} alt="More" height="30" />
+			</div>
+			<div>
+				Awareness-Konzept
+				<img src={plus} alt="More" height="30" />
+			</div>
+		</div>
 	</div>
 </section>
 
-<div class="info">
-	Datum und Zeit
-	<img src={plus} alt="More" height="100" />
-	Route
-	<img src={plus} alt="More" height="100" />
-	Festival
-	<img src={plus} alt="More" height="100" />
-	Awareness-Konzept
-	<img src={plus} alt="More" height="100" />
-</div>
-
 <style>
 	.root {
-		text-align: center;
+		display: flex;
+		justify-content: center;
 		background-color: var(--blue);
 		color: var(--red);
+	}
+
+	.main-content {
+		flex-direction: column;
+	}
+
+	.title {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: baseline;
 	}
 </style>
