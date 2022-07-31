@@ -16,6 +16,7 @@
 		justify-content: center;
 		background-color: var(--white);
 		color: var(--red);
+		font-size: 0.6rem;
 	}
 
 	.main-content {

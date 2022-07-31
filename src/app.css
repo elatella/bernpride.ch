@@ -2,6 +2,7 @@
 
 :root {
 	font-family: 'Darker Grotesque', sans-serif;
+	font-size: 200%;
 	--white: #ffffff;
 	--red: #ff0048;
 	--yellow: #ffffa6;
@@ -23,7 +24,7 @@ body {
 }
 
 h2 {
-	font-size: 4.5em;
+	font-size: 2rem;
 }
 
 a {
