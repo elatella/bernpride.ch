@@ -4,7 +4,7 @@
 
 <footer class="root">
 	<div class="main-content">
-		<div>Verein EuroGames Bern</div>
+		<div><strong>Verein EuroGames Bern</strong></div>
 		<div><img src={logo} alt="BernPride" height="30" /></div>
 		<a href="mailto:info@bernpride.ch">info@bernpride.ch</a>
 	</div>

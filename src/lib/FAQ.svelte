@@ -7,9 +7,9 @@
 <section id="faq" class="root">
 	<div class="main-content">
 		<div class="title">
-			<img src={sprinklesLeft} alt="sprinklesLeft" height="100" />
+			<img src={sprinklesLeft} alt="Sprinkles Left" height="100" />
 			<h2>FAQ</h2>
-			<img src={sprinklesRight} alt="sprinklesRight" height="100" />
+			<img src={sprinklesRight} alt="Sprinkles Right" height="100" />
 		</div>
 
 		<div>
@@ -49,6 +49,6 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		align-items: baseline;
+		align-items: center;
 	}
 </style>
