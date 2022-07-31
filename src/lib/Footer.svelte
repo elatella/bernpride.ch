@@ -4,8 +4,8 @@
 
 <footer class="root">
 	<div class="main-content">
-		<div><strong>Verein EuroGames Bern</strong></div>
-		<div><img src={logo} alt="BernPride" height="30" /></div>
+		<strong>Verein EuroGames Bern</strong>
+		<img src={logo} alt="BernPride" height="30" class="logo" />
 		<a href="mailto:info@bernpride.ch">info@bernpride.ch</a>
 	</div>
 </footer>
@@ -21,5 +21,10 @@
 
 	.main-content {
 		justify-content: space-between !important;
+	}
+
+	.logo {
+		position: relative;
+		top: 6px;
 	}
 </style>
