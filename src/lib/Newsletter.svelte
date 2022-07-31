@@ -18,7 +18,7 @@
 		</p>
 
 		<form on:submit|preventDefault={handleSubmit}>
-			<img src={loveletter} alt="LoveLetter" height="50" class="loveletter-icon" />
+			<img src={loveletter} alt="LoveLetter" height="80" class="loveletter-icon" />
 			<input placeholder="Dein Vorname" bind:value={name} />
 			<input type="email" placeholder="Deine Mail-Adresse" />
 			<button type="submit">Abonnieren</button>
@@ -43,6 +43,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		margin-top: 20px;
 	}
 
 	input {
@@ -50,6 +51,6 @@
 	}
 
 	.loveletter-icon {
-		margin-right: 40px;
+		margin-right: 80px;
 	}
 </style>

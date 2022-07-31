@@ -39,6 +39,7 @@ button {
 	border-color: var(--red);
 	border-style: solid;
 	padding: 10px 25px;
+	font-size: 80%;
 }
 
 input {
