@@ -2,7 +2,7 @@
 	import loveletter from '$lib/assets/loveletter.svg';
 </script>
 
-<section class="root">
+<section id="newsletter" class="root">
 	<div class="main-content">
 		<img src={loveletter} alt="LoveLetter" height="50" />
 		<h2>UP TO DATE BLEIBEN</h2>
@@ -14,7 +14,8 @@
 
 <style>
 	.root {
-		text-align: center;
+		display: flex;
+		justify-content: center;
 		background-color: var(--white);
 		color: var(--red);
 	}

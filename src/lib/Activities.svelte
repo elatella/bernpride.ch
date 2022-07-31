@@ -4,7 +4,7 @@
 	import eurogames from '$lib/assets/eurogames.svg';
 </script>
 
-<section class="root">
+<section id="activities" class="root">
 	<div class="main-content">
 		<h2>2023 WIRD EINZIGARTIG</h2>
 		<div>

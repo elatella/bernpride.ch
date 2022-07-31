@@ -3,15 +3,22 @@
 </script>
 
 <footer class="root">
-	<div>Verein EuroGames Bern</div>
-	<div><img src={logo} alt="BernPride" height="30" /></div>
-	<div>info@bernpride.ch</div>
+	<div class="main-content">
+		<div>Verein EuroGames Bern</div>
+		<div><img src={logo} alt="BernPride" height="30" /></div>
+		<a href="mailto:info@bernpride.ch">info@bernpride.ch</a>
+	</div>
 </footer>
 
 <style>
 	.root {
-		text-align: center;
+		display: flex;
+		justify-content: center;
 		background-color: var(--white);
 		color: var(--red);
+	}
+
+	.main-content {
+		justify-content: space-between !important;
 	}
 </style>

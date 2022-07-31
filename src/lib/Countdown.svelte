@@ -2,7 +2,7 @@
 	import clock from '$lib/assets/clock.svg';
 </script>
 
-<section class="root">
+<section id="countdown" class="root">
 	<div class="main-content">
 		<div class="title">
 			<img src={clock} alt="StopWatch" height="30" class="clock" />
