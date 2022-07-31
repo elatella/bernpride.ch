@@ -1,21 +1,25 @@
 <script lang="ts">
-	import loveislove from '$lib/assets/loveislove.svg';
-	import islove from '$lib/assets/islove.svg';
-	import loveis from '$lib/assets/loveis.svg';
+	import loveIsLove from '$lib/assets/loveislove.svg';
+	import isLove from '$lib/assets/islove.svg';
 </script>
 
-<nav class="root">
-	<img src={loveislove} alt="LoveIsLove" height="100" />
-	<img src={islove} alt="islove" height="100" />
-	<img src={loveis} alt="LoveIs" height="100" />
-</nav>
 <section class="root">
-	<h1>Bern kriegt eine Pride!</h1>
+	<div class="main-content">
+		<div>
+			<img src={loveIsLove} alt="Love Is Love" height="100" />
+			<img src={isLove} alt="is Love" height="100" />
+			<img src={isLove} alt="is Love" height="100" />
+			<img src={isLove} alt="is Love" height="100" />
+			<img src={isLove} alt="is Love" height="100" />
+		</div>
+		<h1>Bern kriegt eine Pride!</h1>
+	</div>
 </section>
 
 <style>
 	.root {
-		text-align: center;
+		display: flex;
+		justify-content: center;
 		background-color: var(--red);
 		color: var(--yellow);
 	}

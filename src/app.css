@@ -12,3 +12,11 @@
 body {
 	margin: 0;
 }
+
+.main-content {
+	width: 100vw;
+	max-width: 1024px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
