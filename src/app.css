@@ -3,6 +3,7 @@
 :root {
 	font-family: 'Darker Grotesque', sans-serif;
 	font-size: 200%;
+	line-height: 120%;
 	--white: #ffffff;
 	--red: #ff0048;
 	--yellow: #ffffa6;

@@ -8,25 +8,25 @@
 	<div class="main-content">
 		<div class="title">
 			<img src={sprinklesLeft} alt="Sprinkles Left" height="100" />
-			<h2>FAQ</h2>
+			<h2 class="title-text">FAQ</h2>
 			<img src={sprinklesRight} alt="Sprinkles Right" height="100" />
 		</div>
 
 		<div>
-			<div>
-				Datum und Zeit
+			<div class="category">
+				<h3>Datum und Zeit</h3>
 				<img src={plus} alt="More" height="30" />
 			</div>
-			<div>
-				Route
+			<div class="category">
+				<h3>Route</h3>
 				<img src={plus} alt="More" height="30" />
 			</div>
-			<div>
-				Festival
+			<div class="category">
+				<h3>Festival</h3>
 				<img src={plus} alt="More" height="30" />
 			</div>
-			<div>
-				Awareness-Konzept
+			<div class="category">
+				<h3>Awareness-Konzept</h3>
 				<img src={plus} alt="More" height="30" />
 			</div>
 		</div>
@@ -43,6 +43,8 @@
 
 	.main-content {
 		flex-direction: column;
+		margin-top: 20px;
+		margin-bottom: 50px;
 	}
 
 	.title {
@@ -50,5 +52,22 @@
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	.title-text {
+		position: relative;
+		bottom: 8px;
+	}
+
+	.category {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 30px;
+	}
+
+	.category h3 {
+		margin: 0;
 	}
 </style>

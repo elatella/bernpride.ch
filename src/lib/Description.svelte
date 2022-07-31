@@ -53,6 +53,6 @@
 	}
 
 	.body {
-		margin-top: 12px;
+		margin-top: 20px;
 	}
 </style>
