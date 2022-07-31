@@ -22,6 +22,10 @@ body {
 	text-align: center;
 }
 
+h2 {
+	font-size: 4.5em;
+}
+
 a {
 	text-decoration: none;
 	color: inherit;

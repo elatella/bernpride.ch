@@ -6,7 +6,7 @@
 	<div class="main-content">
 		<div class="title">
 			<img src={clock} alt="StopWatch" height="30" class="clock-icon" />
-			<h2 class="root">Bis zur BernPride sind es noch...</h2>
+			<p class="sub-title">Bis zur BernPride sind es noch...</p>
 		</div>
 
 		<div class="clock">
@@ -38,6 +38,11 @@
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+	}
+
+	.sub-title {
+		font-size: 2em;
+		font-weight: bold;
 	}
 
 	.clock-icon {
