@@ -1,3 +1,10 @@
+<script lang="ts">
+	import loveletter from '$lib/assets/loveletter.svg';
+</script>
+
+<nav class="root">
+	<img src={loveletter} alt="LoveLetter" height="50" />
+</nav>
 <section class="root">
 	UP TO DATE BLEIBEN
 	<div>
