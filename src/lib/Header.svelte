@@ -14,13 +14,13 @@
 		</nav>
 
 		<div>
-			<a href="https://www.instagram.com/bernpride.ch/" class="social-icon">
+			<a href="https://www.instagram.com/bernpride.ch/" target="_blank" class="social-icon">
 				<img src={instagram} alt="LinkInstagram" height="30" />
 			</a>
-			<a href="https://www.facebook.com/bernpride.ch/" class="social-icon">
+			<a href="https://www.facebook.com/bernpride.ch/" target="_blank" class="social-icon">
 				<img src={facebook} alt="LinkFacebook" height="30" />
 			</a>
-			<a href="https://www.tiktok.com/@bernpride.ch" class="social-icon">
+			<a href="https://www.tiktok.com/@bernpride.ch" target="_blank" class="social-icon">
 				<img src={tiktok} alt="TikTok" height="30" />
 			</a>
 		</div>
