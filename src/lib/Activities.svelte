@@ -5,19 +5,25 @@
 </script>
 
 <section class="root">
-	<h2>2023 WIRD EINZIGARTIG</h2>
+	<div class="main-content">
+		<h2>2023 WIRD EINZIGARTIG</h2>
+		<div>
+			<img src={rainbow} alt="PrideRainbow" height="100" />
+			<img src={shoe} alt="PrideRun" height="100" />
+			<img src={eurogames} alt="EuroGames" height="100" />
+		</div>
+	</div>
 </section>
-
-<nav class="root">
-	<img src={rainbow} alt="PrideRainbow" height="100" />
-	<img src={shoe} alt="PrideRun" height="100" />
-	<img src={eurogames} alt="EuroGames" height="100" />
-</nav>
 
 <style>
 	.root {
-		text-align: center;
+		display: flex;
+		justify-content: center;
 		background-color: var(--red);
 		color: var(--yellow);
+	}
+
+	.main-content {
+		flex-direction: column;
 	}
 </style>

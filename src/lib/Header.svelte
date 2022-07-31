@@ -6,29 +6,34 @@
 </script>
 
 <nav class="root">
-	<a href="/">
-		<img src={logo} alt="BernPride" height="30" />
-	</a>
-	<div>
-		<a href="https://www.instagram.com/bernpride.ch/" class="social-icon">
-			<img src={instagram} alt="LinkInstagram" height="30" />
+	<div class="main-content">
+		<a href="/">
+			<img src={logo} alt="BernPride" height="30" />
 		</a>
-		<a href="https://www.facebook.com/bernpride.ch/" class="social-icon">
-			<img src={facebook} alt="LinkFacebook" height="30" />
-		</a>
-		<a href="https://www.tiktok.com/@bernpride.ch" class="social-icon">
-			<img src={tiktok} alt="TikTok" height="30" />
-		</a>
+		<div>
+			<a href="https://www.instagram.com/bernpride.ch/" class="social-icon">
+				<img src={instagram} alt="LinkInstagram" height="30" />
+			</a>
+			<a href="https://www.facebook.com/bernpride.ch/" class="social-icon">
+				<img src={facebook} alt="LinkFacebook" height="30" />
+			</a>
+			<a href="https://www.tiktok.com/@bernpride.ch" class="social-icon">
+				<img src={tiktok} alt="TikTok" height="30" />
+			</a>
+		</div>
 	</div>
 </nav>
 
 <style>
 	.root {
 		display: flex;
-		justify-content: space-between;
-		padding: 20px;
+		justify-content: center;
 		background-color: var(--red);
 		color: var(--yellow);
+	}
+
+	.main-content {
+		justify-content: space-between !important;
 	}
 
 	.social-icon {

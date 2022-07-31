@@ -2,15 +2,32 @@
 	import clock from '$lib/assets/clock.svg';
 </script>
 
-<nav class="root">
-	<img src={clock} alt="StopWatch" height="30" />
-</nav>
-<section class="root">Bis zur BernPride sind es noch...</section>
+<section class="root">
+	<div class="main-content">
+		<div class="title">
+			<img src={clock} alt="StopWatch" height="30" class="clock" />
+			<h2 class="root">Bis zur BernPride sind es noch...</h2>
+		</div>
+	</div>
+</section>
 
 <style>
 	.root {
-		text-align: center;
+		display: flex;
+		justify-content: center;
 		background-color: var(--white);
 		color: var(--red);
+	}
+
+	.title {
+		display: flex;
+		flex-direction: row;
+		align-items: baseline;
+	}
+
+	.clock {
+		margin-right: 10px;
+		position: relative;
+		top: 6px;
 	}
 </style>
