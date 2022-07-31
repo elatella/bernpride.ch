@@ -5,11 +5,14 @@
 	import tiktok from '$lib/assets/tiktok-yellow.svg';
 </script>
 
-<nav class="root">
+<div class="root">
 	<div class="main-content">
-		<a href="/">
-			<img src={logo} alt="BernPride" height="30" />
-		</a>
+		<nav>
+			<a href="/">
+				<img src={logo} alt="BernPride" height="30" />
+			</a>
+		</nav>
+
 		<div>
 			<a href="https://www.instagram.com/bernpride.ch/" class="social-icon">
 				<img src={instagram} alt="LinkInstagram" height="30" />
@@ -22,7 +25,7 @@
 			</a>
 		</div>
 	</div>
-</nav>
+</div>
 
 <style>
 	.root {
