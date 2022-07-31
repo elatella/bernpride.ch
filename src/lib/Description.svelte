@@ -11,12 +11,14 @@
 			<img src={sprinklesRight} alt="Sprinkles Right" height="100" />
 		</div>
 
-		<h3>AM 29.07.2023 IST ES SOWEIT</h3>
+		<h3>Am 29. Juli 2023 ist es soweit.</h3>
 		<p>
-			Nach sechs Jahren ohne Prides in Bern holen wir wieder unsere Regenbogen-Flaggen raus und
-			demonstrieren Hand in Hand für Gleichberechtigung.
+			Der Countdown läuft und in weniger als einem Jahr laufen wir alle gemeinsam durch die Berner
+			Gassen und feiern die Vielfalt unserer Community. Nach sechs Jahren ohne Prides in Bern holen
+			wir wieder unsere Regenbogen-Flaggen raus und demonstrieren Hand in Hand für Gleichstellung.
+			Nun bist du gefragt: Zeichne den Regenbogen in deinen Kalender und sei im Juli mit dabei wenn
+			es heisst; „Bern wird bunt!“.
 		</p>
-		<button>Newsletter abonnieren</button>
 	</div>
 </section>
 
