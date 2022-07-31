@@ -1,4 +1,7 @@
+@import '@fontsource/darker-grotesque';
+
 :root {
+	font-family: 'Darker Grotesque', sans-serif;
 	--white: #ffffff;
 	--red: #ff0048;
 	--yellow: #ffffa6;
