@@ -49,16 +49,31 @@
 <section id="countdown" class="root">
 	<div class="main-content">
 		<div class="title">
-			<img src={clock} alt="StopWatch" height="30" class="clock-icon" />
-			<p class="sub-title">Bis zur BernPride sind es noch...</p>
+			<img src={clock} alt="StopWatch" height="90" class="clock-icon" />
+			<h3 class="subtitle">Bis zur BernPride sind es noch...</h3>
 		</div>
 
 		<div class="clock">
-			<div class="clock-amount"><span>{monthCount}</span><span>Monate</span></div>
-			<div class="clock-amount"><span>{dayCount}</span><span>Tage</span></div>
-			<div class="clock-amount"><span>{hourCount}</span><span>Stunden</span></div>
-			<div class="clock-amount"><span>{minuteCount}</span><span>Minuten</span></div>
-			<div class="clock-amount"><span>{secondCount}</span><span>Sekunden</span></div>
+			<div class="clock-amount">
+				<span class="clock-count">{monthCount}</span>
+				<span class="clock-unit">Monate</span>
+			</div>
+			<div class="clock-amount">
+				<span class="clock-count">{dayCount}</span>
+				<span class="clock-unit">Tage</span>
+			</div>
+			<div class="clock-amount">
+				<span class="clock-count">{hourCount}</span>
+				<span class="clock-unit">Stunden</span>
+			</div>
+			<div class="clock-amount">
+				<span class="clock-count">{minuteCount}</span>
+				<span class="clock-unit">Minuten</span>
+			</div>
+			<div class="clock-amount">
+				<span class="clock-count">{secondCount}</span>
+				<span class="clock-unit">Sekunden</span>
+			</div>
 		</div>
 	</div>
 </section>
@@ -84,24 +99,32 @@
 		align-items: center;
 	}
 
-	.sub-title {
-		font-size: 2em;
-		font-weight: bold;
+	.subtitle {
+		text-align: left;
+		line-height: 100%;
 	}
 
 	.clock-icon {
-		margin-right: 10px;
+		margin-right: 30px;
 	}
 
 	.clock {
 		display: flex;
 		flex-direction: row;
-		font-weight: bold;
 	}
 
 	.clock-amount {
 		display: flex;
 		flex-direction: column;
-		margin-left: 15px;
+		margin-left: 25px;
+	}
+
+	.clock-count {
+		font-size: 1.8rem;
+		font-weight: bold;
+	}
+
+	.clock-unit {
+		font-size: 0.6rem;
 	}
 </style>

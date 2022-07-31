@@ -7,16 +7,16 @@
 	<div class="main-content">
 		<div class="title">
 			<img src={sprinklesLeft} alt="Sprinkles Left" height="100" />
-			<h2>BERN WIRD BUNT</h2>
+			<h2 class="title-text">BERN WIRD BUNT</h2>
 			<img src={sprinklesRight} alt="Sprinkles Right" height="100" />
 		</div>
 
-		<h3>Am 29. Juli 2023 ist es soweit.</h3>
-		<p>
+		<h3 class="subtitle">Am 29. Juli 2023 ist es soweit.</h3>
+		<p class="body">
 			Der Countdown läuft und in weniger als einem Jahr laufen wir alle gemeinsam durch die Berner
 			Gassen und feiern die Vielfalt unserer Community. Nach sechs Jahren ohne Prides in Bern holen
 			wir wieder unsere Regenbogen-Flaggen raus und demonstrieren Hand in Hand für Gleichstellung.
-			Nun bist du gefragt: Zeichne den Regenbogen in deinen Kalender und sei im Juli mit dabei wenn
+			Nun bist du gefragt: Zeichne den Regenbogen in deinen Kalender und sei im Juli mit dabei, wenn
 			es heisst; „Bern wird bunt!“.
 		</p>
 	</div>
@@ -32,6 +32,8 @@
 
 	.main-content {
 		flex-direction: column;
+		margin-top: 20px;
+		margin-bottom: 50px;
 	}
 
 	.title {
@@ -39,5 +41,18 @@
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
+	}
+
+	.title-text {
+		position: relative;
+		bottom: 5px;
+	}
+
+	.subtitle {
+		margin-bottom: 0;
+	}
+
+	.body {
+		margin-top: 12px;
 	}
 </style>
