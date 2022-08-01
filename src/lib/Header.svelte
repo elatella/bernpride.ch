@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import logo from '$lib/assets/logo-yellow.svg';
 	import instagram from '$lib/assets/instagram-yellow.svg';
 	import facebook from '$lib/assets/facebook-yellow.svg';
@@ -8,7 +9,7 @@
 <div class="root">
 	<div class="main-content">
 		<nav>
-			<a href="/">
+			<a href="{base}/">
 				<img src={logo} alt="BernPride" height="30" />
 			</a>
 		</nav>

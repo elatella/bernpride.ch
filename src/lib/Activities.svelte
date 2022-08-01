@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import rainbow from '$lib/assets/rainbow.svg';
 	import shoe from '$lib/assets/shoe.svg';
 	import eurogames from '$lib/assets/eurogames.svg';
@@ -16,7 +17,7 @@
 		</p>
 		<div class="links">
 			<div class="link">
-				<a href="/" target="_blank" class="activity-icon">
+				<a href="{base}/" target="_blank" class="activity-icon">
 					<img src={rainbow} alt="PrideRainbow" height="100" />
 				</a>
 				<span>BernPride</span>
