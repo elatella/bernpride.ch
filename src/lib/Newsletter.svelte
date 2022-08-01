@@ -53,4 +53,10 @@
 	.loveletter-icon {
 		margin-right: 80px;
 	}
+
+	@media only screen and (max-width: 600px) {
+		form {
+			flex-direction: column;
+		}
+	}
 </style>

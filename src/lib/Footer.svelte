@@ -27,4 +27,10 @@
 		position: relative;
 		top: 6px;
 	}
+
+	@media only screen and (max-width: 600px) {
+		.main-content {
+			flex-direction: column;
+		}
+	}
 </style>

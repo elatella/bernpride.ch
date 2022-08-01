@@ -10,7 +10,7 @@
 
 	let timer: NodeJS.Timer | null = null;
 
-	const start = new Date(2023, 7, 29, 12);
+	const start = new Date(2023, 6, 29, 12);
 	let now = new Date();
 
 	let monthCount = 0;
@@ -126,5 +126,15 @@
 
 	.clock-unit {
 		font-size: 0.6rem;
+	}
+
+	@media only screen and (max-width: 600px) {
+		.main-content {
+			flex-direction: column;
+		}
+
+		.clock-amount {
+			margin-left: 10px;
+		}
 	}
 </style>
