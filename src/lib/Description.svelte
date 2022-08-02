@@ -11,7 +11,7 @@
 			<img src={sprinklesRight} alt="Sprinkles Right" height="100" />
 		</div>
 
-		<h3 class="subtitle">Am 29. Juli 2023 ist es soweit.</h3>
+		<h3 class="subtitle">Am 29. Juli 2023 ist es so weit.</h3>
 		<p class="body">
 			Der Countdown läuft und in weniger als einem Jahr laufen wir alle gemeinsam durch die Berner
 			Gassen und feiern die Vielfalt unserer Community. Nach sechs Jahren ohne Prides in Bern holen

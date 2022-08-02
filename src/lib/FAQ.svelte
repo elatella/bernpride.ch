@@ -80,7 +80,7 @@
 				</div>
 				{#if socialMediaExpanded}
 					<p>
-						Wenn du Nichts über die BernPride verpassen möchtest, kannst du uns gerne auf unseren
+						Wenn du nichts über die BernPride verpassen möchtest, kannst du uns gerne auf unseren
 						Social Media-Kanälen folgen. Wir sind präsent auf Instagram, Facebook und TikTok unter
 						@bernpride.ch.
 					</p>
