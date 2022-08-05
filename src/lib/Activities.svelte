@@ -11,7 +11,7 @@
 		<p>
 			Die BernPride ist nicht das einzige Highlight des Jahres. Schon ab dem 26. Juli 2023 wird es
 			in Bern bunt und queer. Wir begrüssen dich dann zu den EuroGames, der grössten queeren
-			Sportveranstaltung Europas, bieten dir am PrideRun die Möglichkeit, deine Marathon-Qualitäten
+			Sportveranstaltung Europas, bieten dir am PrideRun die Möglichkeit, deine Running-Qualitäten
 			unter Beweis zu stellen und runden das Erlebnis mit der Pride am 29. Juli ab. Mehr
 			Informationen findest du mit nur einem Klick auf die Events!
 		</p>
