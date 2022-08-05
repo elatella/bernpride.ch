@@ -1,16 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="59.624" height="59.5" viewBox="0 0 59.624 59.5">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: none;
-        stroke: #ff0048;
-        stroke-linejoin: bevel;
-        stroke-width: 3.5px;
-      }
-    </style>
-  </defs>
-  <g id="Gruppe_166" data-name="Gruppe 166" transform="translate(1.75 1.75)">
-    <path id="Pfad_78" data-name="Pfad 78" class="cls-1" d="M557.8,110c-14.057,0-28.036,15.039-28.036,29.039S543.746,166,557.8,166s28.087-12.961,28.087-26.961S571.859,110,557.8,110Z" transform="translate(-529.766 -110)"/>
-    <path id="Pfad_79" data-name="Pfad 79" class="cls-1" d="M699.146,136.785h0s-8.524-.7-8.39,7.233a7.124,7.124,0,0,0,13.013,4.305c1.687-2.516,1.535-8.247,1.534-14.013,0-6.025,0-11.984,0-11.984s.918,5.087,3.492,7.761,6.8,2.936,6.8,2.936" transform="translate(-673.859 -111.079)"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="59.624" height="59.5"><defs><style>.cls-1{fill:none;stroke:#ff0048;stroke-linejoin:bevel;stroke-width:3.5px}</style></defs><g id="Gruppe_166" data-name="Gruppe 166" transform="translate(1.75 1.75)"><path id="Pfad_78" data-name="Pfad 78" class="cls-1" d="M557.8 110c-14.057 0-28.036 15.039-28.036 29.039S543.746 166 557.8 166s28.087-12.961 28.087-26.961S571.859 110 557.8 110Z" transform="translate(-529.766 -110)"/><path id="Pfad_79" data-name="Pfad 79" class="cls-1" d="M699.146 136.785s-8.524-.7-8.39 7.233a7.124 7.124 0 0 0 13.013 4.305c1.687-2.516 1.535-8.247 1.534-14.013v-11.984s.918 5.087 3.492 7.761 6.8 2.936 6.8 2.936" transform="translate(-673.859 -111.079)"/></g></svg>
