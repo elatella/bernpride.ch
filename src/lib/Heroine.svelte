@@ -1,5 +1,5 @@
 <script lang="ts">
-	import loveIsLove from '$lib/assets/loveislove-heroine.png';
+	import loveIsLove from '$lib/assets/loveislove-heroine.webp';
 </script>
 
 <section id="heroine" class="root">
