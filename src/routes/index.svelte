@@ -1,13 +1,10 @@
 <script lang="ts">
-	import Header from '$lib/Header.svelte';
 	import Heroine from '$lib/Heroine.svelte';
 	import Countdown from '$lib/Countdown.svelte';
 	import Description from '$lib/Description.svelte';
 	import Activities from '$lib/Activities.svelte';
 	import Newsletter from '$lib/Newsletter.svelte';
 	import FAQ from '$lib/FAQ.svelte';
-	import Footer from '$lib/Footer.svelte';
-	import '../app.css';
 </script>
 
 <svelte:head>
@@ -18,20 +15,14 @@
 	/>
 </svelte:head>
 
-<Header />
+<Heroine />
 
-<main>
-	<Heroine />
+<Countdown />
 
-	<Countdown />
+<Description />
 
-	<Description />
+<Activities />
 
-	<Activities />
+<Newsletter />
 
-	<Newsletter />
-
-	<FAQ />
-</main>
-
-<Footer />
+<FAQ />
