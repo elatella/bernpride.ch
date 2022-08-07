@@ -6,7 +6,7 @@
 
 <Header />
 
-<main>
+<main style="padding-top:78px">
 	<slot />
 </main>
 

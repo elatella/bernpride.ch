@@ -30,6 +30,8 @@
 
 <style>
 	.root {
+		position: fixed;
+		width: 100vw;
 		display: flex;
 		justify-content: center;
 		background-color: var(--red);
