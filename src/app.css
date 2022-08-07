@@ -38,8 +38,8 @@ button {
 	border-radius: 999px;
 	border-color: var(--red);
 	border-style: solid;
-	padding: 10px 25px;
-	font-size: 80%;
+	padding: 15px 30px;
+	font-size: 60%;
 }
 
 input {

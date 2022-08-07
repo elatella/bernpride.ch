@@ -4,30 +4,40 @@
 	import plus from '$lib/assets/plus.svg';
 	import minus from '$lib/assets/minus.svg';
 
-	let dateAndTimeIsExpanded = false;
-	let placeExpanded = false;
-	let programExpanded = false;
-	let socialMediaExpanded = false;
-	let awarenessConceptExpanded = false;
+	const faqs = [
+		{
+			question: 'Datum und Zeit',
+			answer:
+				'Die BernPride findet am 29. Juli 2022 statt tagsüber statt. Der genaue Zeitpunkt wird noch kommuniziert.',
+			expanded: false
+		},
+		{
+			question: 'Ort',
+			answer: 'Die BernPride wird in unserer schönen Bundesstadt Bern stattfinden.',
+			expanded: false
+		},
+		{
+			question: 'Programm',
+			answer:
+				'Wir arbeiten mich Hochdruck daran, ein spannendes Programm auf die Beine zu stellen. Das genaue Programm wird noch kommuniziert.',
+			expanded: false
+		},
+		{
+			question: 'Social Media',
+			answer:
+				'Wenn du nichts über die BernPride verpassen möchtest, kannst du uns gerne auf unseren Social Media-Kanälen folgen. Wir sind präsent auf Instagram, Facebook und TikTok unter @bernpride.ch.',
+			expanded: false
+		},
+		{
+			question: 'Awareness Konzept',
+			answer:
+				'Unser Awareness-Konzept wird gerade ausgearbeitet. Das komplette Konzept wird noch kommuniziert.',
+			expanded: false
+		}
+	];
 
-	function toggleDateAndTimeExpanded() {
-		dateAndTimeIsExpanded = !dateAndTimeIsExpanded;
-	}
-
-	function togglePlaceExpanded() {
-		placeExpanded = !placeExpanded;
-	}
-
-	function toggleProgramExpanded() {
-		programExpanded = !programExpanded;
-	}
-
-	function toggleSocialMediaExpanded() {
-		socialMediaExpanded = !socialMediaExpanded;
-	}
-
-	function toggleAwarenessConceptExpanded() {
-		awarenessConceptExpanded = !awarenessConceptExpanded;
+	function toggleFaqExpanded(index: number) {
+		faqs[index].expanded = !faqs[index].expanded;
 	}
 </script>
 
@@ -40,64 +50,22 @@
 		</div>
 
 		<div>
-			<div class="category">
-				<div class="expander" on:click={toggleDateAndTimeExpanded}>
-					<h3>Datum und Zeit</h3>
-					<img src={dateAndTimeIsExpanded ? minus : plus} alt="More" height="30" />
+			{#each faqs as faq, i (faq.question)}
+				<div class="category">
+					<div
+						class="expander"
+						on:click={() => {
+							toggleFaqExpanded(i);
+						}}
+					>
+						<h3>{faq.question}</h3>
+						<img src={faq.expanded ? minus : plus} alt="More" height="30" />
+					</div>
+					{#if faq.expanded}
+						<p>{faq.answer}</p>
+					{/if}
 				</div>
-				{#if dateAndTimeIsExpanded}
-					<p>
-						Die BernPride findet am 29. Juli 2022 statt tagsüber statt. Der genaue Zeitpunkt wird
-						noch kommuniziert.
-					</p>
-				{/if}
-			</div>
-			<div class="category">
-				<div class="expander" on:click={togglePlaceExpanded}>
-					<h3>Ort</h3>
-					<img src={placeExpanded ? minus : plus} alt="More" height="30" />
-				</div>
-				{#if placeExpanded}
-					<p>Die BernPride wird in unserer schönen Bundesstadt Bern stattfinden.</p>
-				{/if}
-			</div>
-			<div class="category">
-				<div class="expander" on:click={toggleProgramExpanded}>
-					<h3>Programm</h3>
-					<img src={programExpanded ? minus : plus} alt="More" height="30" />
-				</div>
-				{#if programExpanded}
-					<p>
-						Wir arbeiten mich Hochdruck daran, ein spannendes Programm auf die Beine zu stellen. Das
-						genaue Programm wird noch kommuniziert.
-					</p>
-				{/if}
-			</div>
-			<div class="category">
-				<div class="expander" on:click={toggleSocialMediaExpanded}>
-					<h3>Social Media</h3>
-					<img src={socialMediaExpanded ? minus : plus} alt="More" height="30" />
-				</div>
-				{#if socialMediaExpanded}
-					<p>
-						Wenn du nichts über die BernPride verpassen möchtest, kannst du uns gerne auf unseren
-						Social Media-Kanälen folgen. Wir sind präsent auf Instagram, Facebook und TikTok unter
-						@bernpride.ch.
-					</p>
-				{/if}
-			</div>
-			<div class="category">
-				<div class="expander" on:click={toggleAwarenessConceptExpanded}>
-					<h3>Awareness Konzept</h3>
-					<img src={awarenessConceptExpanded ? minus : plus} alt="More" height="30" />
-				</div>
-				{#if awarenessConceptExpanded}
-					<p>
-						Unser Awareness-Konzept wird gerade ausgearbeitet. Das komplette Konzept wird noch
-						kommuniziert.
-					</p>
-				{/if}
-			</div>
+			{/each}
 		</div>
 	</div>
 </section>
