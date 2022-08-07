@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Header from '$lib/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
+	import UpButton from '$lib/UpButton.svelte';
 	import '../app.css';
 </script>
 
@@ -9,5 +10,7 @@
 <main style="padding-top:78px">
 	<slot />
 </main>
+
+<UpButton />
 
 <Footer />
