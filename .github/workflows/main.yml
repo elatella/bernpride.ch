@@ -1,27 +1,57 @@
-name: Build and Deploy
+name: Lint, Build and Deploy
 
 on:
   push:
     branches:
       - main
 
-permissions:
-  contents: write
-
 jobs:
-  build-and-deploy:
-    concurrency: ci-${{ github.ref }}
+  lint:
+    name: Lint
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+      - name: Checkout repo
         uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm ci
+      - name: Check
+        run: npm run check
+      - name: Lint
+        run: npm run lint
 
-      - name: Install and Build 🔧
-        run: |
-          npm ci
-          npm run build
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+  build:
+    name: Build
+    needs: lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          folder: build
+          path: ./build
+
+  deploy:
+    name: Deploy
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Configure Deployment
+        uses: actions/configure-pages@v1
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v1

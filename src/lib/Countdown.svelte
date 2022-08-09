@@ -8,7 +8,7 @@
 	const DAY = 24 * HOUR;
 	const MONTH = 30.4167 * DAY;
 
-	let timer: NodeJS.Timer | null = null;
+	let timer: number | null = null;
 
 	const start = new Date(2023, 6, 29, 12);
 	let now = new Date();
@@ -34,7 +34,7 @@
 	}
 
 	onMount(() => {
-		timer = setInterval(() => {
+		timer = window.setInterval(() => {
 			now = new Date();
 		}, SECOND);
 	});
