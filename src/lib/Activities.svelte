@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { base } from '$app/paths';
 	import rainbow from '$lib/assets/rainbow.svg';
 	import shoe from '$lib/assets/shoe.svg';
 	import eurogames from '$lib/assets/eurogames.svg';
@@ -8,7 +7,7 @@
 <section id="activities" class="root">
 	<div class="main-content">
 		<h2>2023 WIRD EINZIGARTIG</h2>
-		<p>
+		<p class="body">
 			Die BernPride ist nicht das einzige Highlight des Jahres. Schon ab dem 26. Juli 2023 wird es
 			in Bern bunt und queer. Wir begrüssen dich dann zu den EuroGames, der grössten queeren
 			Sportveranstaltung Europas, bieten dir am PrideRun die Möglichkeit, deine Running-Qualitäten
@@ -17,7 +16,7 @@
 		</p>
 		<div class="links">
 			<div class="link">
-				<a href="{base}/" target="_blank" class="activity-icon">
+				<a href="/" target="_blank" class="activity-icon">
 					<img src={rainbow} alt="PrideRainbow" height="100" />
 				</a>
 				<span>BernPride</span>
@@ -48,19 +47,35 @@
 
 	.main-content {
 		flex-direction: column;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.body {
+		margin-top: 50px;
 	}
 
 	.links {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: space-evenly;
-		margin-top: 30px;
-		margin-bottom: 50px;
+		margin-top: 70px;
 	}
 
 	.link {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		margin-bottom: 40px;
+	}
+
+	@media only screen and (min-width: 768px) {
+		.links {
+			flex-direction: row;
+		}
+
+		.link {
+			margin-bottom: 0;
+		}
 	}
 </style>

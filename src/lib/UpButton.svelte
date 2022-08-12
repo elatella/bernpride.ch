@@ -16,10 +16,10 @@
 
 <style>
 	img {
-		height: 50px;
 		position: fixed;
-		bottom: 100px;
-		right: 100px;
+		height: 50px;
+		right: 40px;
+		bottom: 40px;
 	}
 
 	img:hover {

@@ -21,6 +21,6 @@
 	.root img {
 		width: 100%;
 		margin-top: 20px;
-		margin-bottom: 70px;
+		margin-bottom: 50px;
 	}
 </style>

@@ -20,6 +20,7 @@
 	}
 
 	.main-content {
+		flex-direction: column;
 		justify-content: space-between !important;
 	}
 
@@ -28,9 +29,9 @@
 		top: 6px;
 	}
 
-	@media only screen and (max-width: 600px) {
+	@media only screen and (min-width: 768px) {
 		.main-content {
-			flex-direction: column;
+			flex-direction: row;
 		}
 	}
 </style>

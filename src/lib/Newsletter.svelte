@@ -11,7 +11,7 @@
 <section id="newsletter" class="root">
 	<div class="main-content">
 		<h2>UP TO DATE BLEIBEN</h2>
-		<p>
+		<p class="body">
 			Unser Team stellt sich jeden Tag neuen Herausforderungen, um Bern so bunt wie nur möglich zu
 			gestalten. Willst du mehr dazu erfahren? Melde dich zum Newsletter an und wir informieren dich
 			über alles Wichtige!
@@ -36,27 +36,43 @@
 
 	.main-content {
 		flex-direction: column;
+		margin-top: 50px;
 		margin-bottom: 50px;
+	}
+
+	.body {
+		margin-top: 50px;
 	}
 
 	form {
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 20px;
+		margin-top: 70px;
 	}
 
-	input {
-		margin-right: 20px;
-	}
-
+	input,
 	.loveletter-icon {
-		margin-right: 80px;
+		margin-bottom: 30px;
 	}
 
-	@media only screen and (max-width: 600px) {
+	@media only screen and (min-width: 768px) {
 		form {
-			flex-direction: column;
+			flex-direction: row;
+		}
+
+		input,
+		.loveletter-icon {
+			margin-bottom: 0;
+		}
+
+		input {
+			margin-right: 20px;
+		}
+
+		.loveletter-icon {
+			margin-right: 60px;
 		}
 	}
 </style>

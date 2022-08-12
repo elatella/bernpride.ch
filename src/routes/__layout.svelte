@@ -7,7 +7,7 @@
 
 <Header />
 
-<main style="padding-top:78px">
+<main style="padding-top:75px">
 	<slot />
 </main>
 

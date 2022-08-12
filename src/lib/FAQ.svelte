@@ -49,9 +49,9 @@
 			<img src={sprinklesRight} alt="Sprinkles Right" height="100" />
 		</div>
 
-		<div>
+		<div class="faqs">
 			{#each faqs as faq, i (faq.question)}
-				<div class="category">
+				<div class="faq">
 					<div
 						class="expander"
 						on:click={() => {
@@ -80,7 +80,7 @@
 
 	.main-content {
 		flex-direction: column;
-		margin-top: 20px;
+		margin-top: 50px;
 		margin-bottom: 50px;
 	}
 
@@ -89,22 +89,26 @@
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
-		margin-bottom: 20px;
 	}
 
 	.title-text {
 		position: relative;
-		bottom: 8px;
+		bottom: 7px;
 	}
 
-	.category {
+	.faqs {
+		margin-top: 70px;
+	}
+
+	.faq {
 		display: flex;
 		flex-direction: column;
 		margin-bottom: 30px;
 	}
 
-	.category p {
+	.faq p {
 		text-align: left;
+		margin-top: 10px;
 		margin-left: 50px;
 		margin-right: 50px;
 	}

@@ -89,6 +89,7 @@
 	}
 
 	.main-content {
+		flex-direction: column;
 		justify-content: space-evenly;
 		align-items: center;
 	}
@@ -111,12 +112,13 @@
 	.clock {
 		display: flex;
 		flex-direction: row;
+		margin-top: 50px;
 	}
 
 	.clock-amount {
 		display: flex;
 		flex-direction: column;
-		margin-left: 25px;
+		margin-left: 10px;
 	}
 
 	.clock-count {
@@ -128,13 +130,17 @@
 		font-size: 0.6rem;
 	}
 
-	@media only screen and (max-width: 600px) {
+	@media only screen and (min-width: 768px) {
 		.main-content {
-			flex-direction: column;
+			flex-direction: row;
+		}
+
+		.clock {
+			margin-top: 0;
 		}
 
 		.clock-amount {
-			margin-left: 10px;
+			margin-left: 25px;
 		}
 	}
 </style>
