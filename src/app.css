@@ -1,18 +1,15 @@
+@import 'the-new-css-reset/css/reset.css';
 @import '@fontsource/darker-grotesque';
 
 :root {
 	font-family: 'Darker Grotesque', sans-serif;
 	font-size: 200%;
-	line-height: 120%;
+	line-height: 110%;
 	--white: #ffffff;
 	--red: #ff0048;
 	--yellow: #ffffa6;
 	--blue: #d6e3ff;
 	--turquoise: #99edd6;
-}
-
-body {
-	margin: 0;
 }
 
 .main-content {
@@ -24,8 +21,18 @@ body {
 	text-align: center;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+}
+
 h2 {
-	font-size: 2rem;
+	font-size: 1.7rem;
+	line-height: 90%;
 }
 
 a {
@@ -38,8 +45,8 @@ button {
 	border-radius: 999px;
 	border-color: var(--red);
 	border-style: solid;
-	padding: 15px 30px;
-	font-size: 60%;
+	padding: 10px 20px;
+	font-size: 80%;
 }
 
 input {

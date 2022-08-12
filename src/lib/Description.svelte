@@ -32,7 +32,7 @@
 
 	.main-content {
 		flex-direction: column;
-		margin-top: 20px;
+		margin-top: 50px;
 		margin-bottom: 50px;
 	}
 
@@ -49,7 +49,7 @@
 	}
 
 	.subtitle {
-		margin-bottom: 0;
+		margin-top: 50px;
 	}
 
 	.body {
