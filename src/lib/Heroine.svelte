@@ -1,11 +1,13 @@
 <script lang="ts">
-	import loveIsLove from '$lib/assets/loveislove-heroine.webp';
+	import loveIsLoveDesktop from '$lib/assets/loveislove-heroine-desktop.webp';
+	import loveIsLoveMobile from '$lib/assets/loveislove-heroine-mobile.webp';
 </script>
 
 <section id="heroine" class="root">
 	<div class="main-content">
 		<div>
-			<img src={loveIsLove} alt="Love Is Love" />
+			<img src={loveIsLoveMobile} alt="Love Is Love" class="heroine-mobile" />
+			<img src={loveIsLoveDesktop} alt="Love Is Love" class="heroine-desktop" />
 		</div>
 	</div>
 </section>
@@ -22,5 +24,19 @@
 		width: 100%;
 		margin-top: 20px;
 		margin-bottom: 50px;
+	}
+
+	.heroine-desktop {
+		display: none;
+	}
+
+	@media only screen and (min-width: 768px) {
+		.heroine-mobile {
+			display: none;
+		}
+
+		.heroine-desktop {
+			display: inherit;
+		}
 	}
 </style>
