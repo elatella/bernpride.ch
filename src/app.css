@@ -1,9 +1,10 @@
 @import 'the-new-css-reset/css/reset.css';
-@import '@fontsource/darker-grotesque/400.css';
+@import '@fontsource/darker-grotesque/500.css';
 @import '@fontsource/darker-grotesque/700.css';
 
 :root {
 	font-family: 'Darker Grotesque', sans-serif;
+	font-weight: 500;
 	font-size: 200%;
 	line-height: 110%;
 	--white: #ffffff;
