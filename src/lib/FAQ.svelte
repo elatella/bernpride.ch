@@ -8,7 +8,7 @@
 		{
 			question: 'Datum und Zeit',
 			answer:
-				'Die BernPride findet am 29. Juli 2022 statt tagsüber statt. Der genaue Zeitpunkt wird noch kommuniziert.',
+				'Die BernPride findet am 29. Juli 2022 tagsüber statt. Der genaue Zeitpunkt wird noch kommuniziert.',
 			expanded: false
 		},
 		{
@@ -19,7 +19,7 @@
 		{
 			question: 'Programm',
 			answer:
-				'Wir arbeiten mich Hochdruck daran, ein spannendes Programm auf die Beine zu stellen. Das genaue Programm wird noch kommuniziert.',
+				'Wir arbeiten mit Hochdruck daran, ein spannendes Programm auf die Beine zu stellen. Das genaue Programm wird noch kommuniziert.',
 			expanded: false
 		},
 		{
