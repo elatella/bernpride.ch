@@ -1,6 +1,6 @@
 <script lang="ts">
-	import sprinklesLeft from '$lib/assets/sprinkles-left-red.svg';
-	import sprinklesRight from '$lib/assets/sprinkles-right-red.svg';
+	import sprinklesLeft from '$lib/assets/sprinkles-left.svg';
+	import sprinklesRight from '$lib/assets/sprinkles-right.svg';
 </script>
 
 <section id="description" class="root">

@@ -1,8 +1,8 @@
 <script lang="ts">
 	import logo from '$lib/assets/logo-yellow.svg';
-	import instagram from '$lib/assets/instagram-yellow.svg';
-	import facebook from '$lib/assets/facebook-yellow.svg';
-	import tiktok from '$lib/assets/tiktok-yellow.svg';
+	import instagram from '$lib/assets/instagram.svg';
+	import facebook from '$lib/assets/facebook.svg';
+	import tiktok from '$lib/assets/tiktok.svg';
 </script>
 
 <div class="root">
