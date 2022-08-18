@@ -1,13 +1,13 @@
 <script lang="ts">
-	import loveIsLoveDesktop from '$lib/assets/loveislove-heroine-desktop.webp';
-	import loveIsLoveMobile from '$lib/assets/loveislove-heroine-mobile.webp';
+	import heroineDesktop from '$lib/assets/heroine-desktop.webp';
+	import heroineMobile from '$lib/assets/heroine-mobile.webp';
 </script>
 
 <section id="heroine" class="root">
 	<div class="main-content">
 		<div>
-			<img src={loveIsLoveMobile} alt="Love Is Love" class="heroine-mobile" />
-			<img src={loveIsLoveDesktop} alt="Love Is Love" class="heroine-desktop" />
+			<img src={heroineMobile} alt="Love Is Love" class="heroine-mobile" />
+			<img src={heroineDesktop} alt="Love Is Love" class="heroine-desktop" />
 		</div>
 	</div>
 </section>
