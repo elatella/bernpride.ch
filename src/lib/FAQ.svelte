@@ -33,6 +33,12 @@
 			answer:
 				'Unser Awareness-Konzept wird gerade ausgearbeitet. Das komplette Konzept wird noch kommuniziert.',
 			expanded: false
+		},
+		{
+			question: 'Noch Fragen?',
+			answer:
+				'Falls Deine Fragen hier nicht beantwortet wurden, schreib uns doch einfach unter info@bernpride.ch. Wir freuen uns von Dir zu lesen!',
+			expanded: false
 		}
 	];
 
