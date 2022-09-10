@@ -13,6 +13,7 @@
 	--yellow: #ffffa6;
 	--blue: #d6e3ff;
 	--turquoise: #99edd6;
+	--gray: #bfbfbf;
 }
 
 .main-content {
@@ -59,4 +60,11 @@ input {
 button {
 	color: var(--white);
 	background-color: var(--red);
+	cursor: pointer;
+}
+
+button:disabled {
+	background-color: var(--gray);
+	border-color: var(--gray);
+	cursor: auto;
 }

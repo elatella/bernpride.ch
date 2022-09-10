@@ -1,10 +1,16 @@
 <script lang="ts">
 	import loveletter from '$lib/assets/loveletter.svg';
 
-	let name = '';
+	let firstName = '';
+	let email = '';
+	let isValid = false;
 
-	function handleSubmit() {
-		alert(`Danke, ${name}!`);
+	$: {
+		if (firstName.length > 0 && email.includes('@')) {
+			isValid = true;
+		} else {
+			isValid = false;
+		}
 	}
 </script>
 
@@ -17,11 +23,14 @@
 			über alles Wichtige!
 		</p>
 
-		<form on:submit|preventDefault={handleSubmit}>
+		<form
+			action="https://bernpride.us14.list-manage.com/subscribe/post?u=12afb8ee8379b949a0052c9e3&amp;id=ab139bcf71&amp;f_id=0046f2e0f0"
+			method="POST"
+		>
 			<img src={loveletter} alt="LoveLetter" height="80" class="loveletter-icon" />
-			<input placeholder="Dein Vorname" bind:value={name} />
-			<input type="email" placeholder="Deine Mail-Adresse" />
-			<button type="submit">Abonnieren</button>
+			<input name="FNAME" placeholder="Dein Vorname" bind:value={firstName} />
+			<input name="EMAIL" type="email" placeholder="Deine Mail-Adresse" bind:value={email} />
+			<button type="submit" disabled={!isValid}>Abonnieren</button>
 		</form>
 	</div>
 </section>
