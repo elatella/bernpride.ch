@@ -8,7 +8,7 @@
 		{
 			question: 'Datum und Zeit',
 			answer:
-				'Die BernPride findet am 29. Juli 2022 tagsüber statt. Der genaue Zeitpunkt wird noch kommuniziert.',
+				'Die BernPride findet am 29. Juli 2023 tagsüber statt. Der genaue Zeitpunkt wird noch kommuniziert.',
 			expanded: false
 		},
 		{
