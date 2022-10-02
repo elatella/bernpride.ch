@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
-	import clock from '$lib/assets/clock.svg';
+	import clock from '$lib/images/clock.svg';
 
 	const SECOND = 1000;
 	const MINUTE = 60 * SECOND;
@@ -49,7 +49,7 @@
 <section id="countdown" class="root">
 	<div class="main-content">
 		<div class="title">
-			<img src={clock} alt="StopWatch" height="90" class="clock-icon" />
+			<img src={clock} alt="StopWatch" width="90" height="90" class="clock-icon" />
 			<h3 class="subtitle">Bis zur BernPride sind es noch...</h3>
 		</div>
 

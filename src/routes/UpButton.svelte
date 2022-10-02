@@ -1,5 +1,5 @@
 <script lang="ts">
-	import arrowUp from '$lib/assets/arrow-up.svg';
+	import arrowUp from '$lib/images/arrow-up.svg';
 
 	let y = 0;
 

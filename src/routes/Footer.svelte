@@ -1,11 +1,11 @@
 <script lang="ts">
-	import logo from '$lib/assets/logo-red.svg';
+	import logo from '$lib/images/logo-red.svg';
 </script>
 
 <footer class="root">
 	<div class="main-content">
 		<strong>Verein EuroGames Bern</strong>
-		<img src={logo} alt="BernPride" height="30" class="logo" />
+		<img src={logo} alt="BernPride" width="147" height="30" class="logo" />
 		<a href="mailto:info@bernpride.ch">info@bernpride.ch</a>
 	</div>
 </footer>

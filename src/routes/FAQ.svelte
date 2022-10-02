@@ -1,8 +1,8 @@
 <script lang="ts">
-	import sprinklesLeft from '$lib/assets/sprinkles-left.svg';
-	import sprinklesRight from '$lib/assets/sprinkles-right.svg';
-	import plus from '$lib/assets/plus.svg';
-	import minus from '$lib/assets/minus.svg';
+	import sprinklesLeft from '$lib/images/sprinkles-left.svg';
+	import sprinklesRight from '$lib/images/sprinkles-right.svg';
+	import plus from '$lib/images/plus.svg';
+	import minus from '$lib/images/minus.svg';
 
 	const faqs = [
 		{
@@ -50,9 +50,9 @@
 <section id="faq" class="root">
 	<div class="main-content">
 		<div class="title">
-			<img src={sprinklesLeft} alt="Sprinkles Left" height="100" />
+			<img src={sprinklesLeft} alt="Sprinkles Left" width="58" height="100" />
 			<h2 class="title-text">FAQ</h2>
-			<img src={sprinklesRight} alt="Sprinkles Right" height="100" />
+			<img src={sprinklesRight} alt="Sprinkles Right" width="71" height="100" />
 		</div>
 
 		<div class="faqs">
@@ -65,7 +65,7 @@
 						}}
 					>
 						<h3>{faq.question}</h3>
-						<img src={faq.expanded ? minus : plus} alt="More" height="30" />
+						<img src={faq.expanded ? minus : plus} alt="More" width="30" height="30" />
 					</div>
 					{#if faq.expanded}
 						<p>{faq.answer}</p>
