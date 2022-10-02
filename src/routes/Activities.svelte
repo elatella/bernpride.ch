@@ -1,7 +1,7 @@
 <script lang="ts">
-	import rainbow from '$lib/assets/rainbow.svg';
-	import shoe from '$lib/assets/shoe.svg';
-	import eurogames from '$lib/assets/eurogames.svg';
+	import rainbow from '$lib/images/rainbow.svg';
+	import shoe from '$lib/images/shoe.svg';
+	import eurogames from '$lib/images/eurogames.svg';
 </script>
 
 <section id="activities" class="root">
@@ -17,19 +17,19 @@
 		<div class="links">
 			<div class="link">
 				<a href="/" target="_blank" class="activity-icon">
-					<img src={rainbow} alt="PrideRainbow" height="100" />
+					<img src={rainbow} alt="PrideRainbow" width="139" height="100" />
 				</a>
 				<span>BernPride</span>
 			</div>
 			<div class="link">
 				<a href="https://eurogames2023.ch/de/pride-run/" target="_blank" class="activity-icon">
-					<img src={shoe} alt="PrideRun" height="100" />
+					<img src={shoe} alt="PrideRun" width="114" height="100" />
 				</a>
 				<span>PrideRun</span>
 			</div>
 			<div class="link">
 				<a href="https://eurogames2023.ch" target="_blank" class="activity-icon">
-					<img src={eurogames} alt="EuroGames" height="100" />
+					<img src={eurogames} alt="EuroGames" width="133" height="100" />
 				</a>
 				<span>EuroGames</span>
 			</div>

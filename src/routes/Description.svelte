@@ -1,14 +1,14 @@
 <script lang="ts">
-	import sprinklesLeft from '$lib/assets/sprinkles-left.svg';
-	import sprinklesRight from '$lib/assets/sprinkles-right.svg';
+	import sprinklesLeft from '$lib/images/sprinkles-left.svg';
+	import sprinklesRight from '$lib/images/sprinkles-right.svg';
 </script>
 
 <section id="description" class="root">
 	<div class="main-content">
 		<div class="title">
-			<img src={sprinklesLeft} alt="Sprinkles Left" height="100" />
+			<img src={sprinklesLeft} alt="Sprinkles Left" width="58" height="100" />
 			<h2 class="title-text">BERN WIRD BUNT</h2>
-			<img src={sprinklesRight} alt="Sprinkles Right" height="100" />
+			<img src={sprinklesRight} alt="Sprinkles Right" width="71" height="100" />
 		</div>
 
 		<h3 class="subtitle">Am 29. Juli 2023 ist es so weit.</h3>

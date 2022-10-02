@@ -1,5 +1,5 @@
 <script lang="ts">
-	import loveletter from '$lib/assets/loveletter.svg';
+	import loveletter from '$lib/images/loveletter.svg';
 
 	let firstName = '';
 	let email = '';
@@ -27,7 +27,7 @@
 			action="https://bernpride.us14.list-manage.com/subscribe/post?u=12afb8ee8379b949a0052c9e3&amp;id=ab139bcf71&amp;f_id=0046f2e0f0"
 			method="POST"
 		>
-			<img src={loveletter} alt="LoveLetter" height="80" class="loveletter-icon" />
+			<img src={loveletter} alt="LoveLetter" width="69" height="80" class="loveletter-icon" />
 			<input name="FNAME" placeholder="Dein Vorname" bind:value={firstName} />
 			<input name="EMAIL" type="email" placeholder="Deine Mail-Adresse" bind:value={email} />
 			<button type="submit" disabled={!isValid}>Abonnieren</button>

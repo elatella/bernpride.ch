@@ -1,27 +1,27 @@
 <script lang="ts">
-	import logo from '$lib/assets/logo-yellow.svg';
-	import instagram from '$lib/assets/instagram.svg';
-	import facebook from '$lib/assets/facebook.svg';
-	import tiktok from '$lib/assets/tiktok.svg';
+	import logo from '$lib/images/logo-yellow.svg';
+	import instagram from '$lib/images/instagram.svg';
+	import facebook from '$lib/images/facebook.svg';
+	import tiktok from '$lib/images/tiktok.svg';
 </script>
 
 <div class="root">
 	<div class="main-content">
 		<nav>
 			<a href="/">
-				<img src={logo} alt="BernPride" height="30" />
+				<img src={logo} alt="BernPride" width="147" height="30" />
 			</a>
 		</nav>
 
 		<div>
 			<a href="https://www.instagram.com/bernpride.ch/" target="_blank" class="social-icon">
-				<img src={instagram} alt="LinkInstagram" height="30" />
+				<img src={instagram} alt="LinkInstagram" width="30" height="30" />
 			</a>
 			<a href="https://www.facebook.com/bernpride.ch/" target="_blank" class="social-icon">
-				<img src={facebook} alt="LinkFacebook" height="30" />
+				<img src={facebook} alt="LinkFacebook" width="30" height="30" />
 			</a>
 			<a href="https://www.tiktok.com/@bernpride.ch" target="_blank" class="social-icon">
-				<img src={tiktok} alt="TikTok" height="30" />
+				<img src={tiktok} alt="TikTok" width="30" height="30" />
 			</a>
 		</div>
 	</div>

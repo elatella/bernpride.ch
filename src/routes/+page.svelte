@@ -1,10 +1,10 @@
 <script lang="ts">
-	import Heroine from '$lib/Heroine.svelte';
-	import Countdown from '$lib/Countdown.svelte';
-	import Description from '$lib/Description.svelte';
-	import Activities from '$lib/Activities.svelte';
-	import Newsletter from '$lib/Newsletter.svelte';
-	import FAQ from '$lib/FAQ.svelte';
+	import Heroine from './Heroine.svelte';
+	import Countdown from './Countdown.svelte';
+	import Description from './Description.svelte';
+	import Activities from './Activities.svelte';
+	import Newsletter from './Newsletter.svelte';
+	import FAQ from './FAQ.svelte';
 </script>
 
 <svelte:head>

@@ -1,6 +1,6 @@
 <script lang="ts">
-	import heroineDesktop from '$lib/assets/heroine-desktop.webp';
-	import heroineMobile from '$lib/assets/heroine-mobile.webp';
+	import heroineDesktop from '$lib/images/heroine-desktop.webp';
+	import heroineMobile from '$lib/images/heroine-mobile.webp';
 </script>
 
 <section id="heroine" class="root">
