@@ -128,7 +128,7 @@
 		color: var(--red);
 		margin: 0;
 		padding: 0;
-		font-size: 1em;
+		font-size: 100%;
 	}
 
 	.expander h3 {
