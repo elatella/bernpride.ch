@@ -11,18 +11,21 @@
 <svelte:window bind:scrollY={y} />
 
 {#if y > 300}
-	<img src={arrowUp} alt="Back to top" on:click={scrollToTop} />
+	<input type="image" src={arrowUp} alt="Back to top" on:click={scrollToTop} />
 {/if}
 
 <style>
-	img {
+	input {
 		position: fixed;
 		height: 50px;
 		right: 40px;
 		bottom: 40px;
+		padding: 0;
+		margin: 0;
+		border: none;
 	}
 
-	img:hover {
+	input:hover {
 		cursor: pointer;
 	}
 </style>
