@@ -58,7 +58,7 @@
 		<div class="faqs">
 			{#each faqs as faq, i (faq.question)}
 				<div class="faq">
-					<div
+					<button
 						class="expander"
 						on:click={() => {
 							toggleFaqExpanded(i);
@@ -66,7 +66,7 @@
 					>
 						<h3>{faq.question}</h3>
 						<img src={faq.expanded ? minus : plus} alt="More" width="30" height="30" />
-					</div>
+					</button>
 					{#if faq.expanded}
 						<p>{faq.answer}</p>
 					{/if}
@@ -123,10 +123,12 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-	}
-
-	.expander:hover {
-		cursor: pointer;
+		background: none;
+		border: none;
+		color: var(--red);
+		margin: 0;
+		padding: 0;
+		font-size: 1em;
 	}
 
 	.expander h3 {
