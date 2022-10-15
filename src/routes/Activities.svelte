@@ -22,13 +22,18 @@
 				<span>BernPride</span>
 			</div>
 			<div class="link">
-				<a href="https://eurogames2023.ch/de/pride-run/" target="_blank" class="activity-icon">
+				<a
+					href="https://eurogames2023.ch/de/pride-run/"
+					target="_blank"
+					rel="noreferrer"
+					class="activity-icon"
+				>
 					<img src={shoe} alt="PrideRun" width="114" height="100" />
 				</a>
 				<span>PrideRun</span>
 			</div>
 			<div class="link">
-				<a href="https://eurogames2023.ch" target="_blank" class="activity-icon">
+				<a href="https://eurogames2023.ch" target="_blank" rel="noreferrer" class="activity-icon">
 					<img src={eurogames} alt="EuroGames" width="133" height="100" />
 				</a>
 				<span>EuroGames</span>
