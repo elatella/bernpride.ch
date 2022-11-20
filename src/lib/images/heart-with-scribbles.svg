@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180.435" height="165.989" viewBox="0 0 180.435 165.989">
+  <g id="Ebene_1" transform="translate(2.052 2.061)">
+    <g id="Gruppe_255" data-name="Gruppe 255" transform="translate(0.447 0.415)">
+      <path id="Pfad_257" data-name="Pfad 257" d="M51.172,40.414a43.4,43.4,0,0,0-23.644-1.566,7.53,7.53,0,0,0-4.7,2.349,5.869,5.869,0,0,0-.939,4.228c.626,9.238,9.238,15.658,17.537,19.729S56.966,72.826,61.82,80.811c1.566,2.662,2.505,5.95,1.409,8.768s-3.758,4.7-6.576,5.637C49.92,97.879,42.091,96,35.828,92.242S24.554,83,19.7,77.523" transform="translate(10.446 20.784)" fill="none" stroke="#ff0048" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="7.07" stroke-width="5"/>
+      <path id="Pfad_258" data-name="Pfad 258" d="M50.4,42.9c1.409,5.324,4.7,17.224,6.107,22.547" transform="translate(27.816 23.622)" fill="none" stroke="#ff0048" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="7.07" stroke-width="5"/>
+      <path id="Pfad_259" data-name="Pfad 259" d="M42.5,56.112c9.708-2.505,19.416-5.324,29.124-8.612" transform="translate(23.346 26.225)" fill="none" stroke="#ff0048" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="7.07" stroke-width="5"/>
+      <path id="Pfad_260" data-name="Pfad 260" d="M72.381,70.436a83.491,83.491,0,0,0,2.505-39.3,6.2,6.2,0,0,0-1.1-2.975c-1.409-1.722-4.071-1.566-5.793-.313s-2.505,3.445-3.132,5.48c-2.192,8.3-.47,17.224,1.879,25.522A146.206,146.206,0,0,0,74.573,80.3c.47,1.253,1.1,2.818,0,3.758-1.253,1.253-3.288-.157-4.384-1.566a31.9,31.9,0,0,1-5.95-14.249,4.257,4.257,0,0,1,0-1.409c.47-1.879,3.288-1.566,5.011-.783,7.672,2.818,17.537,11.117,25.679,10.021S110.9,70.28,114.344,62.921" transform="translate(35.429 14.562)" fill="none" stroke="#ff0048" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="7.07" stroke-width="5"/>
+      <g id="Gruppe_254" data-name="Gruppe 254">
+        <path id="Pfad_261" data-name="Pfad 261" d="M87.745,31.547C82.891,19.96,71.617,10.409,56.429,7.59S22.294,9.469,11.49,20.117-.566,44.856,1,57.226c3.132,26.932,16.441,52.141,37.892,71.4,18.79,17.224,47.913,30.376,78.76,23.487" transform="translate(-0.447 3.189)" fill="none" stroke="#ff0048" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="7.07" stroke-width="5"/>
+        <path id="Pfad_262" data-name="Pfad 262" d="M59.4,29.358A47.562,47.562,0,0,1,71.457,8.22C74.588,4.932,78.5,1.644,83.357.7c3.914-.783,7.829.157,11.274,1.253,22.391,6.89,39.145,21.921,45.251,40.554,9.238,28.5-7.2,62.162-34.291,87.058-11.117,10.178-23.957,19.416-33.038,30.846" transform="translate(32.908 -0.415)" fill="none" stroke="#ff0048" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="7.07" stroke-width="5"/>
+      </g>
+    </g>
+  </g>
+</svg>

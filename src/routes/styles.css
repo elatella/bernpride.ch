@@ -34,14 +34,13 @@ h6 {
 	font-weight: bold;
 }
 
+h1 {
+	font-size: 2rem;
+}
+
 h2 {
 	font-size: 1.7rem;
 	line-height: 90%;
-}
-
-a {
-	text-decoration: none;
-	color: inherit;
 }
 
 input,
@@ -67,4 +66,17 @@ button:disabled {
 	background-color: var(--gray);
 	border-color: var(--gray);
 	cursor: auto;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+ul li {
+	margin-bottom: 0.5rem;
+	margin-left: 30px;
+}
+
+em {
+	font-style: italic;
 }

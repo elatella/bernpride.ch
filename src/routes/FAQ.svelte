@@ -1,50 +1,34 @@
 <script lang="ts">
+	import Expandables from '$lib/Expandables.svelte';
 	import sprinklesLeft from '$lib/images/sprinkles-left.svg';
 	import sprinklesRight from '$lib/images/sprinkles-right.svg';
-	import plus from '$lib/images/plus.svg';
-	import minus from '$lib/images/minus.svg';
 
 	const faqs = [
 		{
-			question: 'Datum und Zeit',
-			answer:
-				'Die BernPride findet am 29. Juli 2023 tagsüber statt. Der genaue Zeitpunkt wird noch kommuniziert.',
-			expanded: false
+			title: 'Datum und Zeit',
+			body: 'Die BernPride findet am 29. Juli 2023 tagsüber statt. Der genaue Zeitpunkt wird noch kommuniziert.'
 		},
 		{
-			question: 'Ort',
-			answer: 'Die BernPride wird in unserer schönen Bundesstadt Bern stattfinden.',
-			expanded: false
+			title: 'Ort',
+			body: 'Die BernPride wird in unserer schönen Bundesstadt Bern stattfinden.'
 		},
 		{
-			question: 'Programm',
-			answer:
-				'Wir arbeiten mit Hochdruck daran, ein spannendes Programm auf die Beine zu stellen. Das genaue Programm wird noch kommuniziert.',
-			expanded: false
+			title: 'Programm',
+			body: 'Wir arbeiten mit Hochdruck daran, ein spannendes Programm auf die Beine zu stellen. Das genaue Programm wird noch kommuniziert.'
 		},
 		{
-			question: 'Social Media',
-			answer:
-				'Wenn du nichts über die BernPride verpassen möchtest, kannst du uns gerne auf unseren Social Media-Kanälen folgen. Wir sind präsent auf Instagram, Facebook und TikTok unter @bernpride.ch.',
-			expanded: false
+			title: 'Social Media',
+			body: 'Wenn du nichts über die BernPride verpassen möchtest, kannst du uns gerne auf unseren Social Media-Kanälen folgen. Wir sind präsent auf Instagram, Facebook und TikTok unter @bernpride.ch.'
 		},
 		{
-			question: 'Awareness Konzept',
-			answer:
-				'Unser Awareness-Konzept wird gerade ausgearbeitet. Das komplette Konzept wird noch kommuniziert.',
-			expanded: false
+			title: 'Awareness Konzept',
+			body: 'Unser Awareness-Konzept wird gerade ausgearbeitet. Das komplette Konzept wird noch kommuniziert.'
 		},
 		{
-			question: 'Noch Fragen?',
-			answer:
-				'Falls Deine Fragen hier nicht beantwortet wurden, schreib uns doch einfach unter info@bernpride.ch. Wir freuen uns von Dir zu lesen!',
-			expanded: false
+			title: 'Noch Fragen?',
+			body: 'Falls Deine Fragen hier nicht beantwortet wurden, schreib uns doch einfach unter info@bernpride.ch. Wir freuen uns von Dir zu lesen!'
 		}
 	];
-
-	function toggleFaqExpanded(index: number) {
-		faqs[index].expanded = !faqs[index].expanded;
-	}
 </script>
 
 <section id="faq" class="root">
@@ -55,24 +39,7 @@
 			<img src={sprinklesRight} alt="Sprinkles Right" width="71" height="100" />
 		</div>
 
-		<div class="faqs">
-			{#each faqs as faq, i (faq.question)}
-				<div class="faq">
-					<button
-						class="expander"
-						on:click={() => {
-							toggleFaqExpanded(i);
-						}}
-					>
-						<h3>{faq.question}</h3>
-						<img src={faq.expanded ? minus : plus} alt="More" width="30" height="30" />
-					</button>
-					{#if faq.expanded}
-						<p>{faq.answer}</p>
-					{/if}
-				</div>
-			{/each}
-		</div>
+		<Expandables items={faqs} />
 	</div>
 </section>
 
@@ -100,38 +67,5 @@
 	.title-text {
 		position: relative;
 		bottom: 7px;
-	}
-
-	.faqs {
-		margin-top: 70px;
-	}
-
-	.faq {
-		display: flex;
-		flex-direction: column;
-		margin-bottom: 30px;
-	}
-
-	.faq p {
-		text-align: left;
-		margin-top: 10px;
-		margin-left: 50px;
-		margin-right: 50px;
-	}
-
-	.expander {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		background: none;
-		border: none;
-		color: var(--red);
-		margin: 0;
-		padding: 0;
-		font-size: 100%;
-	}
-
-	.expander h3 {
-		margin: 0;
 	}
 </style>
