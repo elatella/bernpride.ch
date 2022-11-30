@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Vorstand</title>
+	<title>BernPride - Vorstand</title>
 </svelte:head>
 
 <Heroine />

@@ -52,13 +52,14 @@
 
 	.buttons {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: space-evenly;
-		margin-top: 100px;
+		margin-top: 70px;
 	}
 
 	a.button {
-		width: 290px;
+		margin: 15px 0;
+		width: 100%;
 		text-decoration: none;
 		border-radius: 999px;
 		border-color: var(--red);
@@ -75,5 +76,15 @@
 
 	.arrow {
 		margin-left: 15px;
+	}
+
+	@media only screen and (min-width: 768px) {
+		.buttons {
+			flex-direction: row;
+		}
+
+		a.button {
+			margin: 20px;
+		}
 	}
 </style>

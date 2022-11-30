@@ -27,11 +27,18 @@
 		margin-top: 50px;
 		margin-bottom: 50px;
 		display: flex;
+		flex-direction: column;
 		justify-content: space-between;
 		align-items: center;
 	}
 
 	.rainbow {
 		margin: 1rem;
+	}
+
+	@media only screen and (min-width: 768px) {
+		.main-content {
+			flex-direction: row;
+		}
 	}
 </style>

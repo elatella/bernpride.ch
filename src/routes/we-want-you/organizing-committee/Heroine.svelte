@@ -7,7 +7,7 @@
 	<div class="main-content">
 		<img src={rainbow} alt="Rainbow" height="120" class="rainbow" />
 		<div class="titles">
-			<h1>ORGANISATIONS-<br />KOMITEE</h1>
+			<h1>ORGANI<br class="breaker" />SATIONS<br />KOMITEE</h1>
 			<br />
 			<p>Werde OK-Mitglied!</p>
 		</div>
@@ -27,11 +27,21 @@
 		margin-top: 50px;
 		margin-bottom: 50px;
 		display: flex;
+		flex-direction: column;
 		justify-content: space-between;
 		align-items: center;
 	}
 
 	.rainbow {
 		margin: 1rem;
+	}
+
+	@media only screen and (min-width: 768px) {
+		.main-content {
+			flex-direction: row;
+		}
+		.breaker {
+			display: none;
+		}
 	}
 </style>

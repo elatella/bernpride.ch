@@ -1,37 +1,26 @@
 <script lang="ts">
 	import eurogames from '$lib/images/eurogames.svg';
+
+	const benefits = [
+		'T-shirts der Veranstaltung',
+		'Badge mit Namen, Funktion und Nummer',
+		'Goodie-Bag',
+		'Kostenlose Beförderung während der Verantstaltung',
+		'Verpflegung während der Arbeit',
+		'Einladung zum Helferfest im August 2023'
+	];
 </script>
 
 <section id="activities" class="root">
 	<div class="main-content">
 		<h2>Deine Benefits als Volunteer</h2>
-		<div class="links">
-			<div class="link">
-				<img src={eurogames} alt="PrideRainbow" width="139" height="100" />
-				<span>T-shirt der Verantstaltung</span>
-			</div>
-			<div class="link">
-				<img src={eurogames} alt="PrideRun" width="139" height="100" />
-				<span>Badge mit Namen, Funktion und Nummer</span>
-			</div>
-			<div class="link">
-				<img src={eurogames} alt="EuroGames" width="139" height="100" />
-				<span>Goodie-Bag</span>
-			</div>
-		</div>
-		<div class="links">
-			<div class="link">
-				<img src={eurogames} alt="PrideRainbow" width="139" height="100" />
-				<span>Kostenlose Beförderung während der Verantstaltung</span>
-			</div>
-			<div class="link">
-				<img src={eurogames} alt="PrideRun" width="139" height="100" />
-				<span>Verpflegung während der Arbeit</span>
-			</div>
-			<div class="link">
-				<img src={eurogames} alt="EuroGames" width="139" height="100" />
-				<span>Einladung zum Helferfest im August 2023</span>
-			</div>
+		<div class="benefits">
+			{#each benefits as benefit (benefit)}
+				<div class="benefit">
+					<img src={eurogames} alt="Benefit" width="139" height="100" />
+					<span>{benefit}</span>
+				</div>
+			{/each}
 		</div>
 	</div>
 </section>
@@ -50,28 +39,38 @@
 		margin-bottom: 70px;
 	}
 
-	.links {
+	.benefits {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
-		margin-top: 70px;
+		margin-top: 20px;
+		align-items: center;
+		flex-wrap: wrap;
 	}
 
-	.link {
+	.benefit {
+		margin-top: 70px;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: center;
-		width: 220px;
+		width: 100%;
+		max-width: 280px;
+	}
+
+	.benefit span {
+		margin-top: 20px;
 	}
 
 	@media only screen and (min-width: 768px) {
-		.links {
+		.benefits {
 			flex-direction: row;
+			align-items: flex-start;
 		}
 
-		.link {
+		.benefit {
 			margin-bottom: 0;
+			width: 30%;
 		}
 	}
 </style>

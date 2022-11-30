@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Wir suchen dich!</title>
+	<title>BernPride - Wir suchen dich!</title>
 </svelte:head>
 
 <Heroine />

@@ -16,19 +16,32 @@
 
 <style>
 	.member {
-		width: 18%;
-		margin: 1%;
+		margin: 30px 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		width: 100%;
+		max-width: 280px;
 	}
 
 	h3 {
 		font-size: 0.8rem;
 		line-height: 100%;
-		margin-bottom: 0.4rem;
+		margin: 0.4rem;
 	}
 
 	p {
 		font-size: 0.6rem;
 		line-height: 110%;
 		margin-bottom: 0.3rem;
+	}
+
+	@media only screen and (min-width: 768px) {
+		.member {
+			margin-top: 60px;
+			margin-bottom: 0;
+			width: 22%;
+		}
 	}
 </style>
