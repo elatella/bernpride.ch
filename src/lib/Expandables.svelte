@@ -62,5 +62,6 @@
 
 	.expander h3 {
 		margin: 0;
+		text-align: left;
 	}
 </style>

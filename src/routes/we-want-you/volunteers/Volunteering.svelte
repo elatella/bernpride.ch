@@ -4,10 +4,12 @@
 
 <section id="description" class="root">
 	<div class="main-content">
-		<img src={heart} alt="heart scribble S+R" height="120" />
+		<img src={heart} alt="heart scribble S+R" width="120" height="110" />
 		<br />
-		<h3>Freiwilligearbeit bei uns</h3>
+
+		<h2>Freiwilligearbeit bei uns</h2>
 		<br />
+
 		<p>
 			Wir sind eine non-profit Organisation mit dem Ziel, die EuroGames und die BernPride vom 26.
 			bis 29. Juli 2023 in der Bundeshauptstadt durchzuführen. Für die reibungslose Durchführung
@@ -44,6 +46,7 @@
 
 	.main-content {
 		flex-direction: column;
+		align-items: center;
 		margin-top: 50px;
 		margin-bottom: 50px;
 	}
