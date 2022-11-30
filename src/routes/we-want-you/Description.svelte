@@ -20,13 +20,13 @@
 
 		<div class="buttons">
 			<a href="/we-want-you/volunteers" class="button">
-				Volunteers <img src={arrow} alt="arrow right" width="30" height="18" />
+				Volunteers <img src={arrow} alt="arrow right" width="30" height="18" class="arrow" />
 			</a>
 			<a href="/we-want-you/organizing-committee" class="button">
 				Organisationskomitee <img src={arrow} alt="arrow right" width="30" height="18" />
 			</a>
 			<a href="/we-want-you/board" class="button">
-				Vorstand <img src={arrow} alt="arrow right" width="30" height="18" />
+				Vorstand <img src={arrow} alt="arrow right" width="30" height="18" class="arrow" />
 			</a>
 		</div>
 	</div>
@@ -63,7 +63,7 @@
 		border-radius: 999px;
 		border-color: var(--red);
 		border-style: solid;
-		padding: 10px 20px;
+		padding: 10px 20px 14px;
 		font-size: 80%;
 		color: var(--white);
 		background-color: var(--red);
@@ -71,5 +71,9 @@
 
 	a.button:hover {
 		filter: brightness(85%);
+	}
+
+	.arrow {
+		margin-left: 15px;
 	}
 </style>

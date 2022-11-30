@@ -53,7 +53,7 @@
 		border-radius: 999px;
 		border-color: var(--red);
 		border-style: solid;
-		padding: 10px 20px;
+		padding: 10px 20px 14px;
 		font-size: 80%;
 		color: var(--white);
 		background-color: var(--red);

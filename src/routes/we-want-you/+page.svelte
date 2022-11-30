@@ -4,6 +4,10 @@
 	import TermsAndConditions from './TermsAndConditions.svelte';
 </script>
 
+<svelte:head>
+	<title>Wir suchen dich!</title>
+</svelte:head>
+
 <Heroine />
 
 <Description />

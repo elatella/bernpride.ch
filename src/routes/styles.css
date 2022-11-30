@@ -36,6 +36,7 @@ h6 {
 
 h1 {
 	font-size: 2rem;
+	line-height: 90%;
 }
 
 h2 {
@@ -48,7 +49,7 @@ button {
 	border-radius: 999px;
 	border-color: var(--red);
 	border-style: solid;
-	padding: 10px 20px;
+	padding: 10px 20px 14px;
 	font-size: 80%;
 }
 
@@ -69,7 +70,7 @@ button:disabled {
 }
 
 ul {
-	list-style-type: circle;
+	list-style-type: disc;
 }
 
 ul li {

@@ -4,15 +4,15 @@
 
 <section id="activities" class="root">
 	<div class="main-content">
-		<h3>Deine Benefits als Volunteer</h3>
+		<h2>Deine Benefits als Volunteer</h2>
 		<div class="links">
 			<div class="link">
 				<img src={eurogames} alt="PrideRainbow" width="139" height="100" />
-				<span>T-shirt der <br /> Verantstaltung</span>
+				<span>T-shirt der Verantstaltung</span>
 			</div>
 			<div class="link">
 				<img src={eurogames} alt="PrideRun" width="139" height="100" />
-				<span>Badge mit Namen, <br /> Funktion und <br /> Nummer</span>
+				<span>Badge mit Namen, Funktion und Nummer</span>
 			</div>
 			<div class="link">
 				<img src={eurogames} alt="EuroGames" width="139" height="100" />
@@ -22,15 +22,15 @@
 		<div class="links">
 			<div class="link">
 				<img src={eurogames} alt="PrideRainbow" width="139" height="100" />
-				<span>Kostenlose <br /> Beförderung <br /> während der <br /> Verantstaltung</span>
+				<span>Kostenlose Beförderung während der Verantstaltung</span>
 			</div>
 			<div class="link">
 				<img src={eurogames} alt="PrideRun" width="139" height="100" />
-				<span>Verpflegung <br /> während der <br /> Arbeit</span>
+				<span>Verpflegung während der Arbeit</span>
 			</div>
 			<div class="link">
 				<img src={eurogames} alt="EuroGames" width="139" height="100" />
-				<span>Einladung zum <br /> Helferfest im <br /> August 2023</span>
+				<span>Einladung zum Helferfest im August 2023</span>
 			</div>
 		</div>
 	</div>
@@ -47,21 +47,22 @@
 	.main-content {
 		flex-direction: column;
 		margin-top: 50px;
-		margin-bottom: 50px;
+		margin-bottom: 70px;
 	}
 
 	.links {
 		display: flex;
 		flex-direction: column;
-		justify-content: space-evenly;
+		justify-content: space-around;
 		margin-top: 70px;
 	}
 
 	.link {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		margin-bottom: 40px;
+		justify-content: flex-start;
+		align-items: center;
+		width: 220px;
 	}
 
 	@media only screen and (min-width: 768px) {

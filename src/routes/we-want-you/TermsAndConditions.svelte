@@ -1,13 +1,15 @@
 <script lang="ts">
 	import rainbow from '$lib/images/rainbow-red.svg';
+
+	export let backgroundColor = '#fff';
 </script>
 
-<section id="description" class="root">
+<section id="description" class="root" style="background-color: {backgroundColor}">
 	<div class="main-content">
 		<img src={rainbow} alt="Rainbow" width="180" height="130" />
 		<br />
 
-		<h3>Allgemeine Terms & Conditions</h3>
+		<h2>Allgemeine Terms & Conditions</h2>
 		<br />
 
 		<p>
@@ -41,7 +43,7 @@
 	.main-content {
 		flex-direction: column;
 		align-items: center;
-		margin-top: 50px;
-		margin-bottom: 50px;
+		margin-top: 70px;
+		margin-bottom: 70px;
 	}
 </style>
