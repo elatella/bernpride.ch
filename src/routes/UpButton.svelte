@@ -1,7 +1,7 @@
 <script lang="ts">
 	import arrowUp from '$lib/images/arrow-up.svg';
 
-	let y = 0;
+	let y: number;
 
 	function scrollToTop() {
 		y = 0;

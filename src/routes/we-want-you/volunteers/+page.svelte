@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>Volunteers</title>
+	<title>BernPride - Volunteers</title>
 </svelte:head>
 
 <Heroine />

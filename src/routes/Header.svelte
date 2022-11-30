@@ -3,14 +3,23 @@
 	import instagram from '$lib/images/instagram.svg';
 	import facebook from '$lib/images/facebook.svg';
 	import tiktok from '$lib/images/tiktok.svg';
+	import Navigation from './Navigation.svelte';
+
+	let isNavOpen: boolean;
 </script>
 
 <div class="root">
 	<div class="main-content">
 		<nav>
-			<a href="/">
-				<img src={logo} alt="BernPride" width="147" height="30" />
-			</a>
+			<input
+				type="image"
+				src={logo}
+				alt="BernPride"
+				style="width:150px;padding:0;"
+				on:click={() => {
+					isNavOpen = true;
+				}}
+			/>
 		</nav>
 
 		<div>
@@ -42,6 +51,8 @@
 	</div>
 </div>
 
+<Navigation bind:isOpen={isNavOpen} />
+
 <style>
 	.root {
 		position: fixed;
@@ -58,5 +69,9 @@
 
 	.social-icon {
 		margin-left: 5px;
+	}
+
+	input:hover {
+		cursor: pointer;
 	}
 </style>
