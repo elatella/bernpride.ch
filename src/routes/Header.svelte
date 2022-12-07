@@ -11,15 +11,9 @@
 
 <div class="root">
 	<div class="main-content">
-		<nav>
-			<input
-				type="image"
-				src={logo}
-				alt="BernPride"
-				style="width:150px;padding:0;"
-				on:click={() => {}}
-			/>
-		</nav>
+		<a href="/">
+			<img src={logo} alt="BernPride" width="147" height="30" />
+		</a>
 
 		<div>
 			<a
