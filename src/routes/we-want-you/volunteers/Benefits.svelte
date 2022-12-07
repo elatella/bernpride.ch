@@ -54,39 +54,4 @@
 		margin-top: 50px;
 		margin-bottom: 70px;
 	}
-
-	.benefits {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
-		margin-top: 20px;
-		align-items: center;
-		flex-wrap: wrap;
-	}
-
-	.benefit {
-		margin-top: 70px;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
-		width: 100%;
-		max-width: 280px;
-	}
-
-	.benefit span {
-		margin-top: 20px;
-	}
-
-	@media only screen and (min-width: 768px) {
-		.benefits {
-			flex-direction: row;
-			align-items: flex-start;
-		}
-
-		.benefit {
-			margin-bottom: 0;
-			width: 30%;
-		}
-	}
 </style>
