@@ -1,5 +1,8 @@
 <script lang="ts">
 	import logo from '$lib/images/logo-yellow.svg';
+	import instagram from '$lib/images/instagram.svg';
+	import facebook from '$lib/images/facebook.svg';
+	import tiktok from '$lib/images/tiktok.svg';
 
 	export let isOpen = false;
 
@@ -23,6 +26,34 @@
 
 		<a href="/" on:click={close}>HOME</a><br />
 		<a href="/we-want-you" on:click={close}>MITMACHEN</a>
+		<a href="/charta" on:click={close}>AWARENESS CHARTA</a>
+
+		<div>
+			<a
+				href="https://www.instagram.com/bernpride.ch/"
+				target="_blank"
+				rel="noreferrer"
+				class="social-icon"
+			>
+				<img src={instagram} alt="LinkInstagram" width="30" height="30" />
+			</a>
+			<a
+				href="https://www.facebook.com/bernpride.ch/"
+				target="_blank"
+				rel="noreferrer"
+				class="social-icon"
+			>
+				<img src={facebook} alt="LinkFacebook" width="30" height="30" />
+			</a>
+			<a
+				href="https://www.tiktok.com/@bernpride.ch"
+				target="_blank"
+				rel="noreferrer"
+				class="social-icon"
+			>
+				<img src={tiktok} alt="TikTok" width="30" height="30" />
+			</a>
+		</div>
 	</div>
 {/if}
 
