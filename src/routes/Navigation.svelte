@@ -26,7 +26,7 @@
 
 		<a href="/" on:click={close}>HOME</a><br />
 		<a href="/we-want-you" on:click={close}>MITMACHEN</a>
-		<a href="/charta" on:click={close}>AWARENESS CHARTA</a>
+		<a href="/charta" on:click={close}>CHARTA</a>
 
 		<div>
 			<a
