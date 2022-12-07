@@ -1,26 +1,42 @@
 <script lang="ts">
-	import eurogames from '$lib/images/eurogames.svg';
-
-	const benefits = [
-		'T-shirts der Veranstaltung',
-		'Badge mit Namen, Funktion und Nummer',
-		'Goodie-Bag',
-		'Kostenlose Beförderung während der Verantstaltung',
-		'Verpflegung während der Arbeit',
-		'Einladung zum Helferfest im August 2023'
-	];
+	import badge from '$lib/images/badge.svg';
+	import party from '$lib/images/party.svg';
+	import goodiebag from '$lib/images/goodiebag.svg';
+	import sandwich from '$lib/images/sandwich.svg';
+	import ticket from '$lib/images/ticket.svg';
+	import tshirt from '$lib/images/tshirt.svg';
 </script>
 
 <section id="activities" class="root">
 	<div class="main-content">
 		<h2>Deine Benefits als Volunteer</h2>
-		<div class="benefits">
-			{#each benefits as benefit (benefit)}
-				<div class="benefit">
-					<img src={eurogames} alt="Benefit" width="139" height="100" />
-					<span>{benefit}</span>
-				</div>
-			{/each}
+		<div class="links">
+			<div class="link">
+				<img src={tshirt} alt="PrideRainbow" width="139" height="100" />
+				<span>T-shirt der Verantstaltung</span>
+			</div>
+			<div class="link">
+				<img src={badge} alt="PrideRun" width="139" height="100" />
+				<span>Badge mit Namen, Funktion und Nummer</span>
+			</div>
+			<div class="link">
+				<img src={goodiebag} alt="EuroGames" width="139" height="100" />
+				<span>Goodie-Bag</span>
+			</div>
+		</div>
+		<div class="links">
+			<div class="link">
+				<img src={ticket} alt="PrideRainbow" width="139" height="100" />
+				<span>Kostenlose Beförderung während der Verantstaltung</span>
+			</div>
+			<div class="link">
+				<img src={sandwich} alt="PrideRun" width="139" height="100" />
+				<span>Verpflegung während der Arbeit</span>
+			</div>
+			<div class="link">
+				<img src={party} alt="EuroGames" width="139" height="100" />
+				<span>Einladung zum Helferfest im August 2023</span>
+			</div>
 		</div>
 	</div>
 </section>

@@ -4,6 +4,8 @@
 	import facebook from '$lib/images/facebook.svg';
 	import tiktok from '$lib/images/tiktok.svg';
 	import Navigation from './Navigation.svelte';
+	import menu from '$lib/images/menu.svg';
+	import Activities from './Activities.svelte';
 
 	let isNavOpen: boolean;
 </script>
@@ -17,7 +19,7 @@
 				alt="BernPride"
 				style="width:150px;padding:0;"
 				on:click={() => {
-					isNavOpen = true;
+					href = 'bernpride.ch';
 				}}
 			/>
 		</nav>
@@ -48,6 +50,18 @@
 				<img src={tiktok} alt="TikTok" width="30" height="30" />
 			</a>
 		</div>
+
+		<nav>
+			<input
+				type="image"
+				src={menu}
+				alt="Menu"
+				style="width:35px;padding:0;"
+				on:click={() => {
+					isNavOpen = true;
+				}}
+			/>
+		</nav>
 	</div>
 </div>
 
