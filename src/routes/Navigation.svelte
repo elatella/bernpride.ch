@@ -24,18 +24,18 @@
 			<button on:click={close}>ZURÜCK</button>
 		</div>
 
-		<a href="/" on:click={close}>HOME</a><br />
+		<a href="/" on:click={close}>HOME</a>
 		<a href="/we-want-you" on:click={close}>MITMACHEN</a>
-		<a href="/charta" on:click={close}>CHARTA</a>
+		<a href="/about-us" on:click={close}>ÜBER UNS</a>
 
-		<div>
+		<div style="margin-top:2rem">
 			<a
 				href="https://www.instagram.com/bernpride.ch/"
 				target="_blank"
 				rel="noreferrer"
 				class="social-icon"
 			>
-				<img src={instagram} alt="LinkInstagram" width="30" height="30" />
+				<img src={instagram} alt="Instagram" width="30" height="30" />
 			</a>
 			<a
 				href="https://www.facebook.com/bernpride.ch/"
@@ -43,7 +43,7 @@
 				rel="noreferrer"
 				class="social-icon"
 			>
-				<img src={facebook} alt="LinkFacebook" width="30" height="30" />
+				<img src={facebook} alt="Facebook" width="30" height="30" />
 			</a>
 			<a
 				href="https://www.tiktok.com/@bernpride.ch"
@@ -61,12 +61,13 @@
 	.root {
 		position: fixed;
 		width: 100vw;
-		padding-bottom: 120px;
+		padding-bottom: 70px;
 		background-color: var(--red);
 		color: var(--yellow);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		z-index: 999;
 	}
 
 	.toolbar {
@@ -89,7 +90,8 @@
 	}
 
 	a {
-		margin: 0.3rem;
+		text-decoration: none;
+		margin: 0.9rem;
 		font-size: 1.7rem;
 		font-weight: bold;
 	}

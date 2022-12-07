@@ -22,16 +22,21 @@
 	.main-content {
 		flex-direction: column;
 		justify-content: space-between !important;
+		align-items: center;
 	}
 
 	.logo {
 		position: relative;
 		top: 6px;
+		padding-bottom: 10px;
 	}
 
 	@media only screen and (min-width: 768px) {
 		.main-content {
 			flex-direction: row;
+		}
+		.logo {
+			padding-bottom: 0;
 		}
 	}
 </style>

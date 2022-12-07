@@ -4,6 +4,8 @@
 <section id="description" class="root">
 	<div class="main-content">
 		<h2>Ausrichtung</h2>
+		<br />
+
 		<p>
 			Die BernPride ist eine politische Manifestation, welche am Samstag, 29. Juli 2023 stattfindet.
 			Sie ist zugleich die Schlussveranstaltung der inklusiven Queersport-Veranstaltung EuroGames.
@@ -19,7 +21,6 @@
 	.root {
 		display: flex;
 		justify-content: center;
-		background-color: var(--turquoise);
 		color: var(--red);
 	}
 

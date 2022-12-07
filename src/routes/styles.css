@@ -81,3 +81,7 @@ ul li {
 em {
 	font-style: italic;
 }
+
+a {
+	text-decoration: underline;
+}

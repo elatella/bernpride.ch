@@ -46,10 +46,6 @@
 		margin-bottom: 50px;
 	}
 
-	a {
-		text-decoration: underline;
-	}
-
 	.buttons {
 		display: flex;
 		flex-direction: column;

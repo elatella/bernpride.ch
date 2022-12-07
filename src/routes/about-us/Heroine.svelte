@@ -7,7 +7,7 @@
 	<div class="main-content">
 		<img src={megaphoneLeft} alt="Megaphone facing right" height="120" class="megaphone" />
 		<div class="titles">
-			<h1>CHARTA DER BernPride</h1>
+			<h1>ÜBER UNS</h1>
 			<br />
 		</div>
 		<img src={megaphoneRight} alt="Megaphone facing left" height="120" class="megaphone" />

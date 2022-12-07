@@ -43,10 +43,6 @@
 		margin-bottom: 50px;
 	}
 
-	a {
-		text-decoration: underline;
-	}
-
 	a.button {
 		width: 290px;
 		text-decoration: none;

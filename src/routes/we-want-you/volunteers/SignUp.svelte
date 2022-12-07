@@ -63,10 +63,6 @@
 		margin-bottom: 50px;
 	}
 
-	a {
-		text-decoration: underline;
-	}
-
 	a.button {
 		text-decoration: none;
 		border-radius: 999px;

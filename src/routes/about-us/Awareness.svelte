@@ -4,6 +4,8 @@
 <section id="description" class="root">
 	<div class="main-content">
 		<h2>Awareness</h2>
+		<br />
+
 		<p>
 			Im Rahmen der BernPride 2023 und unseren Partner*innen-Veranstaltungen dulden wir keine Formen
 			von Diskriminierung in Gestalt von rassistischen, sexistischen, ableistischen, xenophoben,
@@ -20,8 +22,8 @@
 	.root {
 		display: flex;
 		justify-content: center;
-		background-color: var(--turquoise);
-		color: var(--red);
+		background-color: var(--red);
+		color: var(--yellow);
 	}
 
 	.main-content {

@@ -4,6 +4,8 @@
 <section id="description" class="root">
 	<div class="main-content">
 		<h2>Organisation</h2>
+		<br />
+
 		<p>
 			Im Jahr 2023 wird die BernPride durch den Verein EuroGames Bern organisiert, welcher nach den
 			EuroGames wieder aufgelöst wird. Eine jährliche Weiterführung der BernPride wird jedoch
@@ -20,7 +22,6 @@
 	.root {
 		display: flex;
 		justify-content: center;
-		background-color: var(--turquoise);
 		color: var(--red);
 	}
 

@@ -122,12 +122,12 @@
 	}
 
 	.clock-count {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		font-weight: bold;
 	}
 
 	.clock-unit {
-		font-size: 0.6rem;
+		font-size: 0.5rem;
 	}
 
 	@media only screen and (min-width: 768px) {
