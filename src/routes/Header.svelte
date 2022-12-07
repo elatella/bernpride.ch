@@ -5,7 +5,6 @@
 	import tiktok from '$lib/images/tiktok.svg';
 	import Navigation from './Navigation.svelte';
 	import menu from '$lib/images/menu.svg';
-	import Activities from './Activities.svelte';
 
 	let isNavOpen: boolean;
 </script>
@@ -18,9 +17,7 @@
 				src={logo}
 				alt="BernPride"
 				style="width:150px;padding:0;"
-				on:click={() => {
-					href = 'bernpride.ch';
-				}}
+				on:click={() => {}}
 			/>
 		</nav>
 

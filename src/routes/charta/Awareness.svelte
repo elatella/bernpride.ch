@@ -1,5 +1,4 @@
 <script lang="ts">
-	import arrow from '$lib/images/arrow-right-white.svg';
 </script>
 
 <section id="description" class="root">

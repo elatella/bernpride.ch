@@ -72,8 +72,4 @@
 		position: relative;
 		bottom: 7px;
 	}
-	.p {
-		text-align: left;
-		margin-top: 10px;
-	}
 </style>
