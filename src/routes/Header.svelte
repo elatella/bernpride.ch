@@ -17,7 +17,7 @@
 				type="image"
 				src={menu}
 				alt="Menu"
-				style="width:35px;padding:0;"
+				style="width:30px;padding:0;"
 				on:click={() => {
 					isNavOpen = true;
 				}}

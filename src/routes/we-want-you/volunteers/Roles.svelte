@@ -46,8 +46,4 @@
 		margin-top: 50px;
 		margin-bottom: 50px;
 	}
-
-	a {
-		text-decoration: underline;
-	}
 </style>

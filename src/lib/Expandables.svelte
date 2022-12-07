@@ -24,7 +24,7 @@
 				<img src={expanded[i] ? minus : plus} alt="More" width="30" height="30" />
 			</button>
 			{#if expanded[i]}
-				<p>{item.body}</p>
+				<p>{@html item.body}</p>
 			{/if}
 		</div>
 	{/each}
@@ -44,8 +44,7 @@
 	.item p {
 		text-align: left;
 		margin-top: 10px;
-		margin-left: 50px;
-		margin-right: 50px;
+		margin-right: 30px;
 	}
 
 	.expander {

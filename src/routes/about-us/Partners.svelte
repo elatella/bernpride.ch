@@ -4,6 +4,8 @@
 <section id="description" class="root">
 	<div class="main-content">
 		<h2>Partner*innen</h2>
+		<br />
+
 		<p>
 			Der Demonstrationsumzug ist werbefrei, Startplätze sind lediglich LGBTIQ-Organisationen und
 			Einzelpersonen vorbehalten. Im Zusammenhang mit Materialsponsorings und zur Finanzierung der

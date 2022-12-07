@@ -25,8 +25,8 @@
 			body: 'Unser Awareness-Konzept wird gerade ausgearbeitet. Das komplette Konzept wird noch kommuniziert.'
 		},
 		{
-			title: 'Anmeldung für Dragqueens & - kings',
-			body: 'Bist du Dragqueen oder -king? Möchtest du an der BernPride dabei sein? Dann melde dich mit folgendem Formular an und du wirst im März von uns kontaktiert. Hier gehts zum <a href:"https://forms.gle/BcwWBJ1FV1wfpkrc9">Formular</a>'
+			title: 'Anmeldung für Dragqueens & -kings',
+			body: 'Bist du Dragqueen oder -king? Möchtest du an der BernPride dabei sein? Dann melde dich mit folgendem Formular an und du wirst im März von uns kontaktiert. <a href="https://forms.gle/BcwWBJ1FV1wfpkrc9">Hier gehts zum Formular</a>'
 		},
 		{
 			title: 'Noch Fragen?',
