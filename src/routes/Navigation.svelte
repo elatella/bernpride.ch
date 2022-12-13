@@ -1,5 +1,4 @@
 <script lang="ts">
-	import logo from '$lib/images/logo-yellow.svg';
 	import instagram from '$lib/images/instagram.svg';
 	import facebook from '$lib/images/facebook.svg';
 	import tiktok from '$lib/images/tiktok.svg';
@@ -9,58 +8,41 @@
 	function close() {
 		isOpen = false;
 	}
+
+	const navItems: { label: string; link: string }[] = [
+		{ label: 'HOME', link: '/' },
+		{ label: 'MITMACHEN', link: '/we-want-you' },
+		{ label: 'ÜBER UNS', link: '/about-us' },
+		{ label: 'FAQ', link: '/#faq' }
+	];
+
+	const socialNetworks: { name: string; logo: string; link: string }[] = [
+		{ name: 'Instagram', logo: instagram, link: 'https://www.instagram.com/bernpride.ch/' },
+		{ name: 'Facebook', logo: facebook, link: 'https://www.facebook.com/bernpride.ch/' },
+		{ name: 'TikTok', logo: tiktok, link: 'https://www.tiktok.com/@bernpride.ch' }
+	];
 </script>
 
 {#if isOpen}
-	<div class="root">
-		<div class="toolbar">
-			<input
-				type="image"
-				src={logo}
-				alt="BernPride"
-				style="width:150px;padding:0;margin-left:20px"
-				on:click={close}
-			/>
-			<button on:click={close}>ZURÜCK</button>
-		</div>
-
-		<a href="/" on:click={close}>HOME</a>
-		<a href="/we-want-you" on:click={close}>MITMACHEN</a>
-		<a href="/about-us" on:click={close}>ÜBER UNS</a>
-		<a href="/#faq" on:click={close}>FAQ</a>
+	<nav class="root">
+		{#each navItems as item (item.label)}
+			<a href={item.link} on:click={close}>{item.label}</a>
+		{/each}
 
 		<div style="margin-top:2rem">
-			<a
-				href="https://www.instagram.com/bernpride.ch/"
-				target="_blank"
-				rel="noreferrer"
-				class="social-icon"
-			>
-				<img src={instagram} alt="Instagram" width="30" height="30" />
-			</a>
-			<a
-				href="https://www.facebook.com/bernpride.ch/"
-				target="_blank"
-				rel="noreferrer"
-				class="social-icon"
-			>
-				<img src={facebook} alt="Facebook" width="30" height="30" />
-			</a>
-			<a
-				href="https://www.tiktok.com/@bernpride.ch"
-				target="_blank"
-				rel="noreferrer"
-				class="social-icon"
-			>
-				<img src={tiktok} alt="TikTok" width="30" height="30" />
-			</a>
+			{#each socialNetworks as nw (nw.name)}
+				<a href={nw.link} target="_blank" rel="noreferrer" class="social-icon">
+					<img src={nw.logo} alt={nw.name} width="30" height="30" />
+				</a>
+			{/each}
 		</div>
-	</div>
+	</nav>
 {/if}
 
 <style>
 	.root {
 		position: fixed;
+		top: 74px;
 		width: 100vw;
 		padding-bottom: 70px;
 		background-color: var(--red);
@@ -71,35 +53,11 @@
 		z-index: 999;
 	}
 
-	.toolbar {
-		width: 100vw;
-		max-width: 1024px;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		margin-bottom: 50px;
-	}
-
-	input {
-		margin-top: 10px;
-		cursor: pointer;
-	}
-
-	button {
-		color: var(--yellow);
-		font-weight: bold;
-	}
-
 	a {
 		text-decoration: none;
 		margin: 0.9rem;
 		font-size: 1.7rem;
 		font-weight: bold;
-	}
-
-	button:hover,
-	a:hover {
-		filter: brightness(85%);
 	}
 
 	@media only screen and (min-width: 768px) {
