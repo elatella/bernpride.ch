@@ -27,6 +27,7 @@
 		<a href="/" on:click={close}>HOME</a>
 		<a href="/we-want-you" on:click={close}>MITMACHEN</a>
 		<a href="/about-us" on:click={close}>ÜBER UNS</a>
+		<a href="/#faq" on:click={close}>FAQ</a>
 
 		<div style="margin-top:2rem">
 			<a
