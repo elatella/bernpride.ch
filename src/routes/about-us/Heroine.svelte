@@ -1,16 +1,16 @@
 <script lang="ts">
-	import megaphoneLeft from '$lib/images/megaphone-left.svg';
-	import megaphoneRight from '$lib/images/megaphone-right.svg';
+	import loveletterLeft from '$lib/images/loveletter-left.svg';
+	import loveletterRight from '$lib/images/loveletter-right.svg';
 </script>
 
 <section id="activities" class="root">
 	<div class="main-content">
-		<img src={megaphoneLeft} alt="Megaphone facing right" height="120" class="megaphone" />
+		<img src={loveletterLeft} alt="Loveletter facing right" height="120" class="loveletter" />
 		<div class="titles">
 			<h1>ÜBER UNS</h1>
 			<br />
 		</div>
-		<img src={megaphoneRight} alt="Megaphone facing left" height="120" class="megaphone" />
+		<img src={loveletterRight} alt="Loveletter facing left" height="120" class="loveletter" />
 	</div>
 </section>
 
@@ -31,7 +31,7 @@
 		align-items: center;
 	}
 
-	.megaphone {
+	.loveletter {
 		margin: 1rem;
 	}
 
