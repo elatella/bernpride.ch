@@ -2,27 +2,33 @@
 	import logo from '$lib/images/logo-yellow.svg';
 	import Navigation from './Navigation.svelte';
 	import menu from '$lib/images/menu.svg';
+	import closeMenu from '$lib/images/closemenu.svg';
 
 	let isNavOpen: boolean;
 </script>
 
 <div class="root">
 	<div class="main-content">
-		<a href="/">
+		<a
+			href="/"
+			on:click={() => {
+				isNavOpen = false;
+			}}
+		>
 			<img src={logo} alt="BernPride" width="147" height="30" />
 		</a>
 
-		<nav>
+		<div>
 			<input
 				type="image"
-				src={menu}
-				alt="Menu"
+				src={isNavOpen ? closeMenu : menu}
+				alt={isNavOpen ? 'Schliessen' : 'Menu'}
 				style="width:30px;padding:0;"
 				on:click={() => {
-					isNavOpen = true;
+					isNavOpen = !isNavOpen;
 				}}
 			/>
-		</nav>
+		</div>
 	</div>
 </div>
 
