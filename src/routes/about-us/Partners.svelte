@@ -22,7 +22,7 @@
 			dem Demonstrationsumzug auf durch Unternehmenssponsor*innen gebrandete Wagen verzichtet. Es
 			sind grundsätzlich keine Lastwagen vorgesehen, denn dies würde weder zur BernPride passen,
 			noch ist die Berner Altstadt hierzu geeignet. Sofern überhaupt auf dem Demonstrationsumzug
-			kleinere Wagen möglich sind, sind diese nur Organisationen der Community (Mitglieder des
+			kleinere Wagen möglich sind, sind diese nur Organisationen der Community (z.B. Mitglieder des
 			Beirats) und allenfalls Medienpartner*innen vorbehalten. Während der Veranstaltung auf dem
 			Bundesplatz ist ein diverses Rahmenprogramm mit politischen Inhalten und
 			Unterhaltungselementen vorgesehen.
