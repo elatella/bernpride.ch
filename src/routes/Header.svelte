@@ -1,6 +1,6 @@
 <script lang="ts">
-	import logo from '$lib/images/logo-yellow.svg';
 	import Navigation from './Navigation.svelte';
+	import logo from '$lib/images/logo-yellow.svg';
 	import menu from '$lib/images/menu.svg';
 	import closeMenu from '$lib/images/closemenu.svg';
 

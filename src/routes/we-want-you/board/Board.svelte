@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Member from './Member.svelte';
 	import andyKuenzler from '$lib/images/andy-kuenzler.jpg';
 	import danielaBlatter from '$lib/images/daniela-blatter.jpg';
 	import davidHofstetter from '$lib/images/david-hofstetter.jpg';
@@ -8,7 +9,6 @@
 	import paddyKaeser from '$lib/images/paddy-kaeser.jpg';
 	import thomasIff from '$lib/images/thomas-iff.jpg';
 	import thomasKuenzi from '$lib/images/thomas-kuenzi.jpg';
-	import Member from './Member.svelte';
 
 	const members = [
 		{ name: 'Andy Künzler', pronouns: 'er/ihm', area: 'Freiwillige', imgURL: andyKuenzler },
