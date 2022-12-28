@@ -1,6 +1,3 @@
-<script lang="ts">
-</script>
-
 <section id="description" class="root">
 	<div class="main-content">
 		<h2>Partner*innen</h2>

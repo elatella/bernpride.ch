@@ -3,17 +3,18 @@
 @import '@fontsource/darker-grotesque/700.css';
 
 :root {
-	font-family: 'Darker Grotesque', sans-serif;
-	font-weight: 500;
-	font-size: 190%;
-	line-height: 105%;
-	scroll-behavior: smooth;
+	--font-body: 'Darker Grotesque', sans-serif;
 	--white: #ffffff;
 	--red: #ff0048;
 	--yellow: #ffffa6;
 	--blue: #d6e3ff;
 	--turquoise: #99edd6;
 	--gray: #bfbfbf;
+	font-family: var(--font-body);
+	font-weight: 500;
+	font-size: 190%;
+	line-height: 105%;
+	scroll-behavior: smooth;
 }
 
 .main-content {

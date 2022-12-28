@@ -5,12 +5,14 @@
 	import './styles.css';
 </script>
 
-<Header />
+<div class="app">
+	<Header />
 
-<main style="padding-top:74px">
-	<slot />
-</main>
+	<main style="padding-top:74px">
+		<slot />
+	</main>
 
-<UpButton />
+	<UpButton />
 
-<Footer />
+	<Footer />
+</div>
