@@ -22,7 +22,6 @@
 	.root {
 		display: flex;
 		justify-content: center;
-		background-color: var(--turquoise);
 		color: var(--red);
 	}
 
