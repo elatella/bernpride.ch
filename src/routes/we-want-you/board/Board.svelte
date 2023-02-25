@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Member from './Member.svelte';
+	import Person from '$lib/Person.svelte';
 	import andyKuenzler from '$lib/images/andy-kuenzler.jpg';
 	import danielaBlatter from '$lib/images/daniela-blatter.jpg';
 	import davidHofstetter from '$lib/images/david-hofstetter.jpg';
@@ -40,7 +40,7 @@
 
 		<div class="members">
 			{#each members as member (member.name)}
-				<Member
+				<Person
 					name={member.name}
 					pronouns={member.pronouns}
 					area={member.area}
