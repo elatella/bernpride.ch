@@ -5,7 +5,7 @@
 	export let imgURL: string;
 </script>
 
-<div class="member">
+<div class="person">
 	<img src={imgURL} alt="Portrait {name}" />
 	<h3>{name}</h3>
 	<div class="description">
@@ -15,7 +15,7 @@
 </div>
 
 <style>
-	.member {
+	.person {
 		margin: 30px 10px;
 		display: flex;
 		flex-direction: column;
@@ -28,17 +28,17 @@
 	h3 {
 		font-size: 0.8rem;
 		line-height: 100%;
-		margin: 0.4rem;
+		margin: 0.3rem;
 	}
 
 	p {
 		font-size: 0.6rem;
 		line-height: 110%;
-		margin-bottom: 0.3rem;
+		margin-bottom: 0.1rem;
 	}
 
 	@media only screen and (min-width: 768px) {
-		.member {
+		.person {
 			margin-top: 60px;
 			margin-bottom: 0;
 			width: 22%;

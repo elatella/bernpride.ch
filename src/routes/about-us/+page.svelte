@@ -4,6 +4,7 @@
 	import Partners from './Partners.svelte';
 	import Organization from './Organization.svelte';
 	import Awareness from './Awareness.svelte';
+	import People from './People.svelte';
 </script>
 
 <svelte:head>
@@ -19,3 +20,5 @@
 <Organization />
 
 <Awareness />
+
+<People />
