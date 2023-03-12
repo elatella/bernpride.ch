@@ -66,10 +66,6 @@
 		background-color: var(--red);
 	}
 
-	a.button:hover {
-		filter: brightness(85%);
-	}
-
 	.arrow {
 		margin-left: 15px;
 	}

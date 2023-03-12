@@ -167,10 +167,6 @@
 		color: var(--red);
 	}
 
-	button:hover {
-		filter: brightness(85%);
-	}
-
 	button.selected {
 		background-color: var(--red);
 		color: var(--white);

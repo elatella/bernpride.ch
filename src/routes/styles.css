@@ -70,6 +70,12 @@ button:disabled {
 	cursor: auto;
 }
 
+button:hover:enabled,
+input:hover:enabled,
+a:hover {
+	filter: brightness(85%);
+}
+
 ul {
 	list-style-type: disc;
 }
