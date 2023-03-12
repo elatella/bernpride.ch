@@ -6,11 +6,27 @@
 		Saturday = 'Samstag'
 	}
 
+	const days = [Day.Wednesday, Day.Thursday, Day.Friday, Day.Saturday];
+
+	let selectedDay: Day = Day.Saturday;
+
+	function selectDay(day: Day) {
+		selectedDay = day;
+	}
+
 	enum Color {
 		Blue = 'blue',
 		Turquoise = 'turquoise',
 		Red = 'red',
 		White = 'white'
+	}
+
+	const colors = [Color.Blue, Color.Turquoise, Color.Red, Color.White];
+
+	function randomColorWithBlacklist(blacklist: Color[]) {
+		const relevantColors = colors.filter((c) => !blacklist.includes(c));
+		const index = Math.floor(Math.random() * relevantColors.length);
+		return relevantColors[index];
 	}
 
 	interface Activity {
@@ -23,15 +39,7 @@
 			text: string;
 		};
 		location: string;
-		color: Color;
-	}
-
-	const days = [Day.Wednesday, Day.Thursday, Day.Friday, Day.Saturday];
-
-	let selectedDay: Day = Day.Saturday;
-
-	function selectDay(day: Day) {
-		selectedDay = day;
+		color?: Color;
 	}
 
 	const activities: Activity[] = [
@@ -41,8 +49,7 @@
 			title: 'Eröffnungsrede Demonstration',
 			description:
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce finibus quam mi, et dictum',
-			location: 'Wankdorf Center',
-			color: Color.Blue
+			location: 'Wankdorf Center'
 		},
 		{
 			day: Day.Saturday,
@@ -54,8 +61,7 @@
 				url: '/',
 				text: 'Route'
 			},
-			location: 'Wankdorf Center',
-			color: Color.Turquoise
+			location: 'Wankdorf Center'
 		},
 		{
 			day: Day.Saturday,
@@ -63,8 +69,7 @@
 			title: 'Ankunft Festivalgelände',
 			description:
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce finibus quam mi, et dictum',
-			location: 'Bundesplatz',
-			color: Color.Red
+			location: 'Bundesplatz'
 		},
 		{
 			day: Day.Saturday,
@@ -76,8 +81,7 @@
 				url: 'https://open.spotify.com/artist/7M26B2dpKVQ30MPUYvzWXk',
 				text: 'Spotify'
 			},
-			location: 'Hauptbühne Bundesplatz',
-			color: Color.Turquoise
+			location: 'Hauptbühne Bundesplatz'
 		},
 		{
 			day: Day.Saturday,
@@ -85,8 +89,7 @@
 			title: 'Irgendöppis',
 			description:
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce finibus quam mi, et dictum',
-			location: 'Münsterplattform',
-			color: Color.White
+			location: 'Münsterplattform'
 		},
 		{
 			day: Day.Saturday,
@@ -98,10 +101,14 @@
 				url: 'https://bierhuebeli.ch/',
 				text: 'Tickets'
 			},
-			location: 'Bierhübeli',
-			color: Color.Blue
+			location: 'Bierhübeli'
 		}
 	];
+
+	for (const i of activities.keys()) {
+		const blacklist = [i === 0 ? Color.White : activities[i - 1].color || Color.White];
+		activities[i].color = randomColorWithBlacklist(blacklist);
+	}
 </script>
 
 <section id="daily-schedule" class="root">
@@ -125,7 +132,7 @@
 
 <section class="activities">
 	{#each activities.filter((a) => a.day === selectedDay) as activity (activity.title)}
-		<div class="activity {activity.color.valueOf()}">
+		<div class="activity {activity.color ? activity.color.valueOf() : 'white'}">
 			<div class="activity-content">
 				<p class="activity-time">{activity.time}</p>
 				<div class="activity-body">
