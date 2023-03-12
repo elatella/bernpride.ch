@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { slide } from 'svelte/transition';
 	import instagram from '$lib/images/instagram.svg';
 	import facebook from '$lib/images/facebook.svg';
 	import tiktok from '$lib/images/tiktok.svg';
@@ -24,7 +25,7 @@
 </script>
 
 {#if isOpen}
-	<nav class="root">
+	<nav class="root" transition:slide>
 		{#each navItems as item (item.label)}
 			<a href={item.link} on:click={close}>{item.label}</a>
 		{/each}
@@ -51,6 +52,7 @@
 		flex-direction: column;
 		align-items: center;
 		z-index: 999;
+		box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 	}
 
 	a {

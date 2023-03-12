@@ -71,10 +71,6 @@
 		background-color: var(--white);
 	}
 
-	a.button:hover {
-		filter: brightness(85%);
-	}
-
 	.arrow {
 		margin-left: 15px;
 	}
