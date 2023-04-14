@@ -19,6 +19,7 @@
 	import tim from '$lib/images/tim.jpg';
 	import thomas from '$lib/images/thomas.jpg';
 	import yanik from '$lib/images/yanik.jpg';
+	import teamMember from '$lib/images/team-member.jpg';
 	import arrow from '$lib/images/arrow-right-white.svg';
 
 	const members = [
@@ -43,6 +44,7 @@
 		{ name: 'Nik', pronouns: 'er/ihm', area: 'Kommunikation', imgURL: nik },
 		{ name: 'Paddy', pronouns: 'er/ihm', area: 'Programm Bundesplatz', imgURL: paddy },
 		{ name: 'Raphaela', pronouns: 'sie/ihr', area: 'Website BernPride', imgURL: raphaela },
+		{ name: 'Sarah', pronouns: 'sie/ihr', area: 'Infrastruktur', imgURL: teamMember },
 		{ name: 'Tim', pronouns: 'er/ihm', area: 'Social Media BernPride', imgURL: tim },
 		{ name: 'Thomas', pronouns: 'er/ihm', area: 'Hospitality, Co-Präsident', imgURL: thomas },
 		{ name: 'Yanik', pronouns: 'er/ihm', area: 'Programm', imgURL: yanik }

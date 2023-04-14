@@ -24,6 +24,7 @@
 				<img src={expanded[i] ? minus : plus} alt="More" width="30" height="30" />
 			</button>
 			{#if expanded[i]}
+				<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 				<p>{@html item.body}</p>
 			{/if}
 		</div>
