@@ -27,7 +27,7 @@
 		<h5>Route</h5>
 		<p>
 			Wankdorf Stadion - Papiermühlenstrasse - Aargauerstalden Nydeggbrücke - Gerechtigkeitsgasse -
-			Kramgasse - Hotelgasse - Casinoplatz -
+			Kramgasse - Hotelgasse - Casinoplatz - Amthausgasse - Bundesplatz
 		</p>
 	</div>
 </section>
