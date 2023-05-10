@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
 	import clock from '$lib/images/clock.svg';
+	import arrow from '$lib/images/arrow-right-white.svg';
 
 	const SECOND = 1000;
 	const MINUTE = 60 * SECOND;
@@ -48,31 +49,48 @@
 
 <section id="countdown" class="root">
 	<div class="main-content">
-		<div class="title">
-			<img src={clock} alt="StopWatch" width="90" height="90" class="clock-icon" />
-			<h3 class="subtitle">Bis zur BernPride sind es noch...</h3>
+		<div class="clock-container">
+			<div class="title">
+				<img src={clock} alt="StopWatch" width="90" height="90" class="clock-icon" />
+				<h3 class="subtitle">Bis zur BernPride sind es noch...</h3>
+			</div>
+
+			<div class="clock">
+				<div class="clock-amount">
+					<span class="clock-count">{monthCount}</span>
+					<span class="clock-unit">Monate</span>
+				</div>
+				<div class="clock-amount">
+					<span class="clock-count">{dayCount}</span>
+					<span class="clock-unit">Tage</span>
+				</div>
+				<div class="clock-amount">
+					<span class="clock-count">{hourCount}</span>
+					<span class="clock-unit">Stunden</span>
+				</div>
+				<div class="clock-amount">
+					<span class="clock-count">{minuteCount}</span>
+					<span class="clock-unit">Minuten</span>
+				</div>
+				<div class="clock-amount">
+					<span class="clock-count">{secondCount}</span>
+					<span class="clock-unit">Sekunden</span>
+				</div>
+			</div>
 		</div>
 
-		<div class="clock">
-			<div class="clock-amount">
-				<span class="clock-count">{monthCount}</span>
-				<span class="clock-unit">Monate</span>
+		<div class="buttons">
+			<div class="button-container">
+				<h2>DEMONSTRATION</h2>
+				<a href="/demonstration" class="button">
+					Mehr erfahren <img src={arrow} alt="arrow right" width="30" height="18" class="arrow" />
+				</a>
 			</div>
-			<div class="clock-amount">
-				<span class="clock-count">{dayCount}</span>
-				<span class="clock-unit">Tage</span>
-			</div>
-			<div class="clock-amount">
-				<span class="clock-count">{hourCount}</span>
-				<span class="clock-unit">Stunden</span>
-			</div>
-			<div class="clock-amount">
-				<span class="clock-count">{minuteCount}</span>
-				<span class="clock-unit">Minuten</span>
-			</div>
-			<div class="clock-amount">
-				<span class="clock-count">{secondCount}</span>
-				<span class="clock-unit">Sekunden</span>
+			<div class="button-container">
+				<h2>PROGRAMM</h2>
+				<a href="/schedule" class="button">
+					Mehr erfahren <img src={arrow} alt="arrow right" width="30" height="18" />
+				</a>
 			</div>
 		</div>
 	</div>
@@ -89,6 +107,11 @@
 	}
 
 	.main-content {
+		flex-direction: column;
+	}
+
+	.clock-container {
+		display: flex;
 		flex-direction: column;
 		justify-content: space-evenly;
 		align-items: center;
@@ -130,8 +153,40 @@
 		font-size: 0.5rem;
 	}
 
+	.buttons {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		margin-top: 70px;
+	}
+
+	.button-container {
+		margin-bottom: 2rem;
+	}
+
+	.button-container h2 {
+		margin-bottom: 1.5rem;
+	}
+
+	a.button {
+		margin: 15px 0;
+		width: 100%;
+		text-decoration: none;
+		border-radius: 999px;
+		border-color: var(--red);
+		border-style: solid;
+		padding: 10px 20px 14px;
+		font-size: 80%;
+		color: var(--white);
+		background-color: var(--red);
+	}
+
+	.arrow {
+		margin-left: 15px;
+	}
+
 	@media only screen and (min-width: 768px) {
-		.main-content {
+		.clock-container {
 			flex-direction: row;
 		}
 
@@ -141,6 +196,14 @@
 
 		.clock-amount {
 			margin-left: 25px;
+		}
+
+		.buttons {
+			flex-direction: row;
+		}
+
+		a.button {
+			margin: 20px;
 		}
 	}
 </style>
