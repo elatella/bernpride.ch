@@ -219,7 +219,7 @@
 		}
 
 		.activity-time {
-			width: 15%;
+			width: 25%;
 		}
 
 		.activity-body {
@@ -227,7 +227,7 @@
 		}
 
 		.activity-location {
-			width: 20%;
+			width: 15%;
 			text-align: right;
 		}
 

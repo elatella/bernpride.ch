@@ -32,10 +32,8 @@
 	}
 
 	.buttons {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-evenly;
-		margin-top: 70px;
+		margin-top: 1.5rem;
+		margin-bottom: 2rem;
 	}
 
 	a.button {

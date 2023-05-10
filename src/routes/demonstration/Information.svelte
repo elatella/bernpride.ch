@@ -24,6 +24,7 @@
 				Mehr zum Programm <img src={arrow} alt="arrow right" width="30" height="18" class="arrow" />
 			</a>
 		</div>
+
 		<h5>Route</h5>
 		<p>
 			Wankdorf Stadion - Papiermühlenstrasse - Aargauerstalden Nydeggbrücke - Gerechtigkeitsgasse -
@@ -47,10 +48,8 @@
 	}
 
 	.buttons {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-evenly;
-		margin-top: 70px;
+		margin-top: 1.5rem;
+		margin-bottom: 2rem;
 	}
 
 	a.button {
