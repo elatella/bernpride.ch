@@ -10,7 +10,10 @@
 		<p>Für den Demonstrationsumzug sind grössere Laufgruppen zwingend anzumelden.</p>
 
 		<div class="buttons">
-			<a href="/schedule" class="button">
+			<a
+				href="https://docs.google.com/forms/d/e/1FAIpQLSeSeld5WYpMJ6-j7pFL9hoJv-jD3wDal5hNNg2h_kixu4sipw/viewform"
+				class="button"
+			>
 				Jetzt anmelden <img src={arrow} alt="arrow right" width="30" height="18" class="arrow" />
 			</a>
 		</div>
