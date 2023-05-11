@@ -12,6 +12,7 @@
 
 	const navItems: { label: string; link: string }[] = [
 		{ label: 'HOME', link: '/' },
+		{ label: 'PROGRAMM', link: '/schedule' },
 		{ label: 'MITMACHEN', link: '/we-want-you' },
 		{ label: 'ÜBER UNS', link: '/about-us' },
 		{ label: 'FAQ', link: '/#faq' }
