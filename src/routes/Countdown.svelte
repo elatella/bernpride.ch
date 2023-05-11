@@ -80,16 +80,16 @@
 		</div>
 
 		<div class="buttons">
-			<div class="button-container">
-				<h2>DEMONSTRATION</h2>
-				<a href="/demonstration" class="button">
-					Mehr erfahren <img src={arrow} alt="arrow right" width="30" height="18" class="arrow" />
-				</a>
-			</div>
+			<!-- <div class="button-container"> -->
+			<!-- 	<h2>DEMONSTRATION</h2> -->
+			<!-- 	<a href="/demonstration" class="button"> -->
+			<!-- 		Mehr erfahren <img src={arrow} alt="arrow right" width="30" height="18" class="arrow" /> -->
+			<!-- 	</a> -->
+			<!-- </div> -->
 			<div class="button-container">
 				<h2>PROGRAMM</h2>
 				<a href="/schedule" class="button">
-					Mehr erfahren <img src={arrow} alt="arrow right" width="30" height="18" />
+					Mehr erfahren <img src={arrow} alt="arrow right" width="30" height="18" class="arrow" />
 				</a>
 			</div>
 		</div>

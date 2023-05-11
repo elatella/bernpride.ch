@@ -14,7 +14,7 @@
 		},
 		{
 			title: 'Programm',
-			body: 'Wir arbeiten mit Hochdruck daran, ein spannendes Programm auf die Beine zu stellen. Das genaue Programm wird noch kommuniziert.'
+			body: '<a href="/schedule">Hier</a> geht es zum Programm. Bitte beachte, dass das Programm zwischen Mai und Juli noch vervollständigt wird.'
 		},
 		{
 			title: 'Social Media',

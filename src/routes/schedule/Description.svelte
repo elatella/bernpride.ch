@@ -6,10 +6,8 @@
 <section id="description" class="root">
 	<div class="main-content">
 		<p class="body">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce finibus quam mi, et dictum
-			massa laoreet at. Integer consectetur congue neque ut luctus. Sed consectetur libero ante, vel
-			consequat lorem maximus et. In in purus posuere, semper ex ut, sagittis sapien. Sed in quam
-			augue. Quisque non condimentum risus, eu aliquam enim.
+			Vor der BernPride am Samstag finden die EuroGames in Bern statt. Falls du also Lust hast, dort
+			mitzumachen oder zuzuschauen, konsultiere bitte das EuroGames Programm.
 		</p>
 		<br />
 		<div class="buttons">

@@ -8,8 +8,8 @@
 		<br />
 		<h5>Treffpunkt</h5>
 		<p>
-			Quartierplatz Wankdorf Stadtion (<a
-				href="https://www.google.com/maps/@46.9621666,7.4624924,18.52z">Google Maps</a
+			Quartierplatz Wankdorf Stadtion (<a href="https://maps.app.goo.gl/pDC9Rw2FzUhBJ2q66"
+				>Google Maps</a
 			>)
 		</p>
 		<br />
