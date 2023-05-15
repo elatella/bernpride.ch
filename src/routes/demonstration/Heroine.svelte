@@ -9,7 +9,7 @@
 		<div class="titles">
 			<h1>Demonstration</h1>
 			<br />
-			<p>Lass uns gemeinsam durch Bern marschieren und für unsere Rechte einstehen!</p>
+			<p>Lass' uns gemeinsam durch Bern marschieren und für unsere Rechte einstehen!</p>
 		</div>
 		<img src={rainbowMirrored} alt="Loveletter facing left" height="120" class="rainbow" />
 	</div>

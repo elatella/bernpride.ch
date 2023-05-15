@@ -8,16 +8,14 @@
 		<br />
 		<h5>Treffpunkt</h5>
 		<p>
-			Quartierplatz Wankdorf Stadtion (<a href="https://maps.app.goo.gl/pDC9Rw2FzUhBJ2q66"
-				>Google Maps</a
+			Quartierplatz Wankdorf Stadion (<a href="https://goo.gl/maps/Z67cE9uYtrVEXPVd8">Google Maps</a
 			>)
 		</p>
 		<br />
 
-		<h5>Program</h5>
-		<p>14:00 Beginn Reden</p>
-		<p>14:30 Beginn der Demonstration</p>
-		<p>17:30 Beginn Live-Acts Bundesplatz</p>
+		<h5>Programm</h5>
+		<p>14.00 Beginn Reden</p>
+		<p>14.30 Beginn der Demonstration</p>
 
 		<div class="buttons">
 			<a href="/schedule" class="button">
@@ -27,7 +25,7 @@
 
 		<h5>Route</h5>
 		<p>
-			Wankdorf Stadion - Papiermühlenstrasse - Aargauerstalden Nydeggbrücke - Gerechtigkeitsgasse -
+			Wankdorf Stadion - Papiermühlestrasse - Aargauerstalden - Nydeggbrücke - Gerechtigkeitsgasse -
 			Kramgasse - Hotelgasse - Casinoplatz - Amthausgasse - Bundesplatz
 		</p>
 	</div>

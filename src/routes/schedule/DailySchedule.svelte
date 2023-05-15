@@ -45,7 +45,7 @@
 	const activities: Activity[] = [
 		{
 			day: Day.Saturday,
-			time: '17:30 - 18:15 Uhr',
+			time: '17.30 - 18.15 Uhr',
 			title: 'Msoke',
 			description:
 				'Msoke, der Berliner Musiker mit Wurzeln in Tansania, gilt als einer, der sich für die Selbstverwirklichung in der Musikszene stark macht. Am 29. Juli kommt er nach Bern und beschallt den Bundesplatz mit seinen Reggae- & Dancehall-Songs. Als Frau geboren, lebt er seine wahre Identität als Mann in einer von Homo- und Transphobie geprägten Szene aus. Identitätsstiftung, Menschlichkeit, Wiedergeburt und das Über-Sich-Hinauswachsen sind die Themen seiner Songs, musikalisch, mal akustisch, mal funky interpretiert.',
@@ -57,7 +57,7 @@
 		},
 		{
 			day: Day.Saturday,
-			time: '18:30 - 19:00 Uhr',
+			time: '18.30 - 19.00 Uhr',
 			title: 'Paprika',
 			description:
 				'Paprika, unsere glamouröse Dragqueen aus Zürich, heizt am 29. Juli den Bundesplatz ein! 2018 gewann sie das Heaven Drag Race und legte so den Grundstein ihrer Karriere. Sie ist It-Girl, Teilzeitprinzessin, Burlesquekünstlerin und Influencerin zugleich und überzeugt mit ihren Acts, sorgt für Lacher und Emotionen. Was bei ihr nie fehlt? Die nötige Würze! ',
@@ -65,7 +65,7 @@
 		},
 		{
 			day: Day.Saturday,
-			time: '19:15 - 20:00 Uhr',
+			time: '19.15 - 20.00 Uhr',
 			title: 'Nemo',
 			description:
 				'«Ke Bock» heisst einer seiner grössten Hits: Nemo ist aus der Schweizer Musik-Szene nicht mehr wegzudenken. Worauf der gebürtige Bieler aber Bock hat, ist das Pride Fest am 29. Juli! 2017 gewann er den Energy Music Award, 2018 nahm er gleich vier Swiss Music Awards nachhause Seit einiger Zeit singt Nemo auf Englisch und überzeugte letztes Jahr die Massen mit seiner ersten englischen EP «Whatever feels right».',
@@ -77,7 +77,7 @@
 		},
 		{
 			day: Day.Saturday,
-			time: '20:30 - 21:45 Uhr',
+			time: '20.30 - 21.45 Uhr',
 			title: 'Naomi Lareine',
 			description:
 				'Naomi Lareine ist bekannt für ihre bittersüssen, lieblichen Töne, die wunderbar zu ihren breiten, R&B-lastigen Songs passen. Und genau diese hören wir am Samstag auf unserer Pride Fest-Bühne. Individualismus und Toleranz werden bei ihr ganz grossgeschrieben und immer wieder musikalisch verpackt. Mit ihrem unverwechselbaren Rhythmus dürfen wir uns auf eine verlockende Dosis moderner R&B-Musik voller turbulenter Geschichten freuen.',
