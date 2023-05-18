@@ -11,7 +11,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@fontsource/darker-grotesque": "^4.5.9",
+		"@fontsource/darker-grotesque": "^5.0.0",
 		"@sveltejs/adapter-static": "^2.0.0",
 		"@sveltejs/kit": "^1.5.0",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",

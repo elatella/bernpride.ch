@@ -1,5 +1,4 @@
 <script lang="ts">
-	import badge from '$lib/images/badge.svg';
 	import party from '$lib/images/party.svg';
 	import goodiebag from '$lib/images/goodiebag.svg';
 	import sandwich from '$lib/images/sandwich.svg';
@@ -13,12 +12,8 @@
 
 	const benefits: Benefit[] = [
 		{
-			title: 'T-shirts der Veranstaltung',
+			title: 'T-Shirts der Veranstaltung',
 			logo: tshirt
-		},
-		{
-			title: 'Badge mit Namen, Funktion und Nummer',
-			logo: badge
 		},
 		{
 			title: 'Goodie-Bag',
@@ -33,7 +28,7 @@
 			logo: sandwich
 		},
 		{
-			title: 'Einladung zum Helferfest im August 2023',
+			title: 'Einladung zum Helfer*innen-Fest im August 2023',
 			logo: party
 		}
 	];
