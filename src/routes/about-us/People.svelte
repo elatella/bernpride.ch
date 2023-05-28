@@ -19,6 +19,7 @@
 	import tim from '$lib/images/tim.jpg';
 	import thomas from '$lib/images/thomas.jpg';
 	import yanik from '$lib/images/yanik.jpg';
+	import kira from '$lib/images/kira.jpg';
 	import teamMember from '$lib/images/team-member.jpg';
 	import arrow from '$lib/images/arrow-right-white.svg';
 
@@ -38,6 +39,7 @@
 			imgURL: jasmine
 		},
 		{ name: 'Jasmin', pronouns: 'sie/ihr', area: 'Sponsoring', imgURL: jasmin },
+		{ name: 'Kira', pronouns: 'sie/ihr', area: 'Demo BernPride', imgURL: kira },
 		{ name: 'Lena', pronouns: 'sie/ihr', area: 'Website BernPride', imgURL: lena },
 		{ name: 'Marc', pronouns: 'er/ihm', area: 'Finanzen', imgURL: marc },
 		{ name: 'Maria', pronouns: 'sie/ihr', area: 'Programm Village', imgURL: maria },
