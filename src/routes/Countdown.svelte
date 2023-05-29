@@ -81,7 +81,7 @@
 
 		<div class="buttons">
 			<div class="button-container">
-				<h2>DEMONSTRATION</h2>
+				<h2>DEMO</h2>
 				<a href="/demonstration" class="button">
 					Mehr erfahren <img src={arrow} alt="arrow right" width="30" height="18" class="arrow" />
 				</a>
