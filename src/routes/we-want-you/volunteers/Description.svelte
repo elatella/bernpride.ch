@@ -22,7 +22,7 @@
 		<br />
 		<br />
 		<div class="center">
-			<a href="https://tautoko.ch/bern23_volunteers/" class="button">
+			<a href="https://eurogames2023.srv.tautoko.ch/crewportal/overview" class="button">
 				Anmelden <img src={arrow} alt="arrow right" width="30" height="18" />
 			</a>
 		</div>
