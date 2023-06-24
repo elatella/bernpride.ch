@@ -44,6 +44,54 @@
 
 	const activities: Activity[] = [
 		{
+			day: Day.Wednesday,
+			time: '20.30 - 21.30 Uhr',
+			title: 'Eröffnungskonzert Village',
+			description:
+				'Das EuroGames Village wird am ersten Abend ordentlich zum Tanzen gebracht. Die Frage ist nur, von wem? Etwas verraten wir: Die Songs sind Mundart. Freu dich auf Berner Power am 26. Juli auf der Münsterplattform!',
+			location: 'EuroGames Village'
+		},
+		{
+			day: Day.Wednesday,
+			time: '21.30 - 23.00 Uhr',
+			title: 'DJ Clausette',
+			description:
+				'Einst war sie die bekannteste Drag Queen von Bern, nun ist sie öfters in Zivil unterwegs: Dj Clausette vom Queer Underground Movement. Musikalisch mag sie es dramatisch und dreckig. Die Diva hinter dem DJ-Pult weiss dank Ihrer langjährigen Erfahrung nämlich genau, was die Tanzenden so richtig ins Schwitzen bringt. Wir freuen uns auf gute Beats am Mittwoch, 26. Juli, im EuroGames Village!',
+			location: 'EuroGames Village'
+		},
+		{
+			day: Day.Thursday,
+			time: '20.00 - 21.00 Uhr',
+			title: 'Sivilian',
+			description:
+				'Inspiriert von Künstlern wie Lorde, Phoebe Bridgers, HAIM oder Lauv hat der Singer-Songwirter Sivilian seinen eigenen Stil gefunden, in dem er klare Worte mit eingängigen Melodien über Soundlandschaften aus Gitarren, Synthies und Samples verwebt. Sivilians Liebe zum Storytelling in seinen Liedern erleben wir am Donnerstag, 27. Juli, im EuroGames Village auf der Münsterplattform.',
+			location: 'EuroGames Village'
+		},
+		{
+			day: Day.Thursday,
+			time: '21.00 - 23.00 Uhr',
+			title: 'QUM // Evolutionary Pressure',
+			description:
+				'Anhand einer selektiven Auswahl in seinem musikalischen Fundus bespielt DJ Evolutionary Pressure die Tanzfläche mit druckvollen Bässen und Beats. Der DJ vom Queer Underground Movement bezeichnet seine Musik selbst als „den Weiterbestand der tanzenden Organismen“. Wir freuen uns auf seine musikalische Darbietung im EuroGames Village am Donnerstag, dem 27. Juli!',
+			location: 'EuroGames Village'
+		},
+		{
+			day: Day.Friday,
+			time: '19.30 - 20.00 und 20.45 - 21.15 Uhr',
+			title: 'Drag Night | House of DLight',
+			description:
+				'Definitiv ein Highlight im EuroGames Village: House of DLight präsentieren das Beste aus der hauseigenen Drag Show „Dragwunderland DLight“. Frech, nicht fromm und feinste Unterhaltung aus dem Berner Oberland. Die unvergessliche Show findet am Freitag, 28. Juli, im EuroGames Village auf der Münsterplattform statt.',
+			location: 'EuroGames Village'
+		},
+		{
+			day: Day.Saturday,
+			time: '16.00 - 17.00 Uhr',
+			title: 'Madame Lea & DJ Gönnungshof',
+			description:
+				'Léa Spirig aka Madame Léa hat 1998 das erste Mal aufgelegt, als sie sah, dass da immer nur Männer den Ton angeben und auch, weil ihr die Musik einfach nicht gefiel. Sie dachte «Das kann ich auch. Und das kann ich besser». Auf ihrem Laptop hat sie eine breite Palette an Musik gespeichert, die von den 1920er Jahren bis in die elektronischen Hits von morgen reicht. Und DJ Gönnungshof spielt vom glitzrigen Pop über Hip-Hop bis hin zu lesbischen Hymnen quasi alles. Es wird also hot auf dem Bundesplatz!',
+			location: 'Bundesplatz'
+		},
+		{
 			day: Day.Saturday,
 			time: '17.30 - 18.15 Uhr',
 			title: 'Msoke',
@@ -61,6 +109,22 @@
 			title: 'Paprika',
 			description:
 				'Paprika, unsere glamouröse Dragqueen aus Zürich, heizt am 29. Juli den Bundesplatz ein! 2018 gewann sie das Heaven Drag Race und legte so den Grundstein ihrer Karriere. Sie ist It-Girl, Teilzeitprinzessin, Burlesquekünstlerin und Influencerin zugleich und überzeugt mit ihren Acts, sorgt für Lacher und Emotionen. Was bei ihr nie fehlt? Die nötige Würze! ',
+			location: 'Bundesplatz'
+		},
+		{
+			day: Day.Saturday,
+			time: '18.30 - 19.00 Uhr',
+			title: 'Ray Belle',
+			description:
+				'Ray Belles Geheimrezept für eine fierce Dragshow: Mensch nehme eine Prise Queerfeminismus, einen Schuss Fat Liberation, einen Hauch Wut auf Patriarchat und Kapitalismus, eine Prise Glitzer, bedecke dies alles mit einer 5cm dicken Makeupschicht und garniere es mit viel zu viel Kunsthaar et voilà - Revolution! Du willst sehen, wie das auf der Bühne aussieht? Dann komm am 29. Juli zur BernPride und lass dich von diesem charmanten Politpüppchen bezaubern!',
+			location: 'Bundesplatz'
+		},
+		{
+			day: Day.Saturday,
+			time: '18.30 - 19.00 Uhr',
+			title: 'Ares',
+			description:
+				'Ares, die inoffiziell jüngste Dragqueen der Schweiz, kommt nach Bern! Seit November 2022 ist sie amtierende Miss Drag Roy-Lälle-Ty und zieht mit ihrem Lächeln und ihren lebensmüden Tricks alle Augen auf sich. Lass’ dir das nicht entgehen - 29. Juli 2023 auf dem Bundesplatz!',
 			location: 'Bundesplatz'
 		},
 		{
@@ -85,6 +149,38 @@
 				url: 'https://open.spotify.com/artist/0umAOumGRDuZ2elvqjaK3i',
 				text: 'Spotify'
 			},
+			location: 'Bundesplatz'
+		},
+		{
+			day: Day.Saturday,
+			time: '22.00 - 23.00 Uhr',
+			title: 'Taylor Cruz',
+			description:
+				'Als Drummerin liebt und lebt Taylor Cruz den Beat über alles. Rhythmus ist ein wichtiger Teil in ihren eigenen produzierten Tracks, wie auch in ihren unzähligen Remixes. Sie ist zudem Mitbegründerin und DJ der beliebten Partyreihe "QueerPlanet" in Basel. Am 29. Juli ist sie aber nicht in Basel, sondern bei uns auf dem Bundesplatz! ',
+			location: 'Bundesplatz'
+		},
+		{
+			day: Day.Saturday,
+			time: '',
+			title: 'Tamara Funiciello',
+			description:
+				'Tamara Funiciello ist Aktivistin mit zu wenig Zeit und Feministin von Kopf bis Fuss. Die Nationalrätin aus Bern macht Politik wegen Geschichten. Geschichten, die sie ändern will. Tamara hat stark an der Reform fürs Sexualstrafrecht mitgewirkt und konnte letztens mit dem “Nein-heisst-Nein”-Kompromiss einen grossen Schritt nach vorne ermöglichen!',
+			location: 'Bundesplatz'
+		},
+		{
+			day: Day.Saturday,
+			time: '',
+			title: 'Anna Rosenwasser',
+			description:
+				'Unser “Lieblingsbüsi” Anna Rosenwasser kommt am 29. Juli nach Bern und moderiert unser Pride Fest auf dem Bundesplatz! Anna ist LGBTQ-Aktivistin, Polit-Influencerin und Moderatorin. Seit 10 Jahren ist sie Journalistin und Autorin und erst kürzlich ist ihr eigenes Buch erschienen. Der bisexuellen Schweizerin mit jüdischen Wurzeln folgen auf Instagram mehr als 30’000 Menschen.',
+			location: 'Bundesplatz'
+		},
+		{
+			day: Day.Saturday,
+			time: '',
+			title: 'Queeramnesty',
+			description:
+				'Die ehrenamtliche Gruppe Queeramnesty Schweiz ist ein Teil von Amnesty International. Mit ihrer Öffentlichkeitsarbeit setzt sie sich seit 1997 erfolgreich für die Rechte von LGBTI*-Menschen ein. Zu ihren Themengebieten gehören Menschenrechte, sexuelle Orientierung, Geschlechtsidentität und Geschlechtsentwicklung.',
 			location: 'Bundesplatz'
 		}
 	];
