@@ -22,12 +22,6 @@
 			<a href="/we-want-you/volunteers" class="button">
 				Volunteers <img src={arrow} alt="arrow right" width="30" height="18" class="arrow" />
 			</a>
-			<a href="/we-want-you/organizing-committee" class="button">
-				Organisationskomitee <img src={arrow} alt="arrow right" width="30" height="18" />
-			</a>
-			<a href="/we-want-you/board" class="button">
-				Vorstand <img src={arrow} alt="arrow right" width="30" height="18" class="arrow" />
-			</a>
 		</div>
 	</div>
 </section>
