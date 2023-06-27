@@ -13,10 +13,9 @@
 		<br />
 		<p>
 			<em>
-				Heute kannst du dich bereits als Volunteer voranmelden. Sobald die einzelnen Aufgaben
-				feststehen, werden wir dich per E-Mail informieren und du kannst dich definitiv für deine
-				Tätigkeit registrieren. Mit der Voranmeldung wirst du als Erstes über die möglichen
-				Funktionen informiert!
+				Heute kannst du dich als Volunteer anmelden. Sobal gibt verschiedenste Bereiche in denen du
+				die EuroGames und die BernPride unterstützen kannst. Schau doch mal vorbei, vielleicht
+				istauch für dich etwas dabei:
 			</em>
 		</p>
 		<br />

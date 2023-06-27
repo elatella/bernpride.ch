@@ -13,11 +13,11 @@
 
 		<h3 class="subtitle">Am 29. Juli 2023 ist es so weit.</h3>
 		<p class="body">
-			Der Countdown läuft und in weniger als einem Jahr laufen wir alle gemeinsam durch die Berner
-			Gassen und feiern die Vielfalt unserer Community. Nach sechs Jahren ohne Prides in Bern holen
-			wir wieder unsere Regenbogen-Flaggen raus und demonstrieren Hand in Hand für Gleichstellung.
-			Nun bist du gefragt: Zeichne den Regenbogen in deinen Kalender und sei im Juli mit dabei, wenn
-			es heisst; „Bern wird bunt!“.
+			Der Countdown läuft und in wenigen Wochen laufen wir alle gemeinsam durch die Berner Gassen
+			und feiern die Vielfalt unserer Community. Nach sechs Jahren ohne Prides in Bern holen wir
+			wieder unsere Regenbogen-Flaggen raus und demonstrieren Hand in Hand für Gleichstellung. Nun
+			bist du gefragt: Zeichne den Regenbogen in deinen Kalender und sei im Juli mit dabei, wenn es
+			heisst; „Bern wird bunt!“.
 		</p>
 	</div>
 </section>
