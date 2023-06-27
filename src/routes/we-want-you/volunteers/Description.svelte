@@ -14,8 +14,8 @@
 		<p>
 			<em>
 				Heute kannst du dich als Volunteer anmelden. Sobal gibt verschiedenste Bereiche in denen du
-				die EuroGames und die BernPride unterstützen kannst. Schau doch mal vorbei, vielleicht
-				istauch für dich etwas dabei:
+				die EuroGames und die BernPride unterstützen kannst. Schau doch mal vorbei, vielleicht ist
+				auch für dich etwas dabei:
 			</em>
 		</p>
 		<br />
