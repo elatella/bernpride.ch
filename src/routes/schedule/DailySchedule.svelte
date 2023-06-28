@@ -60,6 +60,14 @@
 			location: 'EuroGames Village'
 		},
 		{
+			day: Day.Wednesday,
+			time: '22.00 - ? Uhr',
+			title: 'Play The Game - Official EuroGames Opening Party',
+			description:
+				'Lasst  den  Eröffnungstag  der  EuroGames  zum  Sound  und  Groove  von DJ FAT TONY (London, UK) und DJCK (Köln, DE) ausklingen. Sie wissen wie kein anderer, wie man eine Partynacht magisch macht. Tickets: 18 CHF (Abendkasse: 23 CHF)',
+			location: 'Bierhübeli'
+		},
+		{
 			day: Day.Thursday,
 			time: '20.00 - 21.00 Uhr',
 			title: 'Sivilian',
@@ -76,12 +84,48 @@
 			location: 'EuroGames Village'
 		},
 		{
+			day: Day.Thursday,
+			time: '22.00 - ? Uhr',
+			title: 'Sport With Benefits',
+			description:
+				'DJ FAT TONY, eine Ikone der Londoner Tanzmusikszene, legt seit über 30 Jahren auf. JODIE HARSH ist DJ, Produzentin und Kulturikone, die in den letzten zehn Jahren weltweit die Tanzflächen erobert hat. Tickets: 28 CHF (Abendkasse: 33 CHF)',
+			location: 'Bierhübeli'
+		},
+		{
 			day: Day.Friday,
 			time: '19.30 - 20.00 und 20.45 - 21.15 Uhr',
 			title: 'Drag Night | House of DLight',
 			description:
 				'Definitiv ein Highlight im EuroGames Village: House of DLight präsentieren das Beste aus der hauseigenen Drag Show „Dragwunderland DLight“. Frech, nicht fromm und feinste Unterhaltung aus dem Berner Oberland. Die unvergessliche Show findet am Freitag, 28. Juli, im EuroGames Village auf der Münsterplattform statt.',
 			location: 'EuroGames Village'
+		},
+		{
+			day: Day.Friday,
+			time: '22.00 - ? Uhr',
+			title: 'Dancing Queen - Show your Medals',
+			description:
+				'In dieser Club-Nacht werden die besten elektronischen New Romantic Hits der 80er Jahre gespielt, unter anderem von Depeche Mode und Kraftwerk. Line Up: DJCK & DJ Anouk Amok. Tickets: 18 CHF (Abendkasse: 23 CHF)',
+			location: 'Bierhübeli'
+		},
+		{
+			day: Day.Friday,
+			time: '22.00 - ? Uhr',
+			title: 'Ipek İpekçioğlu & Angela Alaska',
+			description:
+				'Die international renommierte DJ İpek İpekçioğlu ist für ihren einzigartigen Sound bekannt. In der Turnhalle wird auch die Bernerin Angela Alaska am DJ-Pult stehen und ihren leichten und luftigen Soundmix präsentieren. Tickets: VVK online und Abendkasse',
+			location: 'Turnhalle'
+		},
+		{
+			day: Day.Saturday,
+			time: '14.00 - 16.30',
+			title: 'Pride Demo',
+			description:
+				'Bevor wir alle zusammen auf dem Bundesplatz in die Nacht hinein feiern, demonstrieren wir auf unserer Demo-Route vom Wankdorf bis ins Herz von Bern für queere Rechte. Mehr zur Demonstration findest du:',
+			link: {
+				url: '/demonstration',
+				text: 'hier.'
+			},
+			location: 'Start am Wankdorf Stadion'
 		},
 		{
 			day: Day.Saturday,
@@ -158,6 +202,30 @@
 			description:
 				'Als Drummerin liebt und lebt Taylor Cruz den Beat über alles. Rhythmus ist ein wichtiger Teil in ihren eigenen produzierten Tracks, wie auch in ihren unzähligen Remixes. Sie ist zudem Mitbegründerin und DJ der beliebten Partyreihe "QueerPlanet" in Basel. Am 29. Juli ist sie aber nicht in Basel, sondern bei uns auf dem Bundesplatz! ',
 			location: 'Bundesplatz'
+		},
+		{
+			day: Day.Saturday,
+			time: '22.00 - ? Uhr',
+			title: 'Love Is Love - Official EuroGames & BernPride Party',
+			description:
+				'Love is all around! Die Liebe liegt in der Luft, überall, wo man hinschaut. Wir können richtig feiern und freuen uns auf einen grossartigen letzten Abend, der unvergesslich wird. Line Up: Madame Léa, DJ Gönnungshof, Jelena & Taylor Cruz. Tickets: 18 CHF (Abendkasse: 23 CHF)',
+			location: 'Bierhübeli'
+		},
+		{
+			day: Day.Saturday,
+			time: '23.00 - ? Uhr',
+			title: 'Rainbow Hits',
+			description:
+				'Die beiden DJs Ludwig und Corey legen regelmässig beim Tolerdance im ISC Bern auf, der langlebigsten Queer-Party der Schweiz. Anouk Amok, bekannt für ihre 80er-lastigen DJ-Sets, verwöhnt das Publikum in der ganzen queeren Schweiz. Das Trio spielt Hits von ABBA, Madonna, Lady Gaga und viele weitere Songs. Tickets im VVK online und Abendkasse',
+			location: 'Turnhalle'
+		},
+		{
+			day: Day.Saturday,
+			time: 'tbd',
+			title: 'Pride Party - Youth Edition',
+			description:
+				'Das neue Jugendkulturlokal Stellwerk bietet zum Abschluss der Pride eine Party für junge Menschen (ab 16 Jahren) an. Mit dem BernPride-Soli Bändeli erhältst du einen vergünstigen Eintritt. Tickets im VVK online und Abendkasse',
+			location: 'Stellwerk Bern'
 		},
 		{
 			day: Day.Saturday,
