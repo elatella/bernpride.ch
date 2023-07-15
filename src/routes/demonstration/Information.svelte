@@ -6,6 +6,18 @@
 	<div class="main-content">
 		<h2>Informationen</h2>
 		<br />
+
+		<h5>Anreise</h5>
+		<p>
+			Tramlinie 9 fährt wegen unserer Demo nur bis Guisanplatz, deshalb ist es besser, mit dem Zug
+			ab Bahnhof Bern nach Bern Wankdorf anzureisen, z.B. mit der S2 um 13.42 ab Bern Bahnhof, der
+			S1 um 13.46 ab Bern Bahnhof, der S44 um 13.50 ab Bern Bahnhof oder der S3 um 14.00 Uhr ab Bern
+			Bahnhof. Ab Bern Wankdorf ist der Quartierplatz nur 5 Gehminuten entfernt. Wer von ausserhalb
+			Bern kommt, nimmt am besten ein Zug, der um ca. 13.30 Uhr in Bern ist, steigt direkt auf die
+			S2 um 13.42 um und fährt bis Bern Wankdorf.
+		</p>
+		<br />
+
 		<h5>Treffpunkt</h5>
 		<p>
 			Quartierplatz Wankdorf Stadion (<a href="https://goo.gl/maps/Z67cE9uYtrVEXPVd8">Google Maps</a
@@ -22,6 +34,14 @@
 				Mehr zum Programm <img src={arrow} alt="arrow right" width="30" height="18" class="arrow" />
 			</a>
 		</div>
+
+		<h5>Weitere Infos</h5>
+		<p>
+			Bitte wirf einen Blick in unsere FAQs auf der Hauptseite, welche Dir viele Fragen beantwortet
+			wie z.B. unsere Awareness-Regeln, die Zugänglichkeit der BernPride, Brunnenwasser auf der
+			Demostrecke oder die Bezahlungsmöglichkeiten an den Ständen.
+		</p>
+		<br />
 
 		<h5>Route</h5>
 		<p>
