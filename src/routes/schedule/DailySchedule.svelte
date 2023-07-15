@@ -129,6 +129,14 @@
 		},
 		{
 			day: Day.Saturday,
+			time: '',
+			title: 'Anna Rosenwasser',
+			description:
+				'Unser “Lieblingsbüsi” Anna Rosenwasser kommt am 29. Juli nach Bern und moderiert unser Pride Fest auf dem Bundesplatz! Anna ist LGBTQ-Aktivistin, Polit-Influencerin und Moderatorin. Seit 10 Jahren ist sie Journalistin und Autorin und erst kürzlich ist ihr eigenes Buch erschienen. Der bisexuellen Schweizerin mit jüdischen Wurzeln folgen auf Instagram mehr als 30’000 Menschen.',
+			location: 'Bundesplatz'
+		},
+		{
+			day: Day.Saturday,
 			time: '16.00 - 17.00 Uhr',
 			title: 'Madame Lea & DJ Gönnungshof',
 			description:
@@ -189,14 +197,6 @@
 				url: 'https://open.spotify.com/artist/1KbDYbNErlTGfWPENELJgM',
 				text: 'Spotify'
 			},
-			location: 'Bundesplatz'
-		},
-		{
-			day: Day.Saturday,
-			time: '',
-			title: 'Anna Rosenwasser',
-			description:
-				'Unser “Lieblingsbüsi” Anna Rosenwasser kommt am 29. Juli nach Bern und moderiert unser Pride Fest auf dem Bundesplatz! Anna ist LGBTQ-Aktivistin, Polit-Influencerin und Moderatorin. Seit 10 Jahren ist sie Journalistin und Autorin und erst kürzlich ist ihr eigenes Buch erschienen. Der bisexuellen Schweizerin mit jüdischen Wurzeln folgen auf Instagram mehr als 30’000 Menschen.',
 			location: 'Bundesplatz'
 		},
 		{
