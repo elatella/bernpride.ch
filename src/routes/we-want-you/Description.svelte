@@ -5,17 +5,19 @@
 <section id="description" class="root">
 	<div class="main-content">
 		<p>
-			Die BernPride und die EuroGames 2023 finden vom 26. Juli bis 29. Juli 2023 statt! Die
-			Vorbereitungen laufen bereits auf Hochtouren. Damit die Pride und die EuroGames bestmöglich
-			durchgeführt werden können, sind wir auf der Suche nach Menschen, die uns in verschiedensten
-			Rollen unterstützen.
+			Die BernPride und die EuroGames 2023 finden vom 26. Juli bis 29. Juli 2023 statt! Wir sind auf
+			jegliche Hilfe angewisen. Wenn Du uns unterstützen möchtest, melde Dich unter <a
+				href="mailto:volunteers@eurogames2023.ch">volunteers@eurogames2023.ch</a
+			>.
 		</p>
 		<br />
 
 		<p>
-			Bist du interessiert, für die BernPride und die EuroGames in irgendeiner Form mitzuarbeiten?
-			Dann schaue dir unsere freien Stellen an. Klicke auf die entsprechende Seite oder melde dich
-			unter <a href="mailto:volunteers@eurogames2023.ch">volunteers@eurogames2023.ch</a>.
+			Die BernPride soll auch in den kommenden Jahren wieder stattfinden. Nach der BernPride 2023
+			wird es ein Treffen geben, an dem alle teilnehmen können, welche bei einer nächsten Ausgabe in
+			Verein und OK mithelfen möchten. Wenn Du dabei sein möchtest, melde Dich unter <a
+				href="mailto:info@bernpride.ch">info@bernpride.ch</a
+			> und wir senden Dir bald nähere Informationen über das Treffen zu.
 		</p>
 
 		<div class="buttons">

@@ -48,7 +48,7 @@
 			time: '20.30 - 21.30 Uhr',
 			title: 'Eröffnungskonzert Village',
 			description:
-				'Das EuroGames Village wird am ersten Abend ordentlich zum Tanzen gebracht. Die Frage ist nur, von wem? Etwas verraten wir: Die Songs sind Mundart. Freu dich auf Berner Power am 26. Juli auf der Münsterplattform!',
+				'Das EuroGames Village wird am ersten Abend ordentlich zum Tanzen gebracht. Die Frage ist nur, von wem? Etwas verraten wir: Die Songs sind Mundart. Freu dich auf Berner Power am 26. Juli auf der Münsterplatz!',
 			location: 'EuroGames Village'
 		},
 		{
@@ -137,6 +137,14 @@
 		},
 		{
 			day: Day.Saturday,
+			time: '17.00 Uhr',
+			title: 'Tamara Funiciello',
+			description:
+				'Tamara Funiciello ist Aktivistin mit zu wenig Zeit und Feministin von Kopf bis Fuss. Die Nationalrätin aus Bern macht Politik wegen Geschichten. Geschichten, die sie ändern will. Tamara hat stark an der Reform fürs Sexualstrafrecht mitgewirkt und konnte letztens mit dem “Nein-heisst-Nein”-Kompromiss einen grossen Schritt nach vorne ermöglichen!',
+			location: 'Bundesplatz'
+		},
+		{
+			day: Day.Saturday,
 			time: '17.30 - 18.15 Uhr',
 			title: 'Msoke',
 			description:
@@ -185,6 +193,22 @@
 		},
 		{
 			day: Day.Saturday,
+			time: '',
+			title: 'Anna Rosenwasser',
+			description:
+				'Unser “Lieblingsbüsi” Anna Rosenwasser kommt am 29. Juli nach Bern und moderiert unser Pride Fest auf dem Bundesplatz! Anna ist LGBTQ-Aktivistin, Polit-Influencerin und Moderatorin. Seit 10 Jahren ist sie Journalistin und Autorin und erst kürzlich ist ihr eigenes Buch erschienen. Der bisexuellen Schweizerin mit jüdischen Wurzeln folgen auf Instagram mehr als 30’000 Menschen.',
+			location: 'Bundesplatz'
+		},
+		{
+			day: Day.Saturday,
+			time: '20.15 Uhr',
+			title: 'Queeramnesty',
+			description:
+				'Die ehrenamtliche Gruppe Queeramnesty Schweiz ist ein Teil von Amnesty International. Mit ihrer Öffentlichkeitsarbeit setzt sie sich seit 1997 erfolgreich für die Rechte von LGBTI*-Menschen ein. Zu ihren Themengebieten gehören Menschenrechte, sexuelle Orientierung, Geschlechtsidentität und Geschlechtsentwicklung.',
+			location: 'Bundesplatz'
+		},
+		{
+			day: Day.Saturday,
 			time: '20.30 - 21.45 Uhr',
 			title: 'Naomi Lareine',
 			description:
@@ -221,35 +245,11 @@
 		},
 		{
 			day: Day.Saturday,
-			time: 'tbd',
+			time: '23.30 - ? Uhr',
 			title: 'Pride Party - Youth Edition',
 			description:
 				'Das neue Jugendkulturlokal Stellwerk bietet zum Abschluss der Pride eine Party für junge Menschen (ab 16 Jahren) an. Mit dem BernPride-Soli Bändeli erhältst du einen vergünstigen Eintritt. Tickets im VVK online und Abendkasse',
 			location: 'Stellwerk Bern'
-		},
-		{
-			day: Day.Saturday,
-			time: '',
-			title: 'Tamara Funiciello',
-			description:
-				'Tamara Funiciello ist Aktivistin mit zu wenig Zeit und Feministin von Kopf bis Fuss. Die Nationalrätin aus Bern macht Politik wegen Geschichten. Geschichten, die sie ändern will. Tamara hat stark an der Reform fürs Sexualstrafrecht mitgewirkt und konnte letztens mit dem “Nein-heisst-Nein”-Kompromiss einen grossen Schritt nach vorne ermöglichen!',
-			location: 'Bundesplatz'
-		},
-		{
-			day: Day.Saturday,
-			time: '',
-			title: 'Anna Rosenwasser',
-			description:
-				'Unser “Lieblingsbüsi” Anna Rosenwasser kommt am 29. Juli nach Bern und moderiert unser Pride Fest auf dem Bundesplatz! Anna ist LGBTQ-Aktivistin, Polit-Influencerin und Moderatorin. Seit 10 Jahren ist sie Journalistin und Autorin und erst kürzlich ist ihr eigenes Buch erschienen. Der bisexuellen Schweizerin mit jüdischen Wurzeln folgen auf Instagram mehr als 30’000 Menschen.',
-			location: 'Bundesplatz'
-		},
-		{
-			day: Day.Saturday,
-			time: '',
-			title: 'Queeramnesty',
-			description:
-				'Die ehrenamtliche Gruppe Queeramnesty Schweiz ist ein Teil von Amnesty International. Mit ihrer Öffentlichkeitsarbeit setzt sie sich seit 1997 erfolgreich für die Rechte von LGBTI*-Menschen ein. Zu ihren Themengebieten gehören Menschenrechte, sexuelle Orientierung, Geschlechtsidentität und Geschlechtsentwicklung.',
-			location: 'Bundesplatz'
 		}
 	];
 
