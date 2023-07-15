@@ -15,14 +15,14 @@
 			Partner*innen müssen klar darstellen, welche Bemühungen sie für die Community auch ausserhalb
 			des BernPride-Engagements unternehmen (z.B. Swiss LGBTI-Label) und dass diese Bemühungen in
 			allen Bereichen einer Unternehmensgruppe, also auch z.B. in Tochtergesellschaften in anderen
-			Ländern , erfolgen. Die Einbindung der Partner*innen erfolgt eher dezent, so wird z.B. während
-			dem Demonstrationsumzug auf durch Unternehmenssponsor*innen gebrandete Wagen verzichtet. Es
-			sind grundsätzlich keine Lastwagen vorgesehen, denn dies würde weder zur BernPride passen,
-			noch ist die Berner Altstadt hierzu geeignet. Sofern überhaupt auf dem Demonstrationsumzug
-			kleinere Wagen möglich sind, sind diese nur Organisationen der Community (z.B. Mitglieder des
-			Beirats) und allenfalls Medienpartner*innen vorbehalten. Während der Veranstaltung auf dem
-			Bundesplatz ist ein diverses Rahmenprogramm mit politischen Inhalten und
-			Unterhaltungselementen vorgesehen.
+			Ländern, erfolgen. Die Einbindung der Partner*innen erfolgt eher dezent, so wird z.B. während
+			dem Demonstrationsumzug auf durch Unternehmenssponsor*innen gebrandete Wagen verzichtet.
+			Ausser dem offizielle Demo-Fahrzeug, welches als Rede-Bühne dient, sind grundsätzlich keine
+			Lastwagen vorgesehen, denn dies würde weder zur BernPride passen, noch ist die Berner Altstadt
+			hierzu geeignet. Sofern überhaupt auf dem Demonstrationsumzug kleinere Wagen möglich sind,
+			sind diese nur Organisationen der Community (z.B. Mitglieder des Beirats) und allenfalls
+			Medienpartner*innen vorbehalten. Während der Veranstaltung auf dem Bundesplatz ist ein
+			diverses Rahmenprogramm mit politischen Inhalten und Unterhaltungselementen vorgesehen.
 		</p>
 	</div>
 </section>
