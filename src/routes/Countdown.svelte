@@ -1,7 +1,11 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
+	import { PUBLIC_EVENT_START } from '$env/static/public';
 	import clock from '$lib/images/clock.svg';
 	import arrow from '$lib/images/arrow-right-white.svg';
+	import news from '$lib/images/news.svg';
+	import facebook from '$lib/images/facebook-big.svg';
+	import instagram from '$lib/images/instagram-big.svg';
 
 	const SECOND = 1000;
 	const MINUTE = 60 * SECOND;
@@ -11,7 +15,7 @@
 
 	let timer: number | null = null;
 
-	const start = new Date(2023, 6, 29, 12);
+	const start = new Date(PUBLIC_EVENT_START);
 	let now = new Date();
 
 	let monthCount = 0;
@@ -49,35 +53,50 @@
 
 <section id="countdown" class="root">
 	<div class="main-content">
-		<div class="clock-container">
-			<div class="title">
-				<img src={clock} alt="StopWatch" width="90" height="90" class="clock-icon" />
-				<h3 class="subtitle">Bis zur BernPride sind es noch...</h3>
-			</div>
+		{#if now < start}
+			<div class="clock-container">
+				<div class="title">
+					<img src={clock} alt="StopWatch" width="90" height="90" class="clock-icon" />
+					<h3 class="subtitle">Bis zur BernPride sind es noch...</h3>
+				</div>
 
-			<div class="clock">
-				<div class="clock-amount">
-					<span class="clock-count">{monthCount}</span>
-					<span class="clock-unit">Monate</span>
-				</div>
-				<div class="clock-amount">
-					<span class="clock-count">{dayCount}</span>
-					<span class="clock-unit">Tage</span>
-				</div>
-				<div class="clock-amount">
-					<span class="clock-count">{hourCount}</span>
-					<span class="clock-unit">Stunden</span>
-				</div>
-				<div class="clock-amount">
-					<span class="clock-count">{minuteCount}</span>
-					<span class="clock-unit">Minuten</span>
-				</div>
-				<div class="clock-amount">
-					<span class="clock-count">{secondCount}</span>
-					<span class="clock-unit">Sekunden</span>
+				<div class="clock">
+					<div class="clock-amount">
+						<span class="clock-count">{monthCount}</span>
+						<span class="clock-unit">Monate</span>
+					</div>
+					<div class="clock-amount">
+						<span class="clock-count">{dayCount}</span>
+						<span class="clock-unit">Tage</span>
+					</div>
+					<div class="clock-amount">
+						<span class="clock-count">{hourCount}</span>
+						<span class="clock-unit">Stunden</span>
+					</div>
+					<div class="clock-amount">
+						<span class="clock-count">{minuteCount}</span>
+						<span class="clock-unit">Minuten</span>
+					</div>
+					<div class="clock-amount">
+						<span class="clock-count">{secondCount}</span>
+						<span class="clock-unit">Sekunden</span>
+					</div>
 				</div>
 			</div>
-		</div>
+		{:else}
+			<div class="current-information-container">
+				<img src={news} alt="News" height="70" style="margin-bottom:1em;" />
+				<h3 style="margin-bottom:1em;">Alle aktuellen Informationen gibt es hier:</h3>
+				<div style="margin-bottom:1em;">
+					<a href="https://www.facebook.com/bernpride.ch/">
+						<img src={facebook} alt="Facebook" height="50" style="margin-right:0.3em" />
+					</a>
+					<a href="https://www.instagram.com/bernpride.ch/">
+						<img src={instagram} alt="Instagram" height="50" />
+					</a>
+				</div>
+			</div>
+		{/if}
 
 		<div class="buttons">
 			<div class="button-container">
@@ -111,6 +130,13 @@
 	}
 
 	.clock-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	.current-information-container {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-evenly;
@@ -186,7 +212,8 @@
 	}
 
 	@media only screen and (min-width: 768px) {
-		.clock-container {
+		.clock-container,
+		.current-information-container {
 			flex-direction: row;
 		}
 
