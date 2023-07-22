@@ -26,7 +26,7 @@
 		},
 		{
 			title: 'Awareness',
-			body: 'Im Rahmen der EuroGames und der BernPride setzen wir uns für eine offene, inklusive und diskriminierungsfreie Umgebung ein. Wir bitten Dich – als Teilnehmer*in, Besucher*in oder Volunteer - darum, einen aufmerksamen, respektvollen und einfühlsamen Umgang mit allen anderen Menschen zu pflegen.'
+			body: 'Wenn du dich aufgrund diskriminierendem oder grenzüberschreitendem Verhalten unwohl fühlst oder grenzüberschreitendes Verhalten bei einer anderen Person beobachtest, dann melde dich bei: <ul style="margin-top:0.5em;"><li>Volunteers (dunkelblaues Shirt)</li><li>Crew-Mitglieder (gelbes Shirt)</li><li>Sicherheitspersonal (von Taktvoll)</li></ul> ...mit dem Code-Wort "<strong>IST JONA HIER?</strong>".<br />Falls keine Hilfe in der Nähe ist, ruf bitte folgende Awareness-Nummer an: <a href="tel:+41792942998"><strong>+41 79 294 29 98</strong></a>.<br /><br />Im Rahmen der EuroGames und der BernPride setzen wir uns für eine offene, inklusive und diskriminierungsfreie Umgebung ein. Wir bitten Dich – als Teilnehmer*in, Besucher*in oder Volunteer - darum, einen aufmerksamen, respektvollen und einfühlsamen Umgang mit allen anderen Menschen zu pflegen.'
 		},
 		{
 			title: 'Solibändleli und Kartenzahlung',
