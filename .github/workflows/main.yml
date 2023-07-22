@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+env:
+  PUBLIC_EVENT_START: '2023-07-29T14:00'
+  PUBLIC_EVENT_END: '2023-07-30T06:00'
+
 jobs:
   lint:
     name: Lint
@@ -25,9 +29,6 @@ jobs:
     name: Build
     needs: lint
     runs-on: ubuntu-latest
-    env:
-      PUBLIC_EVENT_START: '2023-07-29T14:00'
-      PUBLIC_EVENT_END: '2023-07-30T06:00'
     steps:
       - name: Set up Node.js
         uses: actions/setup-node@v3

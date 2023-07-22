@@ -4,7 +4,13 @@
 	import Description from './Description.svelte';
 	import Activities from './Activities.svelte';
 	import Newsletter from './Newsletter.svelte';
+	import News from './News.svelte';
+	import NextTime from './NextTime.svelte';
 	import FAQ from './FAQ.svelte';
+	import { PUBLIC_EVENT_END } from '$env/static/public';
+
+	const end = new Date(PUBLIC_EVENT_END);
+	const now = new Date();
 </script>
 
 <svelte:head>
@@ -16,12 +22,17 @@
 </svelte:head>
 
 <Heroine />
+{#if now < end}
+	<Countdown />
 
-<Countdown />
+	<Description />
 
-<Description />
+	<Activities />
+{:else}
+	<News />
 
-<Activities />
+	<NextTime />
+{/if}
 
 <Newsletter />
 
