@@ -130,7 +130,7 @@
 		{
 			day: Day.Saturday,
 			time: '16.00 - 17.00 Uhr',
-			title: 'Madame Lea & DJ Gönnungshof',
+			title: 'Madame Léa & DJ Gönnungshof',
 			description:
 				'Léa Spirig aka Madame Léa hat 1998 das erste Mal aufgelegt, als sie sah, dass da immer nur Männer den Ton angeben und auch, weil ihr die Musik einfach nicht gefiel. Sie dachte «Das kann ich auch. Und das kann ich besser». Auf ihrem Laptop hat sie eine breite Palette an Musik gespeichert, die von den 1920er Jahren bis in die elektronischen Hits von morgen reicht. Und DJ Gönnungshof spielt vom glitzrigen Pop über Hip-Hop bis hin zu lesbischen Hymnen quasi alles. Es wird also hot auf dem Bundesplatz!',
 			location: 'Bundesplatz'
