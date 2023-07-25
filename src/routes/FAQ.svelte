@@ -22,7 +22,7 @@
 		},
 		{
 			title: 'BernPride für alle',
-			body: 'Es ist uns wichtig, dass alle Menschen an der BernPride teilnehmen können, die das möchten. Wenn Du also Unterstützung benötigst, melde Dich frühzeitig unter <a href="mailto:info@bernpride.ch">info@bernpride.ch</a> und wir versuchen Dir so gut wie möglich zu helfen. Das Village der EuroGames auf dem Münsterplatz und -Plattform ist auch während der BernPride geöffnet und dient als zusätzlichen Ort für Familien und für Menschen, welche etwas mehr Platz und Ruhe geniessen möchten.'
+			body: 'Es ist uns wichtig, dass alle Menschen an der BernPride teilnehmen können, die das möchten. Wenn Du also Unterstützung benötigst, melde Dich frühzeitig unter info@bernpride.ch und wir versuchen Dir so gut wie möglich zu helfen. <br /> Barrierefreiheit: <br /> Der Quartierplatz Wankdorf und der Bundesplatz sind barrierefrei. Die Demoroute führt über den Aargauerstalden (Gefälle) und die Altstadt (Pflastersteine) zum Bundesplatz. Personen, die nicht (gut) zu Fuss unterwegs sind, empfehlen wir deshalb folgendes: Macht die Demo bis zum Aargauerstalden mit, nehmt dort dann den Bus 10 zur Station „Zytglogge” und stosst beim Casinoplatz wieder der Demo zu. <br /> Ruhige Alternative zum Pride-Fest: <br /> Das Village der EuroGames auf dem Münsterplatz und -Plattform ist auch während der BernPride geöffnet und dient als zusätzlichen Ort für Familien und für Menschen, welche etwas mehr Platz und Ruhe geniessen möchten. <br /> Gebärdensprache: <br /> Die Reden von Tamara Funiciello und Queeramnesty auf dem Bundesplatz werden in Gebärdenplatz übersetzt.'
 		},
 		{
 			title: 'Awareness',
