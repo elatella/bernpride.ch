@@ -109,18 +109,17 @@
 		},
 		{
 			day: Day.Friday,
-			time: '17.00 Uhr',
-			title: 'Podiumsdiskussion Trans- und Intergeschlechtlichkeit im Sport (EN)',
-			description:
-				'Die nationalen und internationalen Sportverbände tun sich schwer mit Statements und Zulassungen für inter und trans Athlet*innen auf Eliteniveau. Anlässlich der EuroGames sprechen Aktivist*innen von InterAction über den Status Q und zukünftige Anpassungswünsche.',
-			location: 'EuroGames Village'
-		},
-		{
-			day: Day.Friday,
 			time: '20.00 und 21 Uhr',
 			title: 'Drag Night | House of DLight',
 			description:
 				'Definitiv ein Highlight im EuroGames Village: House of DLight präsentieren das Beste aus der hauseigenen Drag Show „Dragwunderland DLight“. Frech, nicht fromm und feinste Unterhaltung aus dem Berner Oberland. Die unvergessliche Show findet am Freitag, 28. Juli, im EuroGames Village auf der Münsterplattform statt.',
+			location: 'EuroGames Village'
+		},
+		{
+			day: Day.Friday,
+			time: '21.30 Uhr',
+			title: 'DjCK - Warm Up Party',
+			description: '',
 			location: 'EuroGames Village'
 		},
 		{
@@ -133,7 +132,7 @@
 		},
 		{
 			day: Day.Friday,
-			time: '22.00 Uhr',
+			time: '23.00 Uhr',
 			title: '"Prisma" - Party',
 			description:
 				'Die international renommierte DJ İpek İpekçioğlu ist für ihren einzigartigen Sound bekannt. In der Turnhalle wird auch die Bernerin Angela Alaska am DJ-Pult stehen und ihren leichten und luftigen Soundmix präsentieren. Tickets: VVK online und Abendkasse',
@@ -225,7 +224,7 @@
 		},
 		{
 			day: Day.Saturday,
-			time: '20.45 Uhr',
+			time: '20.30 Uhr',
 			title: 'Naomi Lareine',
 			description:
 				'Naomi Lareine ist bekannt für ihre bittersüssen, lieblichen Töne, die wunderbar zu ihren breiten, R&B-lastigen Songs passen. Und genau diese hören wir am Samstag auf unserer Pride Fest-Bühne. Individualismus und Toleranz werden bei ihr ganz grossgeschrieben und immer wieder musikalisch verpackt. Mit ihrem unverwechselbaren Rhythmus dürfen wir uns auf eine verlockende Dosis moderner R&B-Musik voller turbulenter Geschichten freuen.',
@@ -237,7 +236,7 @@
 		},
 		{
 			day: Day.Saturday,
-			time: '22.00 Uhr',
+			time: '21:45 Uhr',
 			title: 'Taylor Cruz',
 			description:
 				'Als Drummerin liebt und lebt Taylor Cruz den Beat über alles. Rhythmus ist ein wichtiger Teil in ihren eigenen produzierten Tracks, wie auch in ihren unzähligen Remixes. Sie ist zudem Mitbegründerin und DJ der beliebten Partyreihe "QueerPlanet" in Basel. Am 29. Juli ist sie aber nicht in Basel, sondern bei uns auf dem Bundesplatz! ',
@@ -253,19 +252,19 @@
 		},
 		{
 			day: Day.Saturday,
+			time: '22.30 Uhr',
+			title: 'Sommer im Klub (Pride-Edition)',
+			description:
+				'Das neue Jugendkulturlokal Stellwerk bietet zum Abschluss der Pride eine Party für junge Menschen (ab 16 Jahren) an. Mit dem BernPride-Soli Bändeli erhältst du einen vergünstigen Eintritt. Tickets im VVK online und Abendkasse',
+			location: 'Stellwerk Bern'
+		},
+		{
+			day: Day.Saturday,
 			time: '23.00 Uhr',
 			title: 'Rainbow Hits',
 			description:
 				'Die beiden DJs Ludwig und Corey legen regelmässig beim Tolerdance im ISC Bern auf, der langlebigsten Queer-Party der Schweiz. Anouk Amok, bekannt für ihre 80er-lastigen DJ-Sets, verwöhnt das Publikum in der ganzen queeren Schweiz. Das Trio spielt Hits von ABBA, Madonna, Lady Gaga und viele weitere Songs. Tickets im VVK online und Abendkasse',
 			location: 'Turnhalle'
-		},
-		{
-			day: Day.Saturday,
-			time: '23.30 Uhr',
-			title: 'Sommer im Klub (Pride-Edition)',
-			description:
-				'Das neue Jugendkulturlokal Stellwerk bietet zum Abschluss der Pride eine Party für junge Menschen (ab 16 Jahren) an. Mit dem BernPride-Soli Bändeli erhältst du einen vergünstigen Eintritt. Tickets im VVK online und Abendkasse',
-			location: 'Stellwerk Bern'
 		}
 	];
 
