@@ -49,7 +49,7 @@
 			title: 'Eröffnungszeremonie EuroGames',
 			description:
 				'Die Organisator*innen der EuroGames begrüssen zusammen mit Berns Stadtpräsidenten Alec von Graffenried die Athlet*innen in der Bundeshauptstadt. Der Frauen*-Chor Sweet and Power begleitet die Eröffnungszeremonie musikalisch.',
-			location: 'EuroGames Village'
+			location: 'Bundesplatz'
 		},
 		{
 			day: Day.Wednesday,
@@ -118,7 +118,7 @@
 		{
 			day: Day.Friday,
 			time: '21.30 Uhr',
-			title: 'DjCK - Warm Up Party',
+			title: 'DJCK - DJ Set',
 			description: '',
 			location: 'EuroGames Village'
 		},
