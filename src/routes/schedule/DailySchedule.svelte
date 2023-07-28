@@ -261,9 +261,9 @@
 		{
 			day: Day.Saturday,
 			time: '23.00 Uhr',
-			title: 'Rainbow Hits',
+			title: 'Rainbow Hits Party inklusive Dragshow',
 			description:
-				'Die beiden DJs Ludwig und Corey legen regelmässig beim Tolerdance im ISC Bern auf, der langlebigsten Queer-Party der Schweiz. Anouk Amok, bekannt für ihre 80er-lastigen DJ-Sets, verwöhnt das Publikum in der ganzen queeren Schweiz. Das Trio spielt Hits von ABBA, Madonna, Lady Gaga und viele weitere Songs. Tickets im VVK online und Abendkasse',
+				'Die beiden DJs Ludwig und Corey legen regelmässig beim Tolerdance im ISC Bern auf, der langlebigsten Queer-Party der Schweiz. Anouk Amok, bekannt für ihre 80er-lastigen DJ-Sets, verwöhnt das Publikum in der ganzen queeren Schweiz. Das Trio spielt Hits von ABBA, Madonna, Lady Gaga und viele weitere Songs. <br /> Als weiteres Highlight werden Frieda Galop, Vanessa La Wasch, und Priscilla Act mit ihrer Dragshow für Unterhaltung sorgen. <br/> Tickets im VVK online und Abendkasse',
 			location: 'Turnhalle'
 		}
 	];
