@@ -7,6 +7,7 @@
 	import News from './News.svelte';
 	import NextTime from './NextTime.svelte';
 	import FAQ from './FAQ.svelte';
+	import Medias from './Medias.svelte';
 	import { PUBLIC_EVENT_END } from '$env/static/public';
 
 	const end = new Date(PUBLIC_EVENT_END);
@@ -22,6 +23,7 @@
 </svelte:head>
 
 <Heroine />
+
 {#if now < end}
 	<Countdown />
 
@@ -36,4 +38,8 @@
 
 <Newsletter />
 
-<FAQ />
+{#if now < end}
+	<FAQ />
+{:else}
+	<Medias />
+{/if}
