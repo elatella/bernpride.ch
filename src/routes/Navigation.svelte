@@ -1,8 +1,14 @@
 <script lang="ts">
 	import { slide } from 'svelte/transition';
+	import { PUBLIC_EVENT_START } from '$env/static/public';
+	import { PUBLIC_EVENT_END } from '$env/static/public';
 	import instagram from '$lib/images/instagram.svg';
 	import facebook from '$lib/images/facebook.svg';
 	import tiktok from '$lib/images/tiktok.svg';
+
+	const start = new Date(PUBLIC_EVENT_START);
+	const end = new Date(PUBLIC_EVENT_END);
+	const now = new Date();
 
 	export let isOpen = false;
 
@@ -10,7 +16,7 @@
 		isOpen = false;
 	}
 
-	const navItems: { label: string; link: string }[] = [
+	let navItems: { label: string; link: string }[] = [
 		{ label: 'HOME', link: '/' },
 		{ label: 'PROGRAMM', link: '/schedule' },
 		{ label: 'DEMONSTRATION', link: '/demonstration' },
@@ -18,6 +24,15 @@
 		{ label: 'ÜBER UNS', link: '/about-us' },
 		{ label: 'FAQ', link: '/#faq' }
 	];
+
+	const onlyBeforeEvent = ['MITMACHEN'];
+	if (now > start) {
+		navItems = navItems.filter((i) => !onlyBeforeEvent.includes(i.label));
+	}
+	const onlyBeforeAndDuringEvent = ['FAQ'];
+	if (now > end) {
+		navItems = navItems.filter((i) => !onlyBeforeAndDuringEvent.includes(i.label));
+	}
 
 	const socialNetworks: { name: string; logo: string; link: string }[] = [
 		{ name: 'Instagram', logo: instagram, link: 'https://www.instagram.com/bernpride.ch/' },
