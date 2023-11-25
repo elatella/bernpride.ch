@@ -7,7 +7,6 @@
 	import News from './News.svelte';
 	import NextTime from './NextTime.svelte';
 	import FAQ from './FAQ.svelte';
-	import Medias from './Medias.svelte';
 	import { PUBLIC_EVENT_END } from '$env/static/public';
 
 	const end = new Date(PUBLIC_EVENT_END);
@@ -41,5 +40,4 @@
 {#if now < end}
 	<FAQ />
 {:else}
-	<Medias />
 {/if}
