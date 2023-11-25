@@ -39,5 +39,4 @@
 
 {#if now < end}
 	<FAQ />
-{:else}
 {/if}
