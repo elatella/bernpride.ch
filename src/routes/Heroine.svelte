@@ -1,5 +1,5 @@
 <script lang="ts">
-	import heroineDesktop from '$lib/images/heroine-desktop.webp';
+	import heroineDesktop from '$lib/images/heroine-desktop.png';
 	import heroineMobile from '$lib/images/heroine-mobile.webp';
 </script>
 
