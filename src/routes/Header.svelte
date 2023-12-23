@@ -45,6 +45,7 @@
 			</div>
 		{:else}
 			<div>
+				<a href="/about-us" class="menu-point">ÜBER UNS</a>
 				{#each socialNetworks as nw (nw.name)}
 					<a
 						href={nw.link}
@@ -67,6 +68,7 @@
 	.root {
 		position: fixed;
 		width: 100vw;
+		height: 4.3em;
 		display: flex;
 		justify-content: center;
 		background-color: var(--red);
@@ -77,7 +79,28 @@
 		justify-content: space-between !important;
 	}
 
+	.menu-point {
+		position: absolute;
+		top: 2.4em;
+		right: 0;
+		width: 100vw;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
 	input:hover {
 		cursor: pointer;
+	}
+
+	@media only screen and (min-width: 768px) {
+		.root {
+			height: inherit;
+		}
+
+		.menu-point {
+			margin-right: 1em;
+			position: relative;
+			top: -5px;
+		}
 	}
 </style>
