@@ -4,25 +4,29 @@
 </script>
 
 <section id="info" class="root">
-	<div class="main-content">
-		<div class="row">
-			<div class="column-big-red">
-				<h3>UNSER VEREIN</h3>
-				<br />
-				<p>Willst du mehr über unseren Verein erfahren oder uns sogar unterstützen?</p>
-				<br />
+	<div class="row">
+		<div class="column column-big-red">
+			<h3>UNSER VEREIN</h3>
+			<br />
+			<p>Willst du mehr über unseren Verein erfahren oder uns sogar unterstützen?</p>
+			<br />
+			<br />
+			<div class="button-wrapper">
 				<a href="/about-us" class="button"
 					>ÜBER UNS
 					<img src={arrow} alt="arrow right" width="30" height="18" />
 				</a>
 			</div>
-			<div class="column-big-blue">
-				<div>
-					<h3>SCHREIB' UNS</h3>
-					<br />
-					<p>Hast du Fragen oder willst uns etwas mitteilen? Hier ist unser Kontakt für dich:</p>
-					<br />
-					<a href="info@bernpride.ch" class="button-red"
+		</div>
+		<div class="column column-big-blue">
+			<div>
+				<h3>SCHREIB' UNS</h3>
+				<br />
+				<p>Hast du Fragen oder willst uns etwas mitteilen? Hier ist unser Kontakt für dich:</p>
+				<br />
+				<br />
+				<div class="button-wrapper">
+					<a href="mailto:info@bernpride.ch" class="button-red"
 						>HIER ANMELDEN
 						<img src={arrow} alt="arrow right" width="30" height="18" />
 					</a>
@@ -39,39 +43,37 @@
 		color: var(--red);
 	}
 
-	.main-content {
-		flex-direction: d-flex;
-		margin-top: 50px;
-		margin-bottom: 50px;
-	}
 	.row {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		flex-wrap: wrap;
 		width: 100%;
 	}
 
-	.column-big-red {
+	.column {
 		display: flex;
 		flex-direction: column;
 		flex-basis: 100%;
 		flex: 1;
-		height: 300px;
+		padding: 2em;
+	}
+
+	.column-big-red {
 		background-color: var(--red);
 		color: var(--turquoise);
-		content: center;
 	}
+
 	.column-big-blue {
-		display: flex;
-		flex-direction: column;
-		flex-basis: 100%;
-		flex: 1;
-		height: 300px;
 		background-color: var(--blue);
 	}
 
+	.button-wrapper {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
 	a.button-red {
-		width: 290px;
 		text-decoration: none;
 		border-radius: 999px;
 		border-color: var(--red);
@@ -83,7 +85,6 @@
 	}
 
 	a.button {
-		width: 290px;
 		text-decoration: none;
 		border-radius: 999px;
 		border-color: var(--blue);
@@ -92,5 +93,11 @@
 		font-size: 80%;
 		color: var(--red);
 		background-color: var(--blue);
+	}
+
+	@media only screen and (min-width: 768px) {
+		.row {
+			flex-direction: row;
+		}
 	}
 </style>

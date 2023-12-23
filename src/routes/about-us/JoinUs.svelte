@@ -1,6 +1,6 @@
 <section id="description" class="root">
 	<div class="main-content">
-		<h2>WERDE VEREINSMITGLIED</h2>
+		<h2 style="word-wrap: break-word;">WERDE VEREINSMITGLIED</h2>
 		<br />
 
 		<p>
