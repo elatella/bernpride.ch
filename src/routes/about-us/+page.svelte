@@ -1,10 +1,10 @@
 <script lang="ts">
 	import Heroine from './Heroine.svelte';
 	import Direction from './Direction.svelte';
-	import Partners from './Partners.svelte';
 	import Organization from './Organization.svelte';
-	import Awareness from './Awareness.svelte';
-	import People from './People.svelte';
+	import JoinUs from './JoinUs.svelte';
+	import Membership from './Membership.svelte';
+	import BehindScenes from './BehindScenes.svelte';
 </script>
 
 <svelte:head>
@@ -15,10 +15,10 @@
 
 <Direction />
 
-<Partners />
-
 <Organization />
 
-<Awareness />
+<JoinUs />
 
-<People />
+<Membership />
+
+<BehindScenes />

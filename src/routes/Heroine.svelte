@@ -1,6 +1,6 @@
 <script lang="ts">
 	import heroineDesktop from '$lib/images/heroine-desktop.png';
-	import heroineMobile from '$lib/images/heroine-mobile.webp';
+	import heroineMobile from '$lib/images/BP_Hero_Mobile_V2.png';
 </script>
 
 <section id="heroine" class="root">

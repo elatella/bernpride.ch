@@ -4,8 +4,8 @@
 	import Description from './Description.svelte';
 	import Activities from './Activities.svelte';
 	import Newsletter from './Newsletter.svelte';
-	import News from './News.svelte';
-	import NextTime from './NextTime.svelte';
+	import NextBP from './NextBP.svelte';
+	import Info from './Info.svelte';
 	import FAQ from './FAQ.svelte';
 	import { PUBLIC_EVENT_END } from '$env/static/public';
 
@@ -30,12 +30,12 @@
 
 	<Activities />
 {:else}
-	<News />
-
-	<NextTime />
+	<NextBP />
 {/if}
 
 <Newsletter />
+
+<Info />
 
 {#if now < end}
 	<FAQ />
