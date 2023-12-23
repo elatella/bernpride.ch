@@ -1,5 +1,7 @@
 <script lang="ts">
-	import loveletter from '$lib/images/loveletter.svg';
+	import instagram from '$lib/images/instagram-big.svg';
+	import facebook from '$lib/images/facebook-big.svg';
+	import tiktok from '$lib/images/tiktok-red.png';
 
 	let firstName = '';
 	let email = '';
@@ -12,6 +14,11 @@
 			isValid = false;
 		}
 	}
+	const socialNetworks: { name: string; logo: string; link: string }[] = [
+		{ name: 'Instagram', logo: instagram, link: 'https://www.instagram.com/bernpride.ch/' },
+		{ name: 'Facebook', logo: facebook, link: 'https://www.facebook.com/bernpride.ch/' },
+		{ name: 'TikTok', logo: tiktok, link: 'https://www.tiktok.com/@bernpride.ch' }
+	];
 </script>
 
 <section id="newsletter" class="root">
@@ -27,7 +34,19 @@
 			action="https://bernpride.us14.list-manage.com/subscribe/post?u=12afb8ee8379b949a0052c9e3&amp;id=ab139bcf71&amp;f_id=0046f2e0f0"
 			method="POST"
 		>
-			<img src={loveletter} alt="LoveLetter" width="69" height="80" class="loveletter-icon" />
+			<div>
+				{#each socialNetworks as nw (nw.name)}
+					<a
+						href={nw.link}
+						target="_blank"
+						rel="noreferrer"
+						class="social-icon"
+						style="text-decoration:none"
+					>
+						<img src={nw.logo} alt={nw.name} width="30" height="30" />
+					</a>
+				{/each}
+			</div>
 			<input name="FNAME" placeholder="Dein Vorname" bind:value={firstName} />
 			<input name="EMAIL" type="email" placeholder="Deine Mail-Adresse" bind:value={email} />
 			<button type="submit" disabled={!isValid}>Abonnieren</button>

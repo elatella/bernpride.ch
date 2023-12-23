@@ -1,9 +1,15 @@
 <script lang="ts">
+	import sprinklesLeft from '$lib/images/sprinkles-left.svg';
+	import sprinklesRight from '$lib/images/sprinkles-right.svg';
 </script>
 
 <section id="description" class="root">
 	<div class="main-content">
-		<h2>BERNPRIDE 2024</h2>
+		<div class="title">
+			<img src={sprinklesLeft} alt="Sprinkles Left" width="58" height="100" />
+			<h2>BERNPRIDE 2024</h2>
+			<img src={sprinklesRight} alt="Sprinkles Right" width="71" height="100" />
+		</div>
 		<br />
 		<h5>
 			Die BernPride 2023 war so schön! 10’000 Menschen haben auf den Berner Gassen für ihre Rechte
@@ -30,6 +36,12 @@
 		justify-content: center;
 		background-color: var(--turquoise);
 		color: var(--red);
+	}
+	.title {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.main-content {

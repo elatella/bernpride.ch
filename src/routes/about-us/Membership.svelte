@@ -1,5 +1,6 @@
 <script lang="ts">
 	import arrow from '$lib/images/arrow-right-white.svg';
+	import arrowred from '$lib/images/arrow-right-red.svg';
 	import { base } from '$app/paths';
 </script>
 
@@ -19,7 +20,7 @@
 			<div class="button-wrapper">
 				<a href="https://forms.gle/uhEM2GVUZhyznFVd9" class="button"
 					>HIER ANMELDEN
-					<img src={arrow} alt="arrow right" width="30" height="18" />
+					<img src={arrowred} alt="arrow right" width="30" height="18" />
 				</a>
 			</div>
 		</div>
@@ -32,9 +33,9 @@
 				<br />
 				<br />
 				<div class="button-wrapper">
-					<a href="info@bernpride.ch" class="button"
+					<a href="mailto:info@bernpride.ch" class="button"
 						>HIER ANMELDEN
-						<img src={arrow} alt="arrow right" width="30" height="18" />
+						<img src={arrowred} alt="arrow right" width="30" height="18" />
 					</a>
 				</div>
 			</div>
@@ -75,7 +76,7 @@
 				<div class="button-wrapper">
 					<a href="{base}/documents/BernPride_Statuten_Nov2023.pdf" class="button"
 						>HIER ANSEHEN
-						<img src={arrow} alt="arrow right" width="30" height="18" />
+						<img src={arrowred} alt="arrow right" width="30" height="18" />
 					</a>
 				</div>
 			</div>
