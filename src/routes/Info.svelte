@@ -1,6 +1,6 @@
 <script lang="ts">
+	import arrowred from '$lib/images/arrow-right-red.svg';
 	import arrow from '$lib/images/arrow-right-white.svg';
-	import { base } from '$app/paths';
 </script>
 
 <section id="info" class="root">
@@ -14,7 +14,7 @@
 			<div class="button-wrapper">
 				<a href="/about-us" class="button"
 					>ÜBER UNS
-					<img src={arrow} alt="arrow right" width="30" height="18" />
+					<img src={arrowred} alt="arrow right" width="30" height="18" />
 				</a>
 			</div>
 		</div>
