@@ -80,27 +80,9 @@
 		margin-top: 70px;
 	}
 
-	input,
-	.loveletter-icon {
-		margin-bottom: 30px;
-	}
-
 	@media only screen and (min-width: 768px) {
 		form {
 			flex-direction: row;
-		}
-
-		input,
-		.loveletter-icon {
-			margin-bottom: 0;
-		}
-
-		input {
-			margin-right: 20px;
-		}
-
-		.loveletter-icon {
-			margin-right: 60px;
 		}
 	}
 </style>

@@ -17,7 +17,7 @@
 		<p>Verein BernPride</p>
 		<p>CH-3014 Bern</p>
 		<p>
-			E-Mail: <a href="info@bernpride.ch">info@bernpride.ch</a>
+			E-Mail: <a href="mailto:info@bernpride.ch">info@bernpride.ch</a>
 			<br />
 		</p>
 		<p>Vertretungsberechtigte Personen</p>
@@ -433,7 +433,9 @@
 			Einstellungsmöglichkeiten zum Schutz Ihrer Privatsphäre finden Sie unter:
 		</p>
 		<p>
-			<a href="www.google.de/intl/de/policies/privacy">www.google.de/intl/de/policies/privacy</a>
+			<a href="https://www.google.de/intl/de/policies/privacy"
+				>www.google.de/intl/de/policies/privacy</a
+			>
 		</p>
 		<br />
 		<h5 class="subtitle">Google Analytics</h5>
