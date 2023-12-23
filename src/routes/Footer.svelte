@@ -4,9 +4,9 @@
 
 <footer class="root">
 	<div class="main-content">
-		<strong>Verein EuroGames Bern</strong>
+		<strong>Verein BernPride</strong>
 		<img src={logo} alt="BernPride" width="147" height="30" class="logo" />
-		<a href="mailto:info@bernpride.ch">info@bernpride.ch</a>
+		<a href="/Impressum" class="button">Impressum</a>
 	</div>
 </footer>
 
@@ -29,6 +29,19 @@
 		position: relative;
 		top: 6px;
 		padding-bottom: 10px;
+	}
+
+	a.button {
+		margin: 15px 0;
+		width: 20%;
+		text-decoration: none;
+		border-radius: 999px;
+		border-color: var(--red);
+		border-style: solid;
+		padding: 10px 20px 14px;
+		font-size: 80%;
+		color: var(--white);
+		background-color: var(--red);
 	}
 
 	@media only screen and (min-width: 768px) {
