@@ -99,14 +99,15 @@
 		margin-bottom: 50px;
 	}
 
-	.members {
+	/*.members
+	{
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
 		margin-top: 20px;
 		align-items: center;
 		flex-wrap: wrap;
-	}
+	}*/
 
 	a.button {
 		width: 290px;
@@ -125,9 +126,9 @@
 	}
 
 	@media only screen and (min-width: 768px) {
-		.members {
+		/*.members {
 			flex-direction: row;
 			align-items: flex-start;
-		}
+		}*/
 	}
 </style>

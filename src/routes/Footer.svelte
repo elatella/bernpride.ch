@@ -6,7 +6,7 @@
 	<div class="main-content">
 		<strong>Verein BernPride</strong>
 		<img src={logo} alt="BernPride" width="147" height="30" class="logo" />
-		<a href="/Impressum" class="button">Impressum</a>
+		<a href="/impressum" class="button">Impressum</a>
 	</div>
 </footer>
 
