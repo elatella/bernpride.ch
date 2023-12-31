@@ -119,14 +119,13 @@
 		<br />
 		<p>
 			Ein genereller Widerspruch gegen die Verwendung von Cookies zu Online-Marketing-Zwecken kann
-			für eine Vielzahl der Dienste, insbesondere beim Tracking, über die US-Seite <a
-				href="http://www.aboutads.info/choices/">http://www.aboutads.info/choices/</a
+			für eine Vielzahl der Dienste, insbesondere beim Tracking, über die <a
+				href="http://www.aboutads.info/choices/">US Seite</a
 			>
-			oder die EU-Seite
-			<a href="http://www.youronlinechoices.com/">http://www.youronlinechoices.com/</a> erklärt werden.
-			Darüber hinaus kann die Speicherung von Cookies durch Deaktivierung in den Browsereinstellungen
-			erreicht werden. Bitte beachten Sie, dass in diesem Fall nicht alle Funktionen dieses Online-Angebots
-			genutzt werden können.
+			oder die
+			<a href="http://www.youronlinechoices.com/">EU Seite</a> erklärt werden. Darüber hinaus kann die
+			Speicherung von Cookies durch Deaktivierung in den Browsereinstellungen erreicht werden. Bitte
+			beachten Sie, dass in diesem Fall nicht alle Funktionen dieses Online-Angebots genutzt werden können.
 		</p>
 
 		<br />
@@ -430,12 +429,9 @@
 			dieser Nutzerprofile zu widersprechen, wobei Sie sich zur Ausübung dieses Rechts an Google
 			wenden müssen. Nähere Informationen zu Zweck und Umfang der Datenerhebung und -verarbeitung
 			durch Google sowie weitere Informationen zu Ihren diesbezüglichen Rechten und
-			Einstellungsmöglichkeiten zum Schutz Ihrer Privatsphäre finden Sie unter:
-		</p>
-		<p>
-			<a href="https://www.google.de/intl/de/policies/privacy"
-				>www.google.de/intl/de/policies/privacy</a
-			>
+			Einstellungsmöglichkeiten zum Schutz Ihrer Privatsphäre finden Sie
+			<a href="https://www.google.de/intl/de/policies/privacy">hier</a>
+			.
 		</p>
 		<br />
 		<h5 class="subtitle">Google Analytics</h5>
@@ -467,11 +463,8 @@
 			benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten
 			zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene
 			Dienstleistungen gegenüber der Websitebetreiberin zu erbringen. Für die Ausnahmefälle, in
-			denen personenbezogene Daten in die USA übertragen werden, hat sich Google dem EU-US Privacy
-			Shield unterworfen,
-			<a href="https://www.privacyshield.gov/EU-US-Framework"
-				>https://www.privacyshield.gov/EU-US-Framework</a
-			>.
+			denen personenbezogene Daten in die USA übertragen werden, hat sich Google dem
+			<a href="https://www.privacyshield.gov/EU-US-Framework">EU-US Privacy Shield</a> unterworfen.
 		</p>
 		<p>
 			Google Analytics verwendet Cookies. Die durch den Cookie erzeugten Informationen über Ihre
@@ -505,11 +498,10 @@
 			verwendet.
 		</p>
 		<p>
-			Weitere Informationen zu Google Web Fonts finden Sie unter
-			<a href="https://developers.google.com/fonts/faq">https://developers.google.com/fonts/faq</a>
-			und in den Datenschutzbestimmungen von Google:
-			<a href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a
-			>
+			Weitere Informationen zu Google Web Fonts finden Sie
+			<a href="https://developers.google.com/fonts/faq">hier</a>
+			und in den
+			<a href="https://www.google.com/policies/privacy/">Datenschutzbestimmungen von Google</a>
 		</p>
 
 		<br />
@@ -522,7 +514,7 @@
 			Privacy-Shield-Abkommen zertifiziert und bietet damit eine Garantie zur Einhaltung des
 			europäischen Datenschutzniveaus (PrivacyShield). Die Nutzung des Versanddienstleisters erfolgt
 			auf Grundlage unserer berechtigten Interessen gem. Art. 6 Abs.. 1 lit. f DSGVO und einer
-			Auftragsverarbeitungsvereinbarung gemäss Art. 28 Abs.. 3 S. 1 DSGVO.
+			Auftragsverarbeitungs Vereinbarung gemäss Art. 28 Abs.. 3 S. 1 DSGVO.
 		</p>
 
 		<br />

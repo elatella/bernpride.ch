@@ -2,6 +2,8 @@
 	import instagram from '$lib/images/instagram-big.svg';
 	import facebook from '$lib/images/facebook-big.svg';
 	import tiktok from '$lib/images/tiktok-red.png';
+	import { SvelteComponentTyped } from 'svelte';
+	import Activities from './Activities.svelte';
 
 	let firstName = '';
 	let email = '';
@@ -34,7 +36,7 @@
 			action="https://bernpride.us14.list-manage.com/subscribe/post?u=12afb8ee8379b949a0052c9e3&amp;id=ab139bcf71&amp;f_id=0046f2e0f0"
 			method="POST"
 		>
-			<div>
+			<div class="signup">
 				{#each socialNetworks as nw (nw.name)}
 					<a
 						href={nw.link}
@@ -48,7 +50,9 @@
 				{/each}
 			</div>
 			<input name="FNAME" placeholder="Dein Vorname" bind:value={firstName} />
+			<br />
 			<input name="EMAIL" type="email" placeholder="Deine Mail-Adresse" bind:value={email} />
+			<br />
 			<button type="submit" disabled={!isValid}>Abonnieren</button>
 		</form>
 	</div>
@@ -70,6 +74,10 @@
 
 	.body {
 		margin-top: 50px;
+	}
+
+	.signup {
+		padding: 20px;
 	}
 
 	form {
