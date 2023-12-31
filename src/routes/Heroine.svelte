@@ -22,7 +22,7 @@
 
 	.root img {
 		width: 100%;
-		margin-top: 20px;
+		margin-top: 50px;
 		margin-bottom: 50px;
 	}
 

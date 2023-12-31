@@ -33,7 +33,7 @@
 
 	a.button {
 		margin: 15px 0;
-		width: 20%;
+		width: fit-content;
 		text-decoration: none;
 		border-radius: 999px;
 		border-color: var(--red);

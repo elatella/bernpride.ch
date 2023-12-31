@@ -2,6 +2,7 @@
 	import arrow from '$lib/images/arrow-right-white.svg';
 	import arrowred from '$lib/images/arrow-right-red.svg';
 	import { base } from '$app/paths';
+	import BehindScenes from './BehindScenes.svelte';
 </script>
 
 <section id="membership" class="root">
@@ -26,11 +27,19 @@
 		</div>
 		<div class="column column-small-turquoise">
 			<div class="turquoise-column">
-				<h3>ORGANISATIONSKOMITEE</h3>
+				<h3>GÖNNERMITGLIEDSCHAFT</h3>
 				<br />
 
-				<p>Wir suchen immer wieder engagierte Menschen für unser Organisationskomitee:</p>
+				<h4>Ab CHF 200.-</h4>
 				<br />
+
+				<p>
+					Du kannst an der jährlichen Mitgliederversammlung über die Zukunft der BernPride
+					mitbestimmen und erhältst von uns:
+				</p>
+				<ul>- Eine Einladung zum Pride-Apero</ul>
+				<ul>- Ein Überraschungsgeschenk</ul>
+				<ul>- Gaaaanz viel queere Liebe ;-)</ul>
 				<br />
 				<div class="button-wrapper">
 					<a href="mailto:info@bernpride.ch" class="button"
@@ -44,17 +53,9 @@
 	<div class="row">
 		<div class="column column-big-blue">
 			<div>
-				<h3>GÖNNERMITGLIEDSCHAFT</h3>
+				<h3>ORGANISATIONSKOMITEE</h3>
 				<br />
-
-				<h4>Ab CHF 200.-</h4>
-				<br />
-
-				<p>
-					Du kannst an der jährlichen Mitgliederversammlung über die Zukunft der BernPride
-					mitbestimmen und erhältst von uns: - Eine Einladung zum Pride-Apero - Ein
-					Überraschungsgeschenk - Gaaaanz viel queere Liebe ;-)
-				</p>
+				<p>Wir suchen immer wieder engagierte Menschen für unser Organisationskomitee:</p>
 				<br />
 				<br />
 				<div class="button-wrapper">
