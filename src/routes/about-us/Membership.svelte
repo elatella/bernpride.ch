@@ -2,7 +2,6 @@
 	import arrow from '$lib/images/arrow-right-white.svg';
 	import arrowred from '$lib/images/arrow-right-red.svg';
 	import { base } from '$app/paths';
-	import BehindScenes from './BehindScenes.svelte';
 </script>
 
 <section id="membership" class="root">
