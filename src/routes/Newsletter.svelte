@@ -2,8 +2,6 @@
 	import instagram from '$lib/images/instagram-big.svg';
 	import facebook from '$lib/images/facebook-big.svg';
 	import tiktok from '$lib/images/tiktok-red.png';
-	import { SvelteComponentTyped } from 'svelte';
-	import Activities from './Activities.svelte';
 
 	let firstName = '';
 	let email = '';
