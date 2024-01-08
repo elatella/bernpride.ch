@@ -41,7 +41,7 @@
 				<ul>- Gaaaanz viel queere Liebe ;-)</ul>
 				<br />
 				<div class="button-wrapper">
-					<a href="mailto:info@bernpride.ch" class="button"
+					<a href="https://forms.gle/uhEM2GVUZhyznFVd9" class="button-red"
 						>HIER ANMELDEN
 						<img src={arrowred} alt="arrow right" width="30" height="18" />
 					</a>
@@ -58,7 +58,7 @@
 				<br />
 				<br />
 				<div class="button-wrapper">
-					<a href="https://forms.gle/uhEM2GVUZhyznFVd9" class="button-red"
+					<a href="mailto:info@bernpride.ch" class="button"
 						>HIER ANMELDEN
 						<img src={arrow} alt="arrow right" width="30" height="18" />
 					</a>
