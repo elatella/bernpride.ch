@@ -1,6 +1,7 @@
 <script lang="ts">
-	import arrow from '$lib/images/arrow-right-white.svg';
 	import arrowred from '$lib/images/arrow-right-red.svg';
+	import arrowblue from '$lib/images/arrow-right-blue.svg';
+	import arrowturq from '$lib/images/arrow-right-turquoise.svg';
 	import { base } from '$app/paths';
 </script>
 
@@ -41,9 +42,9 @@
 				<ul>- Gaaaanz viel queere Liebe ;-)</ul>
 				<br />
 				<div class="button-wrapper">
-					<a href="https://forms.gle/uhEM2GVUZhyznFVd9" class="button-red"
+					<a href="https://forms.gle/uhEM2GVUZhyznFVd9" class="button-red-turquoise"
 						>HIER ANMELDEN
-						<img src={arrow} alt="arrow right" width="30" height="18" />
+						<img src={arrowturq} alt="arrow right" width="30" height="18" />
 					</a>
 				</div>
 			</div>
@@ -58,9 +59,9 @@
 				<br />
 				<br />
 				<div class="button-wrapper">
-					<a href="mailto:info@bernpride.ch" class="button-red"
+					<a href="mailto:info@bernpride.ch" class="button-red-blue"
 						>HIER ANMELDEN
-						<img src={arrow} alt="arrow right" width="30" height="18" />
+						<img src={arrowblue} alt="arrow right" width="30" height="18" />
 					</a>
 				</div>
 			</div>
@@ -147,14 +148,24 @@
 		justify-content: center;
 	}
 
-	a.button-red {
+	a.button-red-blue {
 		text-decoration: none;
 		border-radius: 999px;
 		border-color: var(--red);
 		border-style: solid;
 		padding: 10px 20px 14px;
 		font-size: 80%;
-		color: var(--white);
+		color: var(--blue);
+		background-color: var(--red);
+	}
+	a.button-red-turquoise {
+		text-decoration: none;
+		border-radius: 999px;
+		border-color: var(--red);
+		border-style: solid;
+		padding: 10px 20px 14px;
+		font-size: 80%;
+		color: var(--turquoise);
 		background-color: var(--red);
 	}
 
