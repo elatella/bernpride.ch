@@ -1,15 +1,9 @@
 <script lang="ts">
 	import Navigation from './Navigation.svelte';
 	import logo from '$lib/images/logo-yellow.svg';
-	import menu from '$lib/images/menu.svg';
-	import closeMenu from '$lib/images/closemenu.svg';
 	import instagram from '$lib/images/instagram.svg';
 	import facebook from '$lib/images/facebook.svg';
 	import tiktok from '$lib/images/tiktok.svg';
-	import { PUBLIC_EVENT_END } from '$env/static/public';
-
-	const end = new Date(PUBLIC_EVENT_END);
-	const now = new Date();
 
 	const socialNetworks: { name: string; logo: string; link: string }[] = [
 		{ name: 'Instagram', logo: instagram, link: 'https://www.instagram.com/bernpride.ch/' },
@@ -31,34 +25,21 @@
 			<img src={logo} alt="BernPride" width="147" height="30" />
 		</a>
 
-		{#if now < end}
-			<div>
-				<input
-					type="image"
-					src={isNavOpen ? closeMenu : menu}
-					alt={isNavOpen ? 'Schliessen' : 'Menu'}
-					style="width:30px;padding:0;"
-					on:click={() => {
-						isNavOpen = !isNavOpen;
-					}}
-				/>
-			</div>
-		{:else}
-			<div>
-				<a href="/about-us" class="menu-point">ÜBER UNS</a>
-				{#each socialNetworks as nw (nw.name)}
-					<a
-						href={nw.link}
-						target="_blank"
-						rel="noreferrer"
-						class="social-icon"
-						style="text-decoration:none"
-					>
-						<img src={nw.logo} alt={nw.name} width="30" height="30" />
-					</a>
-				{/each}
-			</div>
-		{/if}
+		<div>
+			<a href="/about-us" class="menu-point">ÜBER UNS</a>
+			<a href="/crowdfunding" class="menu-point">CROWDFUNDING</a>
+			{#each socialNetworks as nw (nw.name)}
+				<a
+					href={nw.link}
+					target="_blank"
+					rel="noreferrer"
+					class="social-icon"
+					style="text-decoration:none"
+				>
+					<img src={nw.logo} alt={nw.name} width="30" height="30" />
+				</a>
+			{/each}
+		</div>
 	</div>
 </div>
 
@@ -73,6 +54,7 @@
 		justify-content: center;
 		background-color: var(--red);
 		color: var(--yellow);
+		z-index: 9999;
 	}
 
 	.main-content {
@@ -86,10 +68,6 @@
 		width: 100vw;
 		text-decoration: none;
 		font-weight: bold;
-	}
-
-	input:hover {
-		cursor: pointer;
 	}
 
 	@media only screen and (min-width: 768px) {

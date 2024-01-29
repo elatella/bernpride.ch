@@ -4,16 +4,21 @@
 
 <footer class="root">
 	<div class="main-content">
-		<strong>Verein BernPride</strong>
+		<div class="left">
+			<div><strong>Verein BernPride</strong></div>
+			<div>Postadresse: BernPride, 3014 Bern</div>
+		</div>
 		<img src={logo} alt="BernPride" width="147" height="30" class="logo" />
-		<a href="/impressum" class="button">Impressum</a>
+		<div class="right">
+			<div><a href="mailto:info@bernpride.ch"><strong>info@bernpride.ch</strong></a></div>
+			<div><a href="/impressum" class="button">Impressum & Datenschautz</a></div>
+		</div>
 	</div>
 </footer>
 
 <style>
 	.root {
 		display: flex;
-		justify-content: center;
 		background-color: var(--white);
 		color: var(--red);
 		font-size: 0.6rem;
@@ -25,23 +30,24 @@
 		align-items: center;
 	}
 
+	.left,
+	.right {
+		flex-direction: column;
+		line-height: 1.2em;
+	}
+
+	.left {
+		text-align: left;
+	}
+
+	.right {
+		text-align: right;
+	}
+
 	.logo {
 		position: relative;
 		top: 6px;
 		padding-bottom: 10px;
-	}
-
-	a.button {
-		margin: 15px 0;
-		width: fit-content;
-		text-decoration: none;
-		border-radius: 999px;
-		border-color: var(--red);
-		border-style: solid;
-		padding: 10px 20px 14px;
-		font-size: 80%;
-		color: var(--white);
-		background-color: var(--red);
 	}
 
 	@media only screen and (min-width: 768px) {

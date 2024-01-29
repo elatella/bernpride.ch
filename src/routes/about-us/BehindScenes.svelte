@@ -17,6 +17,7 @@
 		display: flex;
 		justify-content: center;
 		color: var(--red);
+		background-color: var(--blue);
 	}
 
 	.main-content {

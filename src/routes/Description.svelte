@@ -1,6 +1,7 @@
 <script lang="ts">
 	import sprinklesLeft from '$lib/images/sprinkles-left.svg';
 	import sprinklesRight from '$lib/images/sprinkles-right.svg';
+	import arrow from '$lib/images/arrow-right-white.svg';
 </script>
 
 <section id="description" class="root">
@@ -11,18 +12,45 @@
 			<img src={sprinklesRight} alt="Sprinkles Right" width="71" height="100" />
 		</div>
 
-		<h3 class="subtitle">Am 29. Juli 2023 ist es so weit.</h3>
+		<h3 class="subtitle">
+			Mit einem grossen Demonstrationsumzug und anschliessendem Pride Festival auf dem Bundesplatz
+			werden wir am Samstag, dem 03. August, wieder mit tausenden Menschen durch die Innenstadt
+			ziehen. Freust du dich auch schon so fest wie wir?
+		</h3>
+
 		<p class="body">
-			Der Countdown läuft und bald laufen wir alle gemeinsam durch die Berner Gassen und feiern die
-			Vielfalt unserer Community. Nach sechs Jahren ohne Prides in Bern holen wir wieder unsere
-			Regenbogen-Flaggen raus und demonstrieren Hand in Hand für Gleichstellung. Nun bist du
-			gefragt: Zeichne den Regenbogen in deinen Kalender und sei im Juli mit dabei, wenn es heisst;
-			„Bern wird bunt!“.
+			Jetzt brauchen wir deine Unterstützung! Damit die BernPride wieder so bunt und queer wird wie
+			letztes Jahr, sind wir auf deine finanzielle Hilfe angewiesen. Hilf uns, unser
+			Crowdfunding-Ziel zu erreichen und so die BernPride zu ermöglichen!
 		</p>
+		<br />
+		<div class="button-wrapper">
+			<a href="/crowdfunding" class="button-red"
+				>UNSER CROWDFUNDING
+				<img src={arrow} alt="arrow right" width="30" height="18" class="arrow" />
+			</a>
+		</div>
 	</div>
 </section>
 
 <style>
+	a.button-red {
+		text-decoration: none;
+		border-radius: 999px;
+		border-color: var(--red);
+		border-style: solid;
+		padding: 10px 20px 14px;
+		font-size: 80%;
+		color: var(--white);
+		background-color: var(--red);
+	}
+
+	.button-wrapper {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
 	.root {
 		display: flex;
 		justify-content: center;

@@ -43,7 +43,7 @@
 				<div class="button-wrapper">
 					<a href="https://forms.gle/uhEM2GVUZhyznFVd9" class="button-red"
 						>HIER ANMELDEN
-						<img src={arrowred} alt="arrow right" width="30" height="18" />
+						<img src={arrow} alt="arrow right" width="30" height="18" />
 					</a>
 				</div>
 			</div>
@@ -58,7 +58,7 @@
 				<br />
 				<br />
 				<div class="button-wrapper">
-					<a href="mailto:info@bernpride.ch" class="button"
+					<a href="mailto:info@bernpride.ch" class="button-red"
 						>HIER ANMELDEN
 						<img src={arrow} alt="arrow right" width="30" height="18" />
 					</a>
@@ -113,7 +113,7 @@
 		flex-basis: 100%;
 		flex: 1;
 		background-color: var(--red);
-		color: var(--turquoise);
+		color: var(--blue);
 		content: center;
 	}
 	.column-big-blue {
@@ -130,7 +130,7 @@
 		flex-basis: 100%;
 		flex: 1;
 		background-color: var(--red);
-		color: var(--turquoise);
+		color: var(--blue);
 	}
 
 	.column-small-turquoise {

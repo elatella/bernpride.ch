@@ -19,7 +19,7 @@
 		position: fixed;
 		height: 50px;
 		right: 40px;
-		bottom: 40px;
+		bottom: 100px;
 		padding: 0;
 		margin: 0;
 		border: none;
