@@ -10,8 +10,8 @@
 		<p>Hilf uns, die Pride-Flagge auszumalen und die BernPride zu finanzieren!</p>
 		<br />
 		<div class="button-wrapper">
-			<a href="/about-us" class="button-red"
-				>ÜBER UNS
+			<a href="/crowdfunding" class="button-red"
+				>CROWDFUNDING
 				<img src={arrow} alt="arrow right" width="30" height="18" />
 			</a>
 		</div>

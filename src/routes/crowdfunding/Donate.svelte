@@ -19,13 +19,21 @@
 			Die Pride-Flagge oben muss noch ein bisschen bunter werden. Und für jede 50 Franken, die
 			gespendet werden, wird die Flagge um ein Quadrat bunter. Dabei entscheidest du, wie viele
 			Quadrate du finanzieren möchtest. Unser Ziel ist, die Flagge bis Ende Februar vollzukriegen.
-			Hilfst du uns? Mit dem untenstehenden Formular kannst du einen freien Betrag spenden. Für jede
-			50 Franken wird die Pride-Flagge um ein Quadrat bunter! Falls du dich auf unserer Website
-			verewigen möchtest, kannst du bei der Spende eine Bemerkung mit deinem Namen hinterlassen.
-			Dein Name erscheint dann mit der Pride-Flagge zusammen. Die Flagge wird live aktualisiert. So
-			kannst du mitverfolgen, wie schnell die Flagge bunt wird und wie viel tolle Menschen sich für
-			ein queeres Bern einsetzen!
+			Hilfst du uns?
 		</p>
+		<p>
+			Mit dem untenstehenden Formular kannst du einen freien Betrag spenden. Für jede 50 Franken
+			wird die Pride-Flagge um ein Quadrat bunter!
+		</p>
+		<p>
+			Falls du dich auf unserer Website verewigen möchtest, kannst du bei der Spende eine Bemerkung
+			mit deinem Namen hinterlassen. Dein Name erscheint dann mit der Pride-Flagge zusammen.
+		</p>
+		<p>
+			Die Flagge wird live aktualisiert. So kannst du mitverfolgen, wie schnell die Flagge bunt wird
+			und wie viel tolle Menschen sich für ein queeres Bern einsetzen!
+		</p>
+		<br />
 		<br />
 		<h2>HIER SPENDEN</h2>
 		<br />
