@@ -7,7 +7,7 @@
 	<div class="main-content">
 		<img src={flagLeft} alt="flag facing left" height="120" class="flag" />
 		<div class="titles">
-			<h1>CROWDFUNDING</h1>
+			<h1>CROWD<br />FUNDING</h1>
 			<br />
 		</div>
 		<img src={flagRight} alt="Flag facing right" height="120" class="flag" />

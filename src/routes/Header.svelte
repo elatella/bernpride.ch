@@ -25,9 +25,9 @@
 			<img src={logo} alt="BernPride" width="147" height="30" />
 		</a>
 
-		<div>
-			<a href="/about-us" class="menu-point">ÜBER UNS</a>
-			<a href="/crowdfunding" class="menu-point">CROWDFUNDING</a>
+		<a href="/about-us" class="menu-point">ÜBER UNS</a>
+		<a href="/crowdfunding" class="menu-point">CROWDFUNDING</a>
+		<div class="social-icons">
 			{#each socialNetworks as nw (nw.name)}
 				<a
 					href={nw.link}
@@ -49,7 +49,6 @@
 	.root {
 		position: fixed;
 		width: 100vw;
-		height: 4.3em;
 		display: flex;
 		justify-content: center;
 		background-color: var(--red);
@@ -58,16 +57,22 @@
 	}
 
 	.main-content {
-		justify-content: space-between !important;
+		justify-content: space-evenly;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.menu-point {
-		position: absolute;
-		top: 2.4em;
 		right: 0;
-		width: 100vw;
 		text-decoration: none;
 		font-weight: bold;
+		margin: 0.2em;
+	}
+
+	.social-icons {
+		margin: 0.5em;
+		margin-bottom: 0;
 	}
 
 	@media only screen and (min-width: 768px) {
@@ -75,10 +80,18 @@
 			height: inherit;
 		}
 
+		.main-content {
+			flex-direction: row;
+		}
+
 		.menu-point {
 			margin-right: 1em;
 			position: relative;
 			top: -5px;
+		}
+
+		.social-icons {
+			margin: 0;
 		}
 	}
 </style>

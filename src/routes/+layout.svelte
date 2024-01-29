@@ -8,7 +8,7 @@
 <div class="app">
 	<Header />
 
-	<main style="padding-top:74px">
+	<main>
 		<slot />
 	</main>
 
@@ -16,3 +16,14 @@
 
 	<Footer />
 </div>
+
+<style>
+	main {
+		padding-top: 150px;
+	}
+	@media only screen and (min-width: 768px) {
+		main {
+			padding-top: 74px;
+		}
+	}
+</style>

@@ -34,14 +34,7 @@
 	.right {
 		flex-direction: column;
 		line-height: 1.2em;
-	}
-
-	.left {
-		text-align: left;
-	}
-
-	.right {
-		text-align: right;
+		padding: 0.5em;
 	}
 
 	.logo {
@@ -56,6 +49,13 @@
 		}
 		.logo {
 			padding-bottom: 0;
+		}
+		.left {
+			text-align: left;
+		}
+
+		.right {
+			text-align: right;
 		}
 	}
 </style>
