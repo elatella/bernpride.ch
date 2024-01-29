@@ -22,7 +22,7 @@
 		</p>
 		<p>Vertretungsberechtigte Personen</p>
 		<p>Sarah Blaser, Co-Präsidentin</p>
-		<p>Tim Binda, Co-Präsident</p>
+		<p>Paddy Käser, Co-Präsident</p>
 
 		<h3 class="subtitle">Datenschutz</h3>
 		<h5 class="subtitle">Allgemeines / Einleitung</h5>
@@ -571,7 +571,6 @@
 	.root {
 		display: flex;
 		justify-content: center;
-		background-color: var(--turquoise);
 		color: var(--red);
 	}
 

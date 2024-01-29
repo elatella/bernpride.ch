@@ -34,7 +34,7 @@
 			action="https://bernpride.us14.list-manage.com/subscribe/post?u=12afb8ee8379b949a0052c9e3&amp;id=ab139bcf71&amp;f_id=0046f2e0f0"
 			method="POST"
 		>
-			<div class="signup">
+			<div class="socialmedia">
 				{#each socialNetworks as nw (nw.name)}
 					<a
 						href={nw.link}
@@ -43,15 +43,21 @@
 						class="social-icon"
 						style="text-decoration:none"
 					>
-						<img src={nw.logo} alt={nw.name} width="30" height="30" />
+						<img src={nw.logo} alt={nw.name} width="60" height="60" />
 					</a>
 				{/each}
 			</div>
-			<input name="FNAME" placeholder="Dein Vorname" bind:value={firstName} />
+			<input name="FNAME" placeholder="Dein Vorname" bind:value={firstName} class="form-input" />
 			<br />
-			<input name="EMAIL" type="email" placeholder="Deine Mail-Adresse" bind:value={email} />
+			<input
+				name="EMAIL"
+				type="email"
+				placeholder="Deine Mail-Adresse"
+				bind:value={email}
+				class="form-input"
+			/>
 			<br />
-			<button type="submit" disabled={!isValid}>Abonnieren</button>
+			<button type="submit" disabled={!isValid}>ABONNIEREN</button>
 		</form>
 	</div>
 </section>
@@ -74,8 +80,12 @@
 		margin-top: 50px;
 	}
 
-	.signup {
+	.socialmedia {
 		padding: 20px;
+	}
+
+	.form-input {
+		margin-right: 10px;
 	}
 
 	form {

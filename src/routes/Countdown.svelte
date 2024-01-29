@@ -2,7 +2,6 @@
 	import { onMount, onDestroy } from 'svelte';
 	import { PUBLIC_EVENT_START } from '$env/static/public';
 	import clock from '$lib/images/clock.svg';
-	import arrow from '$lib/images/arrow-right-white.svg';
 	import news from '$lib/images/news.svg';
 	import facebook from '$lib/images/facebook-big.svg';
 	import instagram from '$lib/images/instagram-big.svg';
@@ -97,21 +96,6 @@
 				</div>
 			</div>
 		{/if}
-
-		<div class="buttons">
-			<div class="button-container">
-				<h2>DEMO</h2>
-				<a href="/demonstration" class="button">
-					Mehr erfahren <img src={arrow} alt="arrow right" width="30" height="18" class="arrow" />
-				</a>
-			</div>
-			<div class="button-container">
-				<h2>PROGRAMM</h2>
-				<a href="/schedule" class="button">
-					Mehr erfahren <img src={arrow} alt="arrow right" width="30" height="18" class="arrow" />
-				</a>
-			</div>
-		</div>
 	</div>
 </section>
 
@@ -179,38 +163,6 @@
 		font-size: 0.5rem;
 	}
 
-	.buttons {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-evenly;
-		margin-top: 70px;
-	}
-
-	.button-container {
-		margin-bottom: 2rem;
-	}
-
-	.button-container h2 {
-		margin-bottom: 1.5rem;
-	}
-
-	a.button {
-		margin: 15px 0;
-		width: 100%;
-		text-decoration: none;
-		border-radius: 999px;
-		border-color: var(--red);
-		border-style: solid;
-		padding: 10px 20px 14px;
-		font-size: 80%;
-		color: var(--white);
-		background-color: var(--red);
-	}
-
-	.arrow {
-		margin-left: 15px;
-	}
-
 	@media only screen and (min-width: 768px) {
 		.clock-container,
 		.current-information-container {
@@ -223,14 +175,6 @@
 
 		.clock-amount {
 			margin-left: 25px;
-		}
-
-		.buttons {
-			flex-direction: row;
-		}
-
-		a.button {
-			margin: 20px;
 		}
 	}
 </style>

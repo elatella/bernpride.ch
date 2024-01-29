@@ -1,4 +1,4 @@
-<section id="description" class="root">
+<section id="member" class="root">
 	<div class="main-content">
 		<h2 style="word-wrap: break-word;">WERDE VEREINSMITGLIED</h2>
 		<br />
