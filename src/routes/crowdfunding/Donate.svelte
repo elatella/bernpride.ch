@@ -1,5 +1,5 @@
 <script lang="ts">
-	import prideFlag01 from '$lib/images/prideflag/frame_1.png';
+	import prideFlag01 from '$lib/images/prideflag/frame_5.png';
 </script>
 
 <section id="description" class="root">
