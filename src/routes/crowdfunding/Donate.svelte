@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import prideFlag01 from '$lib/images/prideflag/frame_5.png';
+	import prideFlag from '$lib/images/prideflag/frame_005.png';
 
 	onMount(async () => {
 		// @ts-expect-error Temporary solution for loading of Tamaro widget.
@@ -14,7 +14,7 @@
 		<br />
 
 		<div class="prideflag">
-			<img src={prideFlag01} alt="Fill the Flag" width="90%" />
+			<img src={prideFlag} alt="Fill the Flag" width="90%" />
 		</div>
 		<br />
 
