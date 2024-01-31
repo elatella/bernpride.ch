@@ -22,14 +22,14 @@
 		<br />
 		<h3>So funktioniert’s:</h3>
 		<p>
-			Die Pride-Flagge oben muss noch ein bisschen bunter werden. Und für jede 50 Franken, die
+			Die Pride-Flagge oben muss noch ein bisschen bunter werden. Und für jede 25 Franken, die
 			gespendet werden, wird die Flagge um ein Quadrat bunter. Dabei entscheidest du, wie viele
 			Quadrate du finanzieren möchtest. Unser Ziel ist, die Flagge bis Ende Februar vollzukriegen.
 			Hilfst du uns?
 		</p>
 		<br />
 		<p>
-			Mit dem untenstehenden Formular kannst du einen freien Betrag spenden. Für jede 50 Franken
+			Mit dem untenstehenden Formular kannst du einen freien Betrag spenden. Für jede 25 Franken
 			wird die Pride-Flagge um ein Quadrat bunter!
 		</p>
 		<br />
