@@ -5,6 +5,10 @@
 	import './styles.css';
 </script>
 
+<svelte:head>
+	<script src="https://tamaro.raisenow.com/bernp-3c42/latest/widget.js"></script>
+</svelte:head>
+
 <div class="app">
 	<Header />
 

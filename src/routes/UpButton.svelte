@@ -23,6 +23,7 @@
 		padding: 0;
 		margin: 0;
 		border: none;
+		z-index: 9999;
 	}
 
 	input:hover {

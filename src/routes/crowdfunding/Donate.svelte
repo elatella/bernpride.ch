@@ -1,5 +1,11 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import prideFlag01 from '$lib/images/prideflag/frame_5.png';
+
+	onMount(async () => {
+		// @ts-expect-error Temporary solution for loading of Tamaro widget.
+		window.rnw.tamaro.runWidget('.rnw-widget-container', { language: 'de' });
+	});
 </script>
 
 <section id="description" class="root">
@@ -37,15 +43,11 @@
 		<br />
 		<h2>HIER SPENDEN</h2>
 		<br />
-
-		<div class="donation-widget">
-			<div class="rnw-widget-container"></div>
-			<script src="https://tamaro.raisenow.com/bernp-3c42/latest/widget.js"></script>
-			<script>
-				window.rnw.tamaro.runWidget('.rnw-widget-container', { language: 'de' });
-			</script>
-		</div>
 	</div>
+</section>
+
+<section class="donation-widget">
+	<div class="rnw-widget-container"></div>
 </section>
 
 <style>
@@ -68,10 +70,11 @@
 	.donation-widget {
 		display: flex;
 		justify-content: center;
+		padding: 1em;
 	}
 
 	.rnw-widget-container {
 		width: 100%;
-		max-width: 600px;
+		max-width: 1024px;
 	}
 </style>
