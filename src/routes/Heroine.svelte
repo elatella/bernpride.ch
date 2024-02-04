@@ -4,7 +4,9 @@
 </script>
 
 <section id="heroine" class="root">
-	<h1 style="display:none">BernPride 2024</h1>
+	<h1 style="display:none">
+		BernPride 2024 - Die BernPride ist der grösste queere Anlass Berns 🌈 03.August 2024
+	</h1>
 	<div class="main-content">
 		<div>
 			<img src={heroineMobile} alt="Love Is Love" class="heroine-mobile" />

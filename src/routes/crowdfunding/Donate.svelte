@@ -4,7 +4,15 @@
 
 	onMount(async () => {
 		// @ts-expect-error Temporary solution for loading of Tamaro widget.
-		window.rnw.tamaro.runWidget('.rnw-widget-container', { language: 'de' });
+		window.rnw.tamaro.runWidget('.rnw-widget-container', {
+			language: 'de',
+			amounts: [
+				{
+					if: 'paymentType() == onetime',
+					then: [25, 50, 100, 200]
+				}
+			]
+		});
 	});
 </script>
 
