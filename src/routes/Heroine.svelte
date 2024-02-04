@@ -4,6 +4,7 @@
 </script>
 
 <section id="heroine" class="root">
+	<h1 style="display:none">BernPride 2024</h1>
 	<div class="main-content">
 		<div>
 			<img src={heroineMobile} alt="Love Is Love" class="heroine-mobile" />
