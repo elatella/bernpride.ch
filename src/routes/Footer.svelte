@@ -11,7 +11,7 @@
 		<img src={logo} alt="BernPride" width="147" height="30" class="logo" />
 		<div class="right">
 			<div><a href="mailto:info@bernpride.ch"><strong>info@bernpride.ch</strong></a></div>
-			<div><a href="/impressum" class="button">Impressum & Datenschautz</a></div>
+			<div><a href="/impressum" class="button">Impressum & Datenschutz</a></div>
 		</div>
 	</div>
 </footer>
