@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import prideFlag from '$lib/images/prideflag/frame_097.png';
+	import prideFlag from '$lib/images/prideflag/frame_105.png';
 
 	onMount(async () => {
 		// @ts-expect-error Temporary solution for loading of Tamaro widget.
