@@ -4,7 +4,6 @@
 	import Organization from './Organization.svelte';
 	import JoinUs from './JoinUs.svelte';
 	import Membership from './Membership.svelte';
-	import Crowdfunding from './Crowdfunding.svelte';
 	import BehindScenes from './BehindScenes.svelte';
 </script>
 
@@ -21,7 +20,5 @@
 <JoinUs />
 
 <Membership />
-
-<Crowdfunding />
 
 <BehindScenes />
