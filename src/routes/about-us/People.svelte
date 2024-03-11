@@ -27,19 +27,44 @@
 	import fallback3 from '$lib/images/portraits/BP_Fallback_3.png';
 
 	const members = [
-		{ name: 'Paddy Käser', pronouns: 'er/ihn', area: 'Co-Präsident & Co-Lead Finanzen und Sponsoring', imgURL: paddy },
-		{ name: 'Sarah Blaser', pronouns: 'she/her', area: 'Co-Präsidentin & Co-Lead Infrastruktur und Sicherheit', imgURL: sarah },
+		{
+			name: 'Paddy Käser',
+			pronouns: 'er/ihn',
+			area: 'Co-Präsident & Co-Lead Finanzen und Sponsoring',
+			imgURL: paddy
+		},
+		{
+			name: 'Sarah Blaser',
+			pronouns: 'she/her',
+			area: 'Co-Präsidentin & Co-Lead Infrastruktur und Sicherheit',
+			imgURL: sarah
+		},
 		{ name: 'Kira Ruf', pronouns: 'she/her', area: 'Co-Lead Demonstration', imgURL: kira },
 		{ name: 'Kerim Klenja', pronouns: 'he/him', area: 'Co-Lead Demonstration', imgURL: kerim },
 		{ name: 'Lucina Kingsman', pronouns: 'sie/ihr', area: 'Demonstration', imgURL: lucina },
-		{ name: 'Francesca Shore', pronouns: 'sie/ihr', area: 'Demonstration', imgURL: francesca},
+		{ name: 'Francesca Shore', pronouns: 'sie/ihr', area: 'Demonstration', imgURL: francesca },
 		{ name: 'Christian Schwab', pronouns: 'er/ihm', area: 'Demonstration', imgURL: christian },
 		{ name: 'Maria Poubouridis', pronouns: 'she/her', area: 'Co-Lead Programm', imgURL: fallback1 },
 		{ name: 'André Hügli', pronouns: 'er/ihm', area: 'Co-Lead Programm', imgURL: fallback2 },
 		{ name: 'Yanik Kittel', pronouns: 'er/ihm', area: 'Programm', imgURL: fallback3 },
-		{ name: 'Sol Balmer', pronouns: 'sie/dey', area: 'Co-Lead Politik und Organisationen', imgURL: sol },
-		{ name: 'Kevin Hegg', pronouns: 'he/him', area: 'Co-Lead Politik und Organisationen', imgURL: kevin },
-		{ name: 'Dani Schiessl', pronouns: 'she/they', area: 'Politik und Organisationen', imgURL: dani },
+		{
+			name: 'Sol Balmer',
+			pronouns: 'sie/dey',
+			area: 'Co-Lead Politik und Organisationen',
+			imgURL: sol
+		},
+		{
+			name: 'Kevin Hegg',
+			pronouns: 'he/him',
+			area: 'Co-Lead Politik und Organisationen',
+			imgURL: kevin
+		},
+		{
+			name: 'Dani Schiessl',
+			pronouns: 'she/they',
+			area: 'Politik und Organisationen',
+			imgURL: dani
+		},
 		{
 			name: 'Robert Spiess',
 			pronouns: 'er/ihm',
@@ -48,17 +73,52 @@
 		},
 		{ name: 'Katja Perler', pronouns: 'sie/ihr', area: 'Infrastruktur', imgURL: katja },
 		{ name: 'Björn Kunz', pronouns: 'he/him', area: 'Infrastruktur', imgURL: bjoern },
-		{ name: 'Tim Binda', pronouns: 'he/him', area: 'Co-Lead Marketing & Kommunikation', imgURL: fallback1 },
-		{ name: 'Daniela Epp', pronouns: 'sie/ihr', area: 'Co-Lead Marketing & Kommunikation', imgURL: danielae },
-		{ name: 'Raphaela Seeger', pronouns: 'sie/ihr', area: 'Marketing & Kommunikation', imgURL: fallback2 },
+		{
+			name: 'Tim Binda',
+			pronouns: 'he/him',
+			area: 'Co-Lead Marketing & Kommunikation',
+			imgURL: fallback1
+		},
+		{
+			name: 'Daniela Epp',
+			pronouns: 'sie/ihr',
+			area: 'Co-Lead Marketing & Kommunikation',
+			imgURL: danielae
+		},
+		{
+			name: 'Raphaela Seeger',
+			pronouns: 'sie/ihr',
+			area: 'Marketing & Kommunikation',
+			imgURL: fallback2
+		},
 		{ name: 'Alex Truong', pronouns: 'er/ihm', area: 'Marketing & Kommunikation', imgURL: alex },
 		{ name: 'Lena Maria Carnal', pronouns: '-', area: 'Co-Lead Awareness', imgURL: lena },
-		{ name: 'Daniela Brünisholz', pronouns: 'sie/ihr', area: 'Co-Lead Awareness', imgURL: danielab },
+		{
+			name: 'Daniela Brünisholz',
+			pronouns: 'sie/ihr',
+			area: 'Co-Lead Awareness',
+			imgURL: danielab
+		},
 		{ name: 'Anne Bardet', pronouns: 'sie/ihr', area: 'Lead Volunteers', imgURL: anne },
-		{ name: 'Annette Mettler', pronouns: 'she/her', area: 'Co-Lead Finanzen und Sponsoring', imgURL: annette },
-		{ name: 'Michael Ruefer', pronouns: 'er/ihm', area: 'Finanzen und Sponsoring', imgURL: michaelru },
-		{ name: 'André Wälti', pronouns: 'er/ihn', area: 'Finanzen und Sponsoring', imgURL:  andre},
-		{ name: 'Michael Redmond', pronouns: 'er/ihn', area: 'Finanzen und Sponsoring', imgURL: michaelre },
+		{
+			name: 'Annette Mettler',
+			pronouns: 'she/her',
+			area: 'Co-Lead Finanzen und Sponsoring',
+			imgURL: annette
+		},
+		{
+			name: 'Michael Ruefer',
+			pronouns: 'er/ihm',
+			area: 'Finanzen und Sponsoring',
+			imgURL: michaelru
+		},
+		{ name: 'André Wälti', pronouns: 'er/ihn', area: 'Finanzen und Sponsoring', imgURL: andre },
+		{
+			name: 'Michael Redmond',
+			pronouns: 'er/ihn',
+			area: 'Finanzen und Sponsoring',
+			imgURL: michaelre
+		}
 	];
 </script>
 
@@ -67,9 +127,9 @@
 		<h2>Die Menschen hinter der Pride</h2>
 		<br />
 		<p>
-			Die BernPride wird von einem Vorstand und einem Organisationskomitee organisiert, 
-			welche ihr Know-how und ihre Zeit ehrenamtlich in den Verein stecken. Bei Fragen 
-			kannst du dich gerne per Mail an <a href="mailto:info@bernpride.ch">info@bernpride.ch</a> melden.
+			Die BernPride wird von einem Vorstand und einem Organisationskomitee organisiert, welche ihr
+			Know-how und ihre Zeit ehrenamtlich in den Verein stecken. Bei Fragen kannst du dich gerne per
+			Mail an <a href="mailto:info@bernpride.ch">info@bernpride.ch</a> melden.
 		</p>
 		<div class="members">
 			{#each members as member (member.name)}
@@ -81,7 +141,6 @@
 				/>
 			{/each}
 		</div>
-
 	</div>
 </section>
 
@@ -99,8 +158,7 @@
 		margin-bottom: 50px;
 	}
 
-	.members
-	{
+	.members {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;

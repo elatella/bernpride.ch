@@ -33,7 +33,7 @@
 <Newsletter />
 
 {#if now < end}
-		<FAQ />
+	<FAQ />
 {/if}
 
 <Info />
