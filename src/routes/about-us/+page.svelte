@@ -4,7 +4,6 @@
 	import Organization from './Organization.svelte';
 	import JoinUs from './JoinUs.svelte';
 	import Membership from './Membership.svelte';
-	import BehindScenes from './BehindScenes.svelte';
 	import People from './People.svelte';
 </script>
 
@@ -21,7 +20,5 @@
 <JoinUs />
 
 <Membership />
-
-<BehindScenes />
 
 <People />

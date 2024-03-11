@@ -66,7 +66,7 @@
 	.root {
 		display: flex;
 		justify-content: center;
-		background-color: var(--white);
+		background-color: var(--blue);
 		color: var(--red);
 	}
 

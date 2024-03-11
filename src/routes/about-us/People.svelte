@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Member from '$lib/Person.svelte';
 	import paddy from '$lib/images/portraits/BP_PaddyKaeser.png';
 	import sarah from '$lib/images/portraits/BP_SarahBlaser.png';
 	import kira from '$lib/images/portraits/BP_KiraRuf.png';
@@ -15,15 +16,15 @@
 	import danielae from '$lib/images/portraits/BP_DanielaEpp.png';
 	import alex from '$lib/images/portraits/BP_AlexTruong.png';
 	import lena from '$lib/images/portraits/BP_LenaMariaCarnal.png';
-	import danielab from '$lib/images/portrait/BP_DanielaBrünisholz.png';
-	import anne from '$lib/images/portrait/BP_AnneBardet.png';
-	import annette from '$lib/images/portrait/BP_AnnetteMettler.png';
-	import michaelru from '$lib/images/portrait/BP_MichaelRuefer.png';
+	import danielab from '$lib/images/portraits/BP_DanielaBrünisholz.png';
+	import anne from '$lib/images/portraits/BP_AnneBardet.png';
+	import annette from '$lib/images/portraits/BP_AnnetteMettler.png';
+	import michaelru from '$lib/images/portraits/BP_MichaelRuefer.png';
 	import andre from '$lib/images/portraits/BP_AndréWaelti.png';
-	import michaelre from '$lib/images/portrait/BP_MichaelRedmond.png';
-	import fallback1 from '$lib/images/portrait/BP_Fallback_1.png';
-	import fallback2 from '$lib/images/portrait/BP_Fallback_2.png';
-	import fallback3 from '$lib/images/portrait/BP_Fallback_3.png';
+	import michaelre from '$lib/images/portraits/BP_MichaelRedmond.png';
+	import fallback1 from '$lib/images/portraits/BP_Fallback_1.png';
+	import fallback2 from '$lib/images/portraits/BP_Fallback_2.png';
+	import fallback3 from '$lib/images/portraits/BP_Fallback_3.png';
 
 	const members = [
 		{ name: 'Paddy Käser', pronouns: 'er/ihn', area: 'Co-Präsident & Co-Lead Finanzen und Sponsoring', imgURL: paddy },
@@ -66,11 +67,10 @@
 		<h2>Die Menschen hinter der Pride</h2>
 		<br />
 		<p>
-			Aktuell befindet sich der Verein noch in der Aufbauphase. Deshalb sind hier noch keine Bilder
-			und Namen zu finden. Nähere Informationen folgen bald. In der Zwischenzeit kannst du dich bei
-			Fragen gerne per Mail an <a href="mailto:info@bernpride.ch">info@bernpride.ch</a> melden.
+			Die BernPride wird von einem Vorstand und einem Organisationskomitee organisiert, 
+			welche ihr Know-how und ihre Zeit ehrenamtlich in den Verein stecken. Bei Fragen 
+			kannst du dich gerne per Mail an <a href="mailto:info@bernpride.ch">info@bernpride.ch</a> melden.
 		</p>
-		<!--
 		<div class="members">
 			{#each members as member (member.name)}
 				<Member
@@ -81,7 +81,6 @@
 				/>
 			{/each}
 		</div>
--->
 
 	</div>
 </section>
@@ -100,7 +99,7 @@
 		margin-bottom: 50px;
 	}
 
-	/*.members
+	.members
 	{
 		display: flex;
 		flex-direction: column;
@@ -108,12 +107,12 @@
 		margin-top: 20px;
 		align-items: center;
 		flex-wrap: wrap;
-	}*/
+	}
 
 	@media only screen and (min-width: 768px) {
-		/*.members {
+		.members {
 			flex-direction: row;
 			align-items: flex-start;
-		}*/
+		}
 	}
 </style>

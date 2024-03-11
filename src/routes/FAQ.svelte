@@ -42,7 +42,7 @@
 	.root {
 		display: flex;
 		justify-content: center;
-		background-color: var(--blue);
+		background-color: var(--white);
 		color: var(--red);
 	}
 	.main-content {
