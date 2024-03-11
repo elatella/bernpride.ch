@@ -5,10 +5,7 @@
 
 		<p>
 			Die BernPride wird von einem Vorstand und einem Organisationskomitee organisiert, welche ihr
-			Know-how und ihre Zeit ehrenamtlich in den Verein stecken. Bald werden hier mehr Informationen
-			zu den Menschen hinter der BernPride kommen. In der Zwischenzeit kannst du dich bei Fragen
-			gerne per Mail an <a href="mailto:info@bernpride.ch">info@bernpride.ch</a> wenden.
-		</p>
+			Know-how und ihre Zeit ehrenamtlich in den Verein stecken. </p>
 	</div>
 </section>
 

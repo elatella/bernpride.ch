@@ -1,56 +1,64 @@
 <script lang="ts">
-	// import Member from '$lib/Person.svelte';
-	// import alex from '$lib/images/alex.jpg';
-	// import andre from '$lib/images/andre.jpg';
-	// import andy from '$lib/images/andy.jpg';
-	// import christina from '$lib/images/christina.jpg';
-	// import claude from '$lib/images/claude.jpg';
-	// import daniela from '$lib/images/daniela.jpg';
-	// import david from '$lib/images/david.jpg';
-	// import greg from '$lib/images/greg.jpg';
-	// import jasmine from '$lib/images/jasmine.jpg';
-	// import jasmin from '$lib/images/jasmin.jpg';
-	// import lena from '$lib/images/lena.jpg';
-	// import marc from '$lib/images/marc.jpg';
-	// import maria from '$lib/images/maria.jpg';
-	// import nik from '$lib/images/nik.jpg';
-	// import paddy from '$lib/images/paddy.jpg';
-	// import raphaela from '$lib/images/raphaela.jpg';
-	// import tim from '$lib/images/tim.jpg';
-	// import thomas from '$lib/images/thomas.jpg';
-	// import yanik from '$lib/images/yanik.jpg';
-	// import kira from '$lib/images/kira.jpg';
-	// import teamMember from '$lib/images/team-member.jpg';
-	import arrow from '$lib/images/arrow-right-white.svg';
+	import paddy from '$lib/images/portraits/BP_PaddyKaeser.png';
+	import sarah from '$lib/images/portraits/BP_SarahBlaser.png';
+	import kira from '$lib/images/portraits/BP_KiraRuf.png';
+	import kerim from '$lib/images/portraits/BP_KerimKlenja.png';
+	import lucina from '$lib/images/portraits/BP_LucinaKingsman.png';
+	import francesca from '$lib/images/portraits/BP_FrancescaShore.png';
+	import christian from '$lib/images/portraits/BP_ChristianSchwab.png';
+	import sol from '$lib/images/portraits/BP_SolBalmer.png';
+	import kevin from '$lib/images/portraits/BP_KevinHegg.png';
+	import dani from '$lib/images/portraits/BP_DaniSchiessl.png';
+	import robert from '$lib/images/portraits/BP_RobertSpiess.png';
+	import katja from '$lib/images/portraits/BP_KatjaPerler.png';
+	import bjoern from '$lib/images/portraits/BP_BjoernKunz.png';
+	import danielae from '$lib/images/portraits/BP_DanielaEpp.png';
+	import alex from '$lib/images/portraits/BP_AlexTruong.png';
+	import lena from '$lib/images/portraits/BP_LenaMariaCarnal.png';
+	import danielab from '$lib/images/portrait/BP_DanielaBrünisholz.png';
+	import anne from '$lib/images/portrait/BP_AnneBardet.png';
+	import annette from '$lib/images/portrait/BP_AnnetteMettler.png';
+	import michaelru from '$lib/images/portrait/BP_MichaelRuefer.png';
+	import andre from '$lib/images/portraits/BP_AndréWaelti.png';
+	import michaelre from '$lib/images/portrait/BP_MichaelRedmond.png';
+	import fallback1 from '$lib/images/portrait/BP_Fallback_1.png';
+	import fallback2 from '$lib/images/portrait/BP_Fallback_2.png';
+	import fallback3 from '$lib/images/portrait/BP_Fallback_3.png';
 
-	// const members = [
-	// 	{ name: 'Alex', pronouns: 'er/ihm', area: 'Social Media EuroGames', imgURL: alex },
-	// 	{ name: 'André', pronouns: 'er/ihm', area: 'Programm', imgURL: andre },
-	// 	{ name: 'Andy', pronouns: 'er/ihm', area: 'Freiwillige', imgURL: andy },
-	// 	{ name: 'Christina', pronouns: 'sie/ihr', area: 'Sponsoring', imgURL: christina },
-	// 	{ name: 'Claude', pronouns: 'er/ihm', area: 'Outreach', imgURL: claude },
-	// 	{ name: 'Daniela', pronouns: 'sie/ihr', area: 'Marketing', imgURL: daniela },
-	// 	{ name: 'David', pronouns: 'er/ihm', area: 'Sport', imgURL: david },
-	// 	{ name: 'Greg', pronouns: 'er/ihm', area: 'Sport, Co-Präsident', imgURL: greg },
-	// 	{
-	// 		name: 'Jasmine',
-	// 		pronouns: 'sie/ihr',
-	// 		area: 'Social Media EuroGames, Co-Präsidentin',
-	// 		imgURL: jasmine
-	// 	},
-	// 	{ name: 'Jasmin', pronouns: 'sie/ihr', area: 'Sponsoring', imgURL: jasmin },
-	// 	{ name: 'Kira', pronouns: 'sie/ihr', area: 'Demo BernPride', imgURL: kira },
-	// 	{ name: 'Lena', pronouns: 'sie/ihr', area: 'Website BernPride', imgURL: lena },
-	// 	{ name: 'Marc', pronouns: 'er/ihm', area: 'Finanzen', imgURL: marc },
-	// 	{ name: 'Maria', pronouns: 'sie/ihr', area: 'Programm Village', imgURL: maria },
-	// 	{ name: 'Nik', pronouns: 'er/ihm', area: 'Kommunikation', imgURL: nik },
-	// 	{ name: 'Paddy', pronouns: 'er/ihm', area: 'Programm Bundesplatz', imgURL: paddy },
-	// 	{ name: 'Raphaela', pronouns: 'sie/ihr', area: 'Website BernPride', imgURL: raphaela },
-	// 	{ name: 'Sarah', pronouns: 'sie/ihr', area: 'Infrastruktur', imgURL: teamMember },
-	// 	{ name: 'Tim', pronouns: 'er/ihm', area: 'Social Media BernPride', imgURL: tim },
-	// 	{ name: 'Thomas', pronouns: 'er/ihm', area: 'Hospitality, Co-Präsident', imgURL: thomas },
-	// 	{ name: 'Yanik', pronouns: 'er/ihm', area: 'Programm', imgURL: yanik }
-	// ];
+	const members = [
+		{ name: 'Paddy Käser', pronouns: 'er/ihn', area: 'Co-Präsident & Co-Lead Finanzen und Sponsoring', imgURL: paddy },
+		{ name: 'Sarah Blaser', pronouns: 'she/her', area: 'Co-Präsidentin & Co-Lead Infrastruktur und Sicherheit', imgURL: sarah },
+		{ name: 'Kira Ruf', pronouns: 'she/her', area: 'Co-Lead Demonstration', imgURL: kira },
+		{ name: 'Kerim Klenja', pronouns: 'he/him', area: 'Co-Lead Demonstration', imgURL: kerim },
+		{ name: 'Lucina Kingsman', pronouns: 'sie/ihr', area: 'Demonstration', imgURL: lucina },
+		{ name: 'Francesca Shore', pronouns: 'sie/ihr', area: 'Demonstration', imgURL: francesca},
+		{ name: 'Christian Schwab', pronouns: 'er/ihm', area: 'Demonstration', imgURL: christian },
+		{ name: 'Maria Poubouridis', pronouns: 'she/her', area: 'Co-Lead Programm', imgURL: fallback1 },
+		{ name: 'André Hügli', pronouns: 'er/ihm', area: 'Co-Lead Programm', imgURL: fallback2 },
+		{ name: 'Yanik Kittel', pronouns: 'er/ihm', area: 'Programm', imgURL: fallback3 },
+		{ name: 'Sol Balmer', pronouns: 'sie/dey', area: 'Co-Lead Politik und Organisationen', imgURL: sol },
+		{ name: 'Kevin Hegg', pronouns: 'he/him', area: 'Co-Lead Politik und Organisationen', imgURL: kevin },
+		{ name: 'Dani Schiessl', pronouns: 'she/they', area: 'Politik und Organisationen', imgURL: dani },
+		{
+			name: 'Robert Spiess',
+			pronouns: 'er/ihm',
+			area: 'Co-Lead Infrastruktur und Sicherheit',
+			imgURL: robert
+		},
+		{ name: 'Katja Perler', pronouns: 'sie/ihr', area: 'Infrastruktur', imgURL: katja },
+		{ name: 'Björn Kunz', pronouns: 'he/him', area: 'Infrastruktur', imgURL: bjoern },
+		{ name: 'Tim Binda', pronouns: 'he/him', area: 'Co-Lead Marketing & Kommunikation', imgURL: fallback1 },
+		{ name: 'Daniela Epp', pronouns: 'sie/ihr', area: 'Co-Lead Marketing & Kommunikation', imgURL: danielae },
+		{ name: 'Raphaela Seeger', pronouns: 'sie/ihr', area: 'Marketing & Kommunikation', imgURL: fallback2 },
+		{ name: 'Alex Truong', pronouns: 'er/ihm', area: 'Marketing & Kommunikation', imgURL: alex },
+		{ name: 'Lena Maria Carnal', pronouns: '-', area: 'Co-Lead Awareness', imgURL: lena },
+		{ name: 'Daniela Brünisholz', pronouns: 'sie/ihr', area: 'Co-Lead Awareness', imgURL: danielab },
+		{ name: 'Anne Bardet', pronouns: 'sie/ihr', area: 'Lead Volunteers', imgURL: anne },
+		{ name: 'Annette Mettler', pronouns: 'she/her', area: 'Co-Lead Finanzen und Sponsoring', imgURL: annette },
+		{ name: 'Michael Ruefer', pronouns: 'er/ihm', area: 'Finanzen und Sponsoring', imgURL: michaelru },
+		{ name: 'André Wälti', pronouns: 'er/ihn', area: 'Finanzen und Sponsoring', imgURL:  andre},
+		{ name: 'Michael Redmond', pronouns: 'er/ihn', area: 'Finanzen und Sponsoring', imgURL: michaelre },
+	];
 </script>
 
 <section id="people" class="root">
@@ -75,13 +83,6 @@
 		</div>
 -->
 
-		<br />
-		<br />
-		<br />
-
-		<a href="/we-want-you" class="button">
-			Mitmachen <img src={arrow} alt="arrow right" width="30" height="18" class="arrow" />
-		</a>
 	</div>
 </section>
 
@@ -108,22 +109,6 @@
 		align-items: center;
 		flex-wrap: wrap;
 	}*/
-
-	a.button {
-		width: 290px;
-		text-decoration: none;
-		border-radius: 999px;
-		border-color: var(--red);
-		border-style: solid;
-		padding: 10px 20px 14px;
-		font-size: 80%;
-		color: var(--white);
-		background-color: var(--red);
-	}
-
-	.arrow {
-		margin-left: 15px;
-	}
 
 	@media only screen and (min-width: 768px) {
 		/*.members {
