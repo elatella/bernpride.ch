@@ -21,6 +21,7 @@
 	import annette from '$lib/images/portraits/BP_AnnetteMettler.png';
 	import michaelru from '$lib/images/portraits/BP_MichaelRuefer.png';
 	import andre from '$lib/images/portraits/BP_AndréWaelti.png';
+	import yanic from '$lib/images/portraits/BP_YanicKittel.png';
 	import michaelre from '$lib/images/portraits/BP_MichaelRedmond.png';
 	import fallback1 from '$lib/images/portraits/BP_Fallback_1.png';
 	import fallback2 from '$lib/images/portraits/BP_Fallback_2.png';
@@ -46,7 +47,7 @@
 		{ name: 'Christian Schwab', pronouns: 'er/ihm', area: 'Demonstration', imgURL: christian },
 		{ name: 'Maria Poubouridis', pronouns: 'she/her', area: 'Co-Lead Programm', imgURL: fallback1 },
 		{ name: 'André Hügli', pronouns: 'er/ihm', area: 'Co-Lead Programm', imgURL: fallback2 },
-		{ name: 'Yanik Kittel', pronouns: 'er/ihm', area: 'Programm', imgURL: fallback3 },
+		{ name: 'Yanic Kittel', pronouns: 'er/ihm', area: 'Programm', imgURL: yanic },
 		{
 			name: 'Sol Balmer',
 			pronouns: 'sie/dey',
@@ -77,19 +78,13 @@
 			name: 'Tim Binda',
 			pronouns: 'he/him',
 			area: 'Co-Lead Marketing & Kommunikation',
-			imgURL: fallback1
+			imgURL: fallback3
 		},
 		{
 			name: 'Daniela Epp',
 			pronouns: 'sie/ihr',
 			area: 'Co-Lead Marketing & Kommunikation',
 			imgURL: danielae
-		},
-		{
-			name: 'Raphaela Seeger',
-			pronouns: 'sie/ihr',
-			area: 'Marketing & Kommunikation',
-			imgURL: fallback2
 		},
 		{ name: 'Alex Truong', pronouns: 'er/ihm', area: 'Marketing & Kommunikation', imgURL: alex },
 		{ name: 'Lena Maria Carnal', pronouns: '-', area: 'Co-Lead Awareness', imgURL: lena },

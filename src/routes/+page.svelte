@@ -6,6 +6,7 @@
 	import NextBP from './NextBP.svelte';
 	import Info from './Info.svelte';
 	import FAQ from './FAQ.svelte';
+	import Crowdfunding from './Crowdfunding.svelte';
 	import { PUBLIC_EVENT_END } from '$env/static/public';
 
 	const end = new Date(PUBLIC_EVENT_END);
@@ -37,3 +38,5 @@
 {/if}
 
 <Info />
+
+<Crowdfunding />

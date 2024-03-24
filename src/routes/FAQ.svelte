@@ -12,6 +12,14 @@
 			body: 'Das Thema Nachhaltigkeit ist uns sehr wichtig! Deshalb spannen wir mit der Stadt Bern und dem Bierhübeli zusammen uns teilen uns während mehreren Tagen die Infrastruktur auf dem Bundesplatz. Zudem ist der Juni ja schon gut ausgebucht mit Pride-Demonstrationen, oder?'
 		},
 		{
+			title: 'Wie kann ich meine Laufgruppe für die Demonstration anmelden?',
+			body: 'Als Einzelperson und Gruppe im Freundeskreis musst du dich nicht vorher anmelden. Vereine und Organisationen bitten wir darum, sich bis am 30. Juni 2024 unter diesem <a href="https://forms.gle/UdejjAvGRS7vTLsQ8">LINK</a> anzumelden.'
+		},
+		{
+			title: 'Wo kann ich mich als Volunteer anmelden?',
+			body: 'Für die Tage vom 31. Juli bis zum 04. August brauchen wir jede helfende Hand! Wir freuen uns daher sehr, dass du dich für einen Volunteer-Einsatz interessierst. <a href="https://forms.gle/kthse1kZF6MGtcgg6">HIER</a> kannst du dich anmelden und erhältst bald nähere Informationen.'
+		},
+		{
 			title: 'Wie kann ich die BernPride als Unternehmen unterstützen?',
 			body: 'Wir sind auf Zuwanderungen aller Art angewiesen, um die BernPride zu stemmen. Für Unternehmen bieten wir attraktive Sponsoring-Möglichkeiten. Willst du mehr erfahren? Melde dich <a href="https://forms.gle/KdCZkUehLrRC89M68">HIER</a> an.'
 		},

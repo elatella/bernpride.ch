@@ -26,6 +26,7 @@
 		</a>
 
 		<a href="/about-us" class="menu-point">ÜBER UNS</a>
+		<a href="/spenden" class="menu-point">SPENDEN</a>
 		<div class="social-icons">
 			{#each socialNetworks as nw (nw.name)}
 				<a
